@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cell_spawner_authoring" kind="class" language="C#" prot="public">
+    <compoundname>CellSpawnerAuthoring</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cell_spawner_authoring_1a90441ec235a04d0d245438d8e88056df" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CellSpawnerAuthoring.cellPrefab</definition>
+        <argsstring></argsstring>
+        <name>cellPrefab</name>
+        <qualifiedname>CellSpawnerAuthoring.cellPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" line="13" column="23" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawner_authoring_1a2691496943c1ce152827e6daeab5c04e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CellSpawnerAuthoring.clusterPrefab</definition>
+        <argsstring></argsstring>
+        <name>clusterPrefab</name>
+        <qualifiedname>CellSpawnerAuthoring.clusterPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" line="14" column="23" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawner_authoring_1ac34bc09c7894efbfba67d0090528c1bf" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CellSpawnerAuthoring.clusterParentPrefab</definition>
+        <argsstring></argsstring>
+        <name>clusterParentPrefab</name>
+        <qualifiedname>CellSpawnerAuthoring.clusterParentPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" line="15" column="23" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CellSpawnerAuthoring</label>
+        <link refid="class_cell_spawner_authoring"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CellSpawnerAuthoring</label>
+        <link refid="class_cell_spawner_authoring"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" line="9" column="7" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerAuthoring.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_cell_spawner_authoring_1a90441ec235a04d0d245438d8e88056df" prot="public" virt="non-virtual"><scope>CellSpawnerAuthoring</scope><name>cellPrefab</name></member>
+      <member refid="class_cell_spawner_authoring_1ac34bc09c7894efbfba67d0090528c1bf" prot="public" virt="non-virtual"><scope>CellSpawnerAuthoring</scope><name>clusterParentPrefab</name></member>
+      <member refid="class_cell_spawner_authoring_1a2691496943c1ce152827e6daeab5c04e" prot="public" virt="non-virtual"><scope>CellSpawnerAuthoring</scope><name>clusterPrefab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_set_parent_job" kind="struct" language="C#" prot="public">
+    <compoundname>SetParentJob</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJobParallelFor</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_set_parent_job_1a8dbdb4151687b68e3e6e059839532bd4" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; Entity &gt;</type>
+        <definition>NativeArray&lt;Entity&gt; SetParentJob.CellEntities</definition>
+        <argsstring></argsstring>
+        <name>CellEntities</name>
+        <qualifiedname>SetParentJob.CellEntities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="14" column="25" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; Entity &gt;</type>
+        <definition>NativeArray&lt;Entity&gt; SetParentJob.ClusterEntities</definition>
+        <argsstring></argsstring>
+        <name>ClusterEntities</name>
+        <qualifiedname>SetParentJob.ClusterEntities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="15" column="25" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" prot="public" static="no" mutable="no">
+        <type>ComponentLookup&lt; <ref refid="struct_cell_component" kindref="compound">CellComponent</ref> &gt;</type>
+        <definition>ComponentLookup&lt;CellComponent&gt; SetParentJob.CellComponentLookup</definition>
+        <argsstring></argsstring>
+        <name>CellComponentLookup</name>
+        <qualifiedname>SetParentJob.CellComponentLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="16" column="29" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_parent_job_1ae537d3cfd2908886f3c43e49b44ce5e8" prot="public" static="no" mutable="no">
+        <type>BufferLookup&lt; LinkedEntityGroup &gt;</type>
+        <definition>BufferLookup&lt;LinkedEntityGroup&gt; SetParentJob.LinkedEntityGroupLookup</definition>
+        <argsstring></argsstring>
+        <name>LinkedEntityGroupLookup</name>
+        <qualifiedname>SetParentJob.LinkedEntityGroupLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="17" column="26" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" prot="public" static="no" mutable="no">
+        <type>EntityCommandBuffer.ParallelWriter</type>
+        <definition>EntityCommandBuffer.ParallelWriter SetParentJob.ECB</definition>
+        <argsstring></argsstring>
+        <name>ECB</name>
+        <qualifiedname>SetParentJob.ECB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="20" column="46" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_set_parent_job_1a236c6007e22b0ed9e7d74976f6148d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetParentJob.Execute</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>SetParentJob.Execute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="27" column="17" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="27" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+      <node id="1">
+        <label>SetParentJob</label>
+        <link refid="struct_set_parent_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+      <node id="1">
+        <label>SetParentJob</label>
+        <link refid="struct_set_parent_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/SetParentJob.cs" line="11" column="7" bodyfile="DatasetSystem/ECS_WIP/SetParentJob.cs" bodystart="12" bodyend="68"/>
+    <listofallmembers>
+      <member refid="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>CellComponentLookup</name></member>
+      <member refid="struct_set_parent_job_1a8dbdb4151687b68e3e6e059839532bd4" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>CellEntities</name></member>
+      <member refid="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>ClusterEntities</name></member>
+      <member refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>ECB</name></member>
+      <member refid="struct_set_parent_job_1a236c6007e22b0ed9e7d74976f6148d97" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>Execute</name></member>
+      <member refid="struct_set_parent_job_1ae537d3cfd2908886f3c43e49b44ce5e8" prot="public" virt="non-virtual"><scope>SetParentJob</scope><name>LinkedEntityGroupLookup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_spatial_dataset" kind="class" language="C#" prot="public">
+    <compoundname>SpatialDataset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spatial_dataset_1a7615202f0c0b151d9d35931a2ec9f40a" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, Vector2 &gt;</type>
+        <definition>Dictionary&lt;string, Vector2&gt; SpatialDataset.Cells</definition>
+        <argsstring></argsstring>
+        <name>Cells</name>
+        <qualifiedname>SpatialDataset.Cells</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="16" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1add9dd87f69cf93ccf88f9976280b1250" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; SpatialDataset.Clusters</definition>
+        <argsstring></argsstring>
+        <name>Clusters</name>
+        <qualifiedname>SpatialDataset.Clusters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="17" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ad65a699637373832a097480c78bfb1e1" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt;string, int&gt; SpatialDataset.ClusterIDs</definition>
+        <argsstring></argsstring>
+        <name>ClusterIDs</name>
+        <qualifiedname>SpatialDataset.ClusterIDs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="18" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a1fe816437d7c1ebcbfd0974196541009" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; int, string &gt;</type>
+        <definition>Dictionary&lt;int, string&gt; SpatialDataset.InverseClusterIDs</definition>
+        <argsstring></argsstring>
+        <name>InverseClusterIDs</name>
+        <qualifiedname>SpatialDataset.InverseClusterIDs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="19" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a6443fc9c1fd6e03eef0859863b2b7b5d" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.spawnParent</definition>
+        <argsstring></argsstring>
+        <name>spawnParent</name>
+        <qualifiedname>SpatialDataset.spawnParent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="21" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a69e8e193d28ed0932aa65396f631e85f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.bakedClustersParent</definition>
+        <argsstring></argsstring>
+        <name>bakedClustersParent</name>
+        <qualifiedname>SpatialDataset.bakedClustersParent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="22" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a96fc91d730696f1b9a69fc39c733d4ad" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.cellSquare</definition>
+        <argsstring></argsstring>
+        <name>cellSquare</name>
+        <qualifiedname>SpatialDataset.cellSquare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="23" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1af9b6292607c05b056ea12aa62326e440" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.bakeLayerPrefab</definition>
+        <argsstring></argsstring>
+        <name>bakeLayerPrefab</name>
+        <qualifiedname>SpatialDataset.bakeLayerPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="24" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ac6f81a03d2b9478e2e3e189062f26ae3" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField SpatialDataset.spatialProjectionPathInputField</definition>
+        <argsstring></argsstring>
+        <name>spatialProjectionPathInputField</name>
+        <qualifiedname>SpatialDataset.spatialProjectionPathInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="30" column="27" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a1bb443e0d9ef40d0813fe12fa19ec6e2" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField SpatialDataset.parquetClusteringColumnInputField</definition>
+        <argsstring></argsstring>
+        <name>parquetClusteringColumnInputField</name>
+        <qualifiedname>SpatialDataset.parquetClusteringColumnInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="31" column="28" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a83e6910a0231c659ea91c86c7c520808" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField SpatialDataset.bakedDatasetPathInputField</definition>
+        <argsstring></argsstring>
+        <name>bakedDatasetPathInputField</name>
+        <qualifiedname>SpatialDataset.bakedDatasetPathInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="32" column="27" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1aaf12b22a1957083d695d21bb1326a0f2" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField SpatialDataset.loadBakedDatasetPathInputField</definition>
+        <argsstring></argsstring>
+        <name>loadBakedDatasetPathInputField</name>
+        <qualifiedname>SpatialDataset.loadBakedDatasetPathInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="34" column="27" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a8848485ce3b5657bb76de5e935ff91ae" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpatialDataset.limitCellSpawn</definition>
+        <argsstring></argsstring>
+        <name>limitCellSpawn</name>
+        <qualifiedname>SpatialDataset.limitCellSpawn</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="36" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a5001484c170d22efdf8dfca23ea1c59a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpatialDataset.cellCountToSpawn</definition>
+        <argsstring></argsstring>
+        <name>cellCountToSpawn</name>
+        <qualifiedname>SpatialDataset.cellCountToSpawn</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="37" column="16" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ada7858cf2b4252485a05470980565649" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SpatialDataset.normalizationFactor</definition>
+        <argsstring></argsstring>
+        <name>normalizationFactor</name>
+        <qualifiedname>SpatialDataset.normalizationFactor</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="38" column="18" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a02206a82d6c3cbeae4ef1d97435c87e6" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 SpatialDataset.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>SpatialDataset.offset</qualifiedname>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="39" column="20" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a9a5528b8d582b908bdbc7c8ca7ae3a2b" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera SpatialDataset.BakeCamera</definition>
+        <argsstring></argsstring>
+        <name>BakeCamera</name>
+        <qualifiedname>SpatialDataset.BakeCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="41" column="19" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a34b8468ec99c91dd776d81d52f2863e7" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.BakeCameraPrefab</definition>
+        <argsstring></argsstring>
+        <name>BakeCameraPrefab</name>
+        <qualifiedname>SpatialDataset.BakeCameraPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="42" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ac64bda6fc542c6b248e421fc1423c360" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpatialDataset.ClusterToSpawn</definition>
+        <argsstring></argsstring>
+        <name>ClusterToSpawn</name>
+        <qualifiedname>SpatialDataset.ClusterToSpawn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="43" column="16" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1acba7217d916d22dd6d622c50ec6ae3fc" prot="public" static="no" mutable="no">
+        <type>List&lt; LayerUI &gt;</type>
+        <definition>List&lt;LayerUI&gt; SpatialDataset.filters</definition>
+        <argsstring></argsstring>
+        <name>filters</name>
+        <qualifiedname>SpatialDataset.filters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="47" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1abb94b3e7caade140fe54af4c86e5433c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpatialDataset.AutoBake</definition>
+        <argsstring></argsstring>
+        <name>AutoBake</name>
+        <qualifiedname>SpatialDataset.AutoBake</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="49" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1aff6a5cf67b135571bf536d0985372f55" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.cellBarcodeFilePath</definition>
+        <argsstring></argsstring>
+        <name>cellBarcodeFilePath</name>
+        <qualifiedname>SpatialDataset.cellBarcodeFilePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="50" column="19" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a7b6d3c30c741d3497ee92d6c6376554d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.cellClusterColumnNameParquet</definition>
+        <argsstring></argsstring>
+        <name>cellClusterColumnNameParquet</name>
+        <qualifiedname>SpatialDataset.cellClusterColumnNameParquet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="51" column="19" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ace27f243ae64833b49f860c8bbe34724" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.bakedDatasetPath</definition>
+        <argsstring></argsstring>
+        <name>bakedDatasetPath</name>
+        <qualifiedname>SpatialDataset.bakedDatasetPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="52" column="19" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a1e93f42bfbb8473ec3d11d8a1f33a20e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpatialDataset.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>SpatialDataset.resolution</qualifiedname>
+        <initializer>= 2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="53" column="16" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a18ad386a28408320bd3aa2f8e4d1ef7f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpatialDataset.datasetLoaded</definition>
+        <argsstring></argsstring>
+        <name>datasetLoaded</name>
+        <qualifiedname>SpatialDataset.datasetLoaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="56" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a6a858dd83bba1a594e9c13840b83923a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SpatialDataset.DatasetPanel</definition>
+        <argsstring></argsstring>
+        <name>DatasetPanel</name>
+        <qualifiedname>SpatialDataset.DatasetPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="57" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a3b33ce3601056a4251705078093a7976" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.DatasetName</definition>
+        <argsstring></argsstring>
+        <name>DatasetName</name>
+        <qualifiedname>SpatialDataset.DatasetName</qualifiedname>
+        <initializer>= &quot;Test_Dataset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="59" column="19" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spatial_dataset_1aa2cb80c5237b8386778e6db3ca3d985c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpatialDataset.ClusterCount</definition>
+        <argsstring></argsstring>
+        <name>ClusterCount</name>
+        <qualifiedname>SpatialDataset.ClusterCount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="44" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a3a72971ee110b0c1f12566f153b7c837" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpatialDataset.curCluster</definition>
+        <argsstring></argsstring>
+        <name>curCluster</name>
+        <qualifiedname>SpatialDataset.curCluster</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="45" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1ae8fff5f89cf0e868cc88eda979cf47c7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.bakedClusterImageFileName</definition>
+        <argsstring></argsstring>
+        <name>bakedClusterImageFileName</name>
+        <qualifiedname>SpatialDataset.bakedClusterImageFileName</qualifiedname>
+        <initializer>= &quot;cluster_&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="60" column="20" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a0360df83dbc4053b573ad07d7c65d1cc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpatialDataset.metaDataFileName</definition>
+        <argsstring></argsstring>
+        <name>metaDataFileName</name>
+        <qualifiedname>SpatialDataset.metaDataFileName</qualifiedname>
+        <initializer>= &quot;dataset_metadata.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="61" column="20" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a0b23631bad15288447d543f4cc0b95bc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpatialDataset._cellCoordsReady</definition>
+        <argsstring></argsstring>
+        <name>_cellCoordsReady</name>
+        <qualifiedname>SpatialDataset._cellCoordsReady</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="117" column="18" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spatial_dataset_1a0321c54e01eb9154a69a451e67cbed3c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SpatialDataset._cellClustersReady</definition>
+        <argsstring></argsstring>
+        <name>_cellClustersReady</name>
+        <qualifiedname>SpatialDataset._cellClustersReady</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="118" column="18" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spatial_dataset_1a1d596dea09a8362b67864bf3bf9d2785" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>SpatialDataset.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="65" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1af1119dba11d3d748cc37ad26d741aa7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>SpatialDataset.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="71" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="71" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a94b43d4dd5dfe7a30aad524f224aabd8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>SpatialDataset.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="86" column="18" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="86" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a40162450816df951ef1b534903b95992" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.SetSpatialProjPath</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSpatialProjPath</name>
+        <qualifiedname>SpatialDataset.SetSpatialProjPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="96" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a178211cf9ffc634596179043800c9782" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.SetClusterColumnName</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetClusterColumnName</name>
+        <qualifiedname>SpatialDataset.SetClusterColumnName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="101" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1af96caa11ddd7c285872282c370491c68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.SetBakePath</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetBakePath</name>
+        <qualifiedname>SpatialDataset.SetBakePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="106" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1abe3e33959d064a4d197a8bfd577b0de4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.LoadAndBake</definition>
+        <argsstring>(string cellPath, string clusterPath)</argsstring>
+        <name>LoadAndBake</name>
+        <qualifiedname>SpatialDataset.LoadAndBake</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>cellPath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>clusterPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="119" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="119" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a0fcde24b33f61f6c63165fd73cde50b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.TryBake</definition>
+        <argsstring>()</argsstring>
+        <name>TryBake</name>
+        <qualifiedname>SpatialDataset.TryBake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="164" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="164" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a7203b9cfd2fe73b97c3ff64a18e31ea8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.DebugSpawnCells</definition>
+        <argsstring>()</argsstring>
+        <name>DebugSpawnCells</name>
+        <qualifiedname>SpatialDataset.DebugSpawnCells</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="260" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="260" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1ae3480871785c7d137afdd74f35463847" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.DebugSpawnClusters</definition>
+        <argsstring>()</argsstring>
+        <name>DebugSpawnClusters</name>
+        <qualifiedname>SpatialDataset.DebugSpawnClusters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="283" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="283" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a887d089f9e20b5ee8aa49aa1d239512b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.BakeCluster</definition>
+        <argsstring>(int id, int textureRes, GameObject clusterParent)</argsstring>
+        <name>BakeCluster</name>
+        <qualifiedname>SpatialDataset.BakeCluster</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textureRes</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>clusterParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="312" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="312" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a1d19a27f15774654ef49206bc877a3ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SpatialDataset.WaitAndCapture</definition>
+        <argsstring>(GameObject spawnedCells, Camera bcam, GameObject bakedLayerObj, RenderTexture layerTex)</argsstring>
+        <name>WaitAndCapture</name>
+        <qualifiedname>SpatialDataset.WaitAndCapture</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawnedCells</declname>
+        </param>
+        <param>
+          <type>Camera</type>
+          <declname>bcam</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>bakedLayerObj</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>layerTex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="367" column="25" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="367" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1aedb335bf3785344c588c1e9b6a51de06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.SaveMetadata</definition>
+        <argsstring>()</argsstring>
+        <name>SaveMetadata</name>
+        <qualifiedname>SpatialDataset.SaveMetadata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="400" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="400" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1ab02f94171484679ede66c5dbcaa00044" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.LoadMetadata</definition>
+        <argsstring>(GameObject clusterParent)</argsstring>
+        <name>LoadMetadata</name>
+        <qualifiedname>SpatialDataset.LoadMetadata</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>clusterParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="445" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="445" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a109605c2e38f6e6906efebf2e0c36725" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.ImportImageLayer</definition>
+        <argsstring>(string filepath, string layerName)</argsstring>
+        <name>ImportImageLayer</name>
+        <qualifiedname>SpatialDataset.ImportImageLayer</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filepath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>layerName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="528" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="528" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a8ebc7e44c97d6137b4381cf3e6fb3c41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.SaveLayerTextures</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLayerTextures</name>
+        <qualifiedname>SpatialDataset.SaveLayerTextures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="545" column="10" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="545" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a8e762585b6ffc8917269f2b4c78dea3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SpatialDataset.WaitAndCapAgain</definition>
+        <argsstring>()</argsstring>
+        <name>WaitAndCapAgain</name>
+        <qualifiedname>SpatialDataset.WaitAndCapAgain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="602" column="25" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="602" bodyend="607"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spatial_dataset_1a33a128415e204f209f240ac7f50dfd11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.LoadAndBakeButton</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAndBakeButton</name>
+        <qualifiedname>SpatialDataset.LoadAndBakeButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="111" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1abfc7e02cb4fe1922ed688185eb9fa23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpatialDataset.LoadBakedDataset</definition>
+        <argsstring>(GameObject clusterParent)</argsstring>
+        <name>LoadBakedDataset</name>
+        <qualifiedname>SpatialDataset.LoadBakedDataset</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>clusterParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="568" column="17" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="568" bodyend="598"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spatial_dataset_1a328125ea7785481c1054479269299077" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float SpatialDataset.FindMaxAbsoluteValue</definition>
+        <argsstring>(Dictionary&lt; string, Vector2 &gt; vectorDict)</argsstring>
+        <name>FindMaxAbsoluteValue</name>
+        <qualifiedname>SpatialDataset.FindMaxAbsoluteValue</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, Vector2 &gt;</type>
+          <declname>vectorDict</declname>
+        </param>
+        <briefdescription>
+<para>Finds the maximum absolute value from the x or y component of any Vector2 in the dictionary. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vectorDict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary with string keys and Vector2 values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The maximum absolute value found.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="183" column="25" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="183" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1af070754ffcda4cb29fb6eb36177e2d34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SpatialDataset.FindClusterCount</definition>
+        <argsstring>(Dictionary&lt; string, string &gt; vectorDict)</argsstring>
+        <name>FindClusterCount</name>
+        <qualifiedname>SpatialDataset.FindClusterCount</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>vectorDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="206" column="23" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="206" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a796ebc8e5a19c69b0e7f9200c742fcdb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>static Dictionary&lt; string, int &gt; SpatialDataset.GetClusterIDs</definition>
+        <argsstring>(Dictionary&lt; string, string &gt; clusterDict)</argsstring>
+        <name>GetClusterIDs</name>
+        <qualifiedname>SpatialDataset.GetClusterIDs</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>clusterDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="222" column="30" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="222" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1ab900638345e58ec8ae04f0d3f1f3bc75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, string &gt;</type>
+        <definition>static Dictionary&lt; int, string &gt; SpatialDataset.GetInverseClusterIDs</definition>
+        <argsstring>(Dictionary&lt; string, int &gt; clusterIDs)</argsstring>
+        <name>GetInverseClusterIDs</name>
+        <qualifiedname>SpatialDataset.GetInverseClusterIDs</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, int &gt;</type>
+          <declname>clusterIDs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="248" column="30" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="248" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spatial_dataset_1a974d8c63b897a8ac95959f7c565bef53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTexture</type>
+        <definition>static RenderTexture SpatialDataset.CreateRenderTexture</definition>
+        <argsstring>(int size, FilterMode filterMode=FilterMode.Bilinear, RenderTextureFormat format=RenderTextureFormat.ARGBFloat)</argsstring>
+        <name>CreateRenderTexture</name>
+        <qualifiedname>SpatialDataset.CreateRenderTexture</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>FilterMode</type>
+          <declname>filterMode</declname>
+          <defval>FilterMode.Bilinear</defval>
+        </param>
+        <param>
+          <type>RenderTextureFormat</type>
+          <declname>format</declname>
+          <defval>RenderTextureFormat.ARGBFloat</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/SpatialDataset.cs" line="610" column="33" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="610" bodyend="617"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpatialDataset</label>
+        <link refid="class_spatial_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SpatialDataset</label>
+        <link refid="class_spatial_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/SpatialDataset.cs" line="14" column="7" bodyfile="DatasetSystem/SpatialDataset.cs" bodystart="15" bodyend="620"/>
+    <listofallmembers>
+      <member refid="class_spatial_dataset_1a0321c54e01eb9154a69a451e67cbed3c" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>_cellClustersReady</name></member>
+      <member refid="class_spatial_dataset_1a0b23631bad15288447d543f4cc0b95bc" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>_cellCoordsReady</name></member>
+      <member refid="class_spatial_dataset_1abb94b3e7caade140fe54af4c86e5433c" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>AutoBake</name></member>
+      <member refid="class_spatial_dataset_1a9a5528b8d582b908bdbc7c8ca7ae3a2b" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>BakeCamera</name></member>
+      <member refid="class_spatial_dataset_1a34b8468ec99c91dd776d81d52f2863e7" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>BakeCameraPrefab</name></member>
+      <member refid="class_spatial_dataset_1a887d089f9e20b5ee8aa49aa1d239512b" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>BakeCluster</name></member>
+      <member refid="class_spatial_dataset_1ae8fff5f89cf0e868cc88eda979cf47c7" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>bakedClusterImageFileName</name></member>
+      <member refid="class_spatial_dataset_1a69e8e193d28ed0932aa65396f631e85f" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>bakedClustersParent</name></member>
+      <member refid="class_spatial_dataset_1ace27f243ae64833b49f860c8bbe34724" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>bakedDatasetPath</name></member>
+      <member refid="class_spatial_dataset_1a83e6910a0231c659ea91c86c7c520808" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>bakedDatasetPathInputField</name></member>
+      <member refid="class_spatial_dataset_1af9b6292607c05b056ea12aa62326e440" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>bakeLayerPrefab</name></member>
+      <member refid="class_spatial_dataset_1aff6a5cf67b135571bf536d0985372f55" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>cellBarcodeFilePath</name></member>
+      <member refid="class_spatial_dataset_1a7b6d3c30c741d3497ee92d6c6376554d" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>cellClusterColumnNameParquet</name></member>
+      <member refid="class_spatial_dataset_1a5001484c170d22efdf8dfca23ea1c59a" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>cellCountToSpawn</name></member>
+      <member refid="class_spatial_dataset_1a7615202f0c0b151d9d35931a2ec9f40a" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>Cells</name></member>
+      <member refid="class_spatial_dataset_1a96fc91d730696f1b9a69fc39c733d4ad" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>cellSquare</name></member>
+      <member refid="class_spatial_dataset_1aa2cb80c5237b8386778e6db3ca3d985c" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>ClusterCount</name></member>
+      <member refid="class_spatial_dataset_1ad65a699637373832a097480c78bfb1e1" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>ClusterIDs</name></member>
+      <member refid="class_spatial_dataset_1add9dd87f69cf93ccf88f9976280b1250" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>Clusters</name></member>
+      <member refid="class_spatial_dataset_1ac64bda6fc542c6b248e421fc1423c360" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>ClusterToSpawn</name></member>
+      <member refid="class_spatial_dataset_1a974d8c63b897a8ac95959f7c565bef53" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>CreateRenderTexture</name></member>
+      <member refid="class_spatial_dataset_1a3a72971ee110b0c1f12566f153b7c837" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>curCluster</name></member>
+      <member refid="class_spatial_dataset_1a18ad386a28408320bd3aa2f8e4d1ef7f" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>datasetLoaded</name></member>
+      <member refid="class_spatial_dataset_1a3b33ce3601056a4251705078093a7976" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>DatasetName</name></member>
+      <member refid="class_spatial_dataset_1a6a858dd83bba1a594e9c13840b83923a" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>DatasetPanel</name></member>
+      <member refid="class_spatial_dataset_1a7203b9cfd2fe73b97c3ff64a18e31ea8" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>DebugSpawnCells</name></member>
+      <member refid="class_spatial_dataset_1ae3480871785c7d137afdd74f35463847" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>DebugSpawnClusters</name></member>
+      <member refid="class_spatial_dataset_1acba7217d916d22dd6d622c50ec6ae3fc" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>filters</name></member>
+      <member refid="class_spatial_dataset_1af070754ffcda4cb29fb6eb36177e2d34" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>FindClusterCount</name></member>
+      <member refid="class_spatial_dataset_1a328125ea7785481c1054479269299077" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>FindMaxAbsoluteValue</name></member>
+      <member refid="class_spatial_dataset_1a796ebc8e5a19c69b0e7f9200c742fcdb" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>GetClusterIDs</name></member>
+      <member refid="class_spatial_dataset_1ab900638345e58ec8ae04f0d3f1f3bc75" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>GetInverseClusterIDs</name></member>
+      <member refid="class_spatial_dataset_1a109605c2e38f6e6906efebf2e0c36725" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>ImportImageLayer</name></member>
+      <member refid="class_spatial_dataset_1a1fe816437d7c1ebcbfd0974196541009" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>InverseClusterIDs</name></member>
+      <member refid="class_spatial_dataset_1a8848485ce3b5657bb76de5e935ff91ae" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>limitCellSpawn</name></member>
+      <member refid="class_spatial_dataset_1abe3e33959d064a4d197a8bfd577b0de4" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>LoadAndBake</name></member>
+      <member refid="class_spatial_dataset_1a33a128415e204f209f240ac7f50dfd11" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>LoadAndBakeButton</name></member>
+      <member refid="class_spatial_dataset_1abfc7e02cb4fe1922ed688185eb9fa23b" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>LoadBakedDataset</name></member>
+      <member refid="class_spatial_dataset_1aaf12b22a1957083d695d21bb1326a0f2" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>loadBakedDatasetPathInputField</name></member>
+      <member refid="class_spatial_dataset_1ab02f94171484679ede66c5dbcaa00044" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>LoadMetadata</name></member>
+      <member refid="class_spatial_dataset_1a0360df83dbc4053b573ad07d7c65d1cc" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>metaDataFileName</name></member>
+      <member refid="class_spatial_dataset_1ada7858cf2b4252485a05470980565649" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>normalizationFactor</name></member>
+      <member refid="class_spatial_dataset_1a02206a82d6c3cbeae4ef1d97435c87e6" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>offset</name></member>
+      <member refid="class_spatial_dataset_1a94b43d4dd5dfe7a30aad524f224aabd8" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>OnDisable</name></member>
+      <member refid="class_spatial_dataset_1af1119dba11d3d748cc37ad26d741aa7a" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>OnEnable</name></member>
+      <member refid="class_spatial_dataset_1a1bb443e0d9ef40d0813fe12fa19ec6e2" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>parquetClusteringColumnInputField</name></member>
+      <member refid="class_spatial_dataset_1a1e93f42bfbb8473ec3d11d8a1f33a20e" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>resolution</name></member>
+      <member refid="class_spatial_dataset_1a8ebc7e44c97d6137b4381cf3e6fb3c41" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>SaveLayerTextures</name></member>
+      <member refid="class_spatial_dataset_1aedb335bf3785344c588c1e9b6a51de06" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>SaveMetadata</name></member>
+      <member refid="class_spatial_dataset_1af96caa11ddd7c285872282c370491c68" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>SetBakePath</name></member>
+      <member refid="class_spatial_dataset_1a178211cf9ffc634596179043800c9782" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>SetClusterColumnName</name></member>
+      <member refid="class_spatial_dataset_1a40162450816df951ef1b534903b95992" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>SetSpatialProjPath</name></member>
+      <member refid="class_spatial_dataset_1ac6f81a03d2b9478e2e3e189062f26ae3" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>spatialProjectionPathInputField</name></member>
+      <member refid="class_spatial_dataset_1a6443fc9c1fd6e03eef0859863b2b7b5d" prot="public" virt="non-virtual"><scope>SpatialDataset</scope><name>spawnParent</name></member>
+      <member refid="class_spatial_dataset_1a1d596dea09a8362b67864bf3bf9d2785" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>Start</name></member>
+      <member refid="class_spatial_dataset_1a0fcde24b33f61f6c63165fd73cde50b6" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>TryBake</name></member>
+      <member refid="class_spatial_dataset_1a8e762585b6ffc8917269f2b4c78dea3e" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>WaitAndCapAgain</name></member>
+      <member refid="class_spatial_dataset_1a1d19a27f15774654ef49206bc877a3ea" prot="private" virt="non-virtual"><scope>SpatialDataset</scope><name>WaitAndCapture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

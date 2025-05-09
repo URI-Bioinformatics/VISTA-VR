@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_grandparent_baker" kind="class" language="C#" prot="public">
+    <compoundname>GrandparentBaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Baker</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grandparent_baker_1a72f679c60fc897c5f9b9485b4324ac52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GrandparentBaker.Bake</definition>
+        <argsstring>(GrandparentAuthoring authoring)</argsstring>
+        <name>Bake</name>
+        <qualifiedname>GrandparentBaker.Bake</qualifiedname>
+        <param>
+          <type><ref refid="class_grandparent_authoring" kindref="compound">GrandparentAuthoring</ref></type>
+          <declname>authoring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/GrandparentAuthoring.cs" line="13" column="26" bodyfile="DatasetSystem/ECS_WIP/GrandparentAuthoring.cs" bodystart="13" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>GrandparentBaker</label>
+        <link refid="class_grandparent_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>GrandparentBaker</label>
+        <link refid="class_grandparent_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/GrandparentAuthoring.cs" line="11" column="7" bodyfile="DatasetSystem/ECS_WIP/GrandparentAuthoring.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_grandparent_baker_1a72f679c60fc897c5f9b9485b4324ac52" prot="public" virt="non-virtual"><scope>GrandparentBaker</scope><name>Bake</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_5d570d7d23b1ef0be014ef0786dfc688" kind="dir">
+    <compoundname>DatasetSystem</compoundname>
+    <innerdir refid="dir_264dea03f9436a16b36cee9bb5fff602">DatasetSystem/ECS_WIP</innerdir>
+    <innerfile refid="_baked___layer___layout_8cs">Baked_Layer_Layout.cs</innerfile>
+    <innerfile refid="_baked_data_layer_8cs">BakedDataLayer.cs</innerfile>
+    <innerfile refid="_cell_spawner_8cs">CellSpawner.cs</innerfile>
+    <innerfile refid="_cell_spawn_manager_8cs">CellSpawnManager.cs</innerfile>
+    <innerfile refid="_cluster_authoring_8cs">ClusterAuthoring.cs</innerfile>
+    <innerfile refid="_cluster_control_system_8cs">ClusterControlSystem.cs</innerfile>
+    <innerfile refid="_csv_data_loader_8cs">CsvDataLoader.cs</innerfile>
+    <innerfile refid="_c_s_v_importer_8cs">CSVImporter.cs</innerfile>
+    <innerfile refid="_data_converter_8cs">DataConverter.cs</innerfile>
+    <innerfile refid="_dataset_filebrowser_8cs">DatasetFilebrowser.cs</innerfile>
+    <innerfile refid="_spatial_dataset_8cs">SpatialDataset.cs</innerfile>
+    <innerfile refid="_test_large_data_loader_8cs">TestLargeDataLoader.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetSystem/"/>
+  </compounddef>
+</doxygen>

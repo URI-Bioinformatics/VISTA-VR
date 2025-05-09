@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
+  <compound refid="class_baked___layer___layout" kind="class"><name>Baked_Layer_Layout</name>
+    <member refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kind="variable"><name>offset</name></member>
+    <member refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kind="variable"><name>startPoint</name></member>
+    <member refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kind="variable"><name>dataScale</name></member>
+    <member refid="class_baked___layer___layout_1ac626bfa81c538454f2f0340acbece614" kind="variable"><name>OffsetYSlider</name></member>
+    <member refid="class_baked___layer___layout_1a9b7ab7d60d063f91f452eff7edbd130f" kind="variable"><name>OffsetYSlider_ImmersiveVR</name></member>
+    <member refid="class_baked___layer___layout_1a83443a540a34fa961a10ece992903759" kind="variable"><name>ScaleSlider</name></member>
+    <member refid="class_baked___layer___layout_1a355cf7822014f6a4a5c8139593520a3e" kind="variable"><name>ScaleSlider_ImmersiveVR</name></member>
+    <member refid="class_baked___layer___layout_1a6d335c2d405ebd1b07a4ef76c388a5ab" kind="variable"><name>defaultPos</name></member>
+    <member refid="class_baked___layer___layout_1a4d1565fcaf3228fe8c115e5694cc48bb" kind="variable"><name>defaultRot</name></member>
+    <member refid="class_baked___layer___layout_1ab48b76c71c30adaf9b2f40d1189113bd" kind="function"><name>Start</name></member>
+    <member refid="class_baked___layer___layout_1aa69d8da550fb559744dccbb0c1bc0dc0" kind="function"><name>OnEnable</name></member>
+    <member refid="class_baked___layer___layout_1aece2bd878e6481be6b7501f1da063f5f" kind="function"><name>OnDisable</name></member>
+    <member refid="class_baked___layer___layout_1abd1fbc615af03c072af2c92b4f900537" kind="function"><name>UpdateChildPositions</name></member>
+    <member refid="class_baked___layer___layout_1a6b6a77b5ddc166111211e82cde137683" kind="function"><name>UpdateChildPositionsE</name></member>
+    <member refid="class_baked___layer___layout_1ab5a1bedf65e5c795781c5a0eeda8c770" kind="function"><name>UpdateScale</name></member>
+    <member refid="class_baked___layer___layout_1acf915401aafa7b9f24101787a91e11ec" kind="function"><name>ResetToDefaultPos</name></member>
+    <member refid="class_baked___layer___layout_1adfeda4b7b0f4e809bcd469fcc107dc83" kind="function"><name>SetTopView</name></member>
+    <member refid="class_baked___layer___layout_1a29ea2eba439389f6b98234209dd3f64d" kind="function"><name>SetOffsetY</name></member>
+    <member refid="class_baked___layer___layout_1ac22fa3c6920a36773cbdc801a3229a9d" kind="function"><name>SetScale</name></member>
+  </compound>
+  <compound refid="class_baked_data_layer" kind="class"><name>BakedDataLayer</name>
+    <member refid="class_baked_data_layer_1a681c130fd9e7e31f6f1a6a72d03946e6" kind="variable"><name>Tint</name></member>
+    <member refid="class_baked_data_layer_1ab1e476573347f5052c37c837e2fbe765" kind="variable"><name>Mat</name></member>
+    <member refid="class_baked_data_layer_1add7936ee8da23290884eef32e80d76a4" kind="variable"><name>LayerRT</name></member>
+    <member refid="class_baked_data_layer_1a9a1ed27427cbdf0e90fd7ebbed242b65" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_cell_authoring" kind="class"><name>CellAuthoring</name>
+  </compound>
+  <compound refid="class_cell_baker" kind="class"><name>CellBaker</name>
+    <member refid="class_cell_baker_1ac30fd792fa6bedb336922abb1cc848f2" kind="function"><name>Bake</name></member>
+  </compound>
+  <compound refid="struct_cell_component" kind="struct"><name>CellComponent</name>
+    <member refid="struct_cell_component_1a2736e506f7a70979cd6d731b3d4a3d98" kind="variable"><name>CellId</name></member>
+    <member refid="struct_cell_component_1a00a59968908cb10a01091df22fae662b" kind="variable"><name>ClusterId</name></member>
+  </compound>
+  <compound refid="struct_cell_data" kind="struct"><name>CellData</name>
+    <member refid="struct_cell_data_1a9ac4773c30bb5d4f060de3bffcf0ca59" kind="variable"><name>CellId</name></member>
+    <member refid="struct_cell_data_1ab94453c322ae6049896e10d409bc8ccb" kind="variable"><name>Position</name></member>
+    <member refid="struct_cell_data_1a4fd5685517a62d3f10bc9918cdac76f4" kind="variable"><name>ClusterId</name></member>
+    <member refid="struct_cell_data_1a4958c5470f1461e7bf4be3b7ed9613b2" kind="function"><name>CellData</name></member>
+  </compound>
+  <compound refid="class_cell_spawner" kind="class"><name>CellSpawner</name>
+    <member refid="class_cell_spawner_1a4cbe1508a7da546db1cbba99c34c6b91" kind="variable"><name>cellEntityPrefab</name></member>
+    <member refid="class_cell_spawner_1a290399e3f9e5ad4693371a99eadf9b79" kind="variable"><name>cellPositions</name></member>
+    <member refid="class_cell_spawner_1af31c8fb5d0de44200c4c727ffa10f0f6" kind="variable"><name>cellClusters</name></member>
+    <member refid="class_cell_spawner_1a8c40a8fac2df590bd161d5f532cc95bd" kind="variable"><name>entityManager</name></member>
+    <member refid="class_cell_spawner_1afac05d41622489793dc3ba40744686fa" kind="variable"><name>defaultWorld</name></member>
+    <member refid="class_cell_spawner_1ab5fb8d8a2be3c45d5831285f319a1548" kind="variable"><name>cellSpawningSystem</name></member>
+    <member refid="class_cell_spawner_1a299acf9bdbccc618c020a1391c9ddf98" kind="variable"><name>isInitialized</name></member>
+    <member refid="class_cell_spawner_1a51dd8faec2cfa70386b757549f1c3b10" kind="function"><name>Awake</name></member>
+    <member refid="class_cell_spawner_1a3495fc29fd19d6b0030704f56716bf4c" kind="function"><name>Initialize</name></member>
+    <member refid="class_cell_spawner_1ab42340497ed15b048e098838d079ba08" kind="function"><name>GetSpawnerEntity</name></member>
+    <member refid="class_cell_spawner_1a94b497d76a65cb4cb7b7331967be7da3" kind="function"><name>Start</name></member>
+    <member refid="class_cell_spawner_1af16661016ea5ae43a10ace782a94de94" kind="function"><name>SpawnCellsFromData</name></member>
+    <member refid="class_cell_spawner_1ab37b83c2b9b880b89226f68087105416" kind="function"><name>ClearAllSpawnedCells</name></member>
+  </compound>
+  <compound refid="class_cell_spawner_authoring" kind="class"><name>CellSpawnerAuthoring</name>
+    <member refid="class_cell_spawner_authoring_1a90441ec235a04d0d245438d8e88056df" kind="variable"><name>cellPrefab</name></member>
+    <member refid="class_cell_spawner_authoring_1a2691496943c1ce152827e6daeab5c04e" kind="variable"><name>clusterPrefab</name></member>
+    <member refid="class_cell_spawner_authoring_1ac34bc09c7894efbfba67d0090528c1bf" kind="variable"><name>clusterParentPrefab</name></member>
+  </compound>
+  <compound refid="class_cell_spawner_baker" kind="class"><name>CellSpawnerBaker</name>
+    <member refid="class_cell_spawner_baker_1acdb30c8be892a517c2ded7251a1cb2c1" kind="function"><name>Bake</name></member>
+  </compound>
+  <compound refid="struct_cell_spawner_component" kind="struct"><name>CellSpawnerComponent</name>
+    <member refid="struct_cell_spawner_component_1a9bd7ffe03c42f44bf318a49fce8c956d" kind="variable"><name>CellEntityPrefab</name></member>
+    <member refid="struct_cell_spawner_component_1aac9f4a12d959a860e1ccfb3baaf3ba88" kind="variable"><name>ClusterEntityPrefab</name></member>
+    <member refid="struct_cell_spawner_component_1a73d746d9c791b1c361d684417a2b1519" kind="variable"><name>ClusterParentEntityPrefab</name></member>
+  </compound>
+  <compound refid="class_cell_spawning_system" kind="class"><name>CellSpawningSystem</name>
+    <member refid="class_cell_spawning_system_1a2cf660bdfb414b2c61840faa1163803c" kind="variable"><name>_spawnRequested</name></member>
+    <member refid="class_cell_spawning_system_1ac24a667b34fdfa0ecae41cc69f93783f" kind="variable"><name>_dataToSpawn</name></member>
+    <member refid="class_cell_spawning_system_1a0d6ea7646bbc223642518ca18330f22d" kind="variable"><name>_cellPrefabToSpawn</name></member>
+    <member refid="class_cell_spawning_system_1ac7cec62784f7fa315f6227bb7e98dddf" kind="variable"><name>_clusterPrefabToSpawn</name></member>
+    <member refid="class_cell_spawning_system_1aed987ac02f6fa4d2c8265eb899f0f96e" kind="variable"><name>_grandparentEntity</name></member>
+    <member refid="class_cell_spawning_system_1a3964cc8468c47a27eec1bbce28b878b6" kind="variable"><name>_clusterCount</name></member>
+    <member refid="class_cell_spawning_system_1aa3faffa96f6f4a5ce3ef960437784bc3" kind="variable"><name>_beginSimECBSystem</name></member>
+    <member refid="class_cell_spawning_system_1a3f9fca60ca08d69d4c20e12001d66fb6" kind="function"><name>OnCreate</name></member>
+    <member refid="class_cell_spawning_system_1adfffefa08e72006897ce5fd810346bcf" kind="function"><name>OnUpdate</name></member>
+    <member refid="class_cell_spawning_system_1ad36be4d3fa8af35a9564873b9159af61" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_cell_spawning_system_1ae458ce9ac0e46166ad9175ac978b16d6" kind="function"><name>RequestSpawn</name></member>
+  </compound>
+  <compound refid="class_cell_spawn_manager" kind="class"><name>CellSpawnManager</name>
+    <member refid="class_cell_spawn_manager_1a9b1f070819661b2848f9a4004444606b" kind="variable"><name>entityManager</name></member>
+    <member refid="class_cell_spawn_manager_1a6c9e1c38e1b9ca387691fdfd2c9134e5" kind="variable"><name>cellSpawningSystem</name></member>
+    <member refid="class_cell_spawn_manager_1a9b23d84856d3a85a1c857234d1c1c598" kind="variable"><name>cellEntityPrefab</name></member>
+    <member refid="class_cell_spawn_manager_1aa13ef47e368584b7c89f8eeed0ce517e" kind="variable"><name>cellClusterEntityPrefab</name></member>
+    <member refid="class_cell_spawn_manager_1aa758725cbc8ee2d6e10ea608e515ff81" kind="variable"><name>grandparentEntity</name></member>
+    <member refid="class_cell_spawn_manager_1a3501fd2c9507fa2d8f7e8beff7c54096" kind="variable"><name>isInitialized</name></member>
+    <member refid="class_cell_spawn_manager_1a519889180ca7cafa50d27f6432535214" kind="variable"><name>cellPositions</name></member>
+    <member refid="class_cell_spawn_manager_1a6633f115d44dc9d99fa9b1a3d84d264a" kind="variable"><name>cellClusters</name></member>
+    <member refid="class_cell_spawn_manager_1abf01aa073f8d470efaa64be1c45e75f9" kind="variable"><name>normalizationFactor</name></member>
+    <member refid="class_cell_spawn_manager_1a2f249f2ed806c670b23f20375dacd6b6" kind="variable"><name>clusterCount</name></member>
+    <member refid="class_cell_spawn_manager_1a5d86bacb4a9c83644bcdbe61d6e9d5f8" kind="function"><name>Start</name></member>
+    <member refid="class_cell_spawn_manager_1a12f5ed0ade82c6f8e99b6b23edf4e137" kind="function"><name>TryGetBakedPrefabReference</name></member>
+    <member refid="class_cell_spawn_manager_1a976714c70be7b03bb6b5ebd7df7fa8db" kind="function"><name>TryGetGrandparentEntityReference</name></member>
+    <member refid="class_cell_spawn_manager_1a610d7cf7d768b9dceec25cfadb7f92b6" kind="function"><name>Initialize</name></member>
+    <member refid="class_cell_spawn_manager_1a5708668642492d0b91e8fb122ae81566" kind="function"><name>LoadMyData</name></member>
+    <member refid="class_cell_spawn_manager_1afd46c0b9374575a046d43bd56ff02568" kind="function"><name>TriggerSpawn</name></member>
+  </compound>
+  <compound refid="class_cluster_authoring" kind="class"><name>ClusterAuthoring</name>
+  </compound>
+  <compound refid="class_cluster_baker" kind="class"><name>ClusterBaker</name>
+    <member refid="class_cluster_baker_1a4f9e3d9763deb321f8f2309e090bbef7" kind="function"><name>Bake</name></member>
+  </compound>
+  <compound refid="struct_cluster_control_request" kind="struct"><name>ClusterControlRequest</name>
+    <member refid="struct_cluster_control_request_1a2e6c182aaade8da2a358d78cd4dca67a" kind="variable"><name>TargetClusterIndex</name></member>
+    <member refid="struct_cluster_control_request_1a42bcf59e2c8d0f31fc8c487535b4cbca" kind="variable"><name>Enable</name></member>
+  </compound>
+  <compound refid="class_cluster_control_system" kind="class"><name>ClusterControlSystem</name>
+    <member refid="class_cluster_control_system_1a676313aedd8ec9d76201ce0112bc1460" kind="variable"><name>_clusterQuery</name></member>
+    <member refid="class_cluster_control_system_1acdcc7870e4bee72fbb118293d4cefedd" kind="variable"><name>_requestQuery</name></member>
+    <member refid="class_cluster_control_system_1a4391b7f5d4e55ea93e3c7d3ff74cd80c" kind="variable"><name>_endSimECBSystem</name></member>
+    <member refid="class_cluster_control_system_1aacd653ef57583aacd86f0ffc3b58ee5e" kind="function"><name>OnCreate</name></member>
+    <member refid="class_cluster_control_system_1ad7eabdccc7036beec963b017ab35166b" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="struct_cluster_tag_component" kind="struct"><name>ClusterTagComponent</name>
+  </compound>
+  <compound refid="class_csv_data_loader" kind="class"><name>CsvDataLoader</name>
+    <member refid="class_csv_data_loader_1a605a6911b781294a4528199b8a6ca6a0" kind="function"><name>LoadCsv</name></member>
+    <member refid="class_csv_data_loader_1af541723b67273cb0a1076ba52fbd79d3" kind="function"><name>SaveBinary</name></member>
+    <member refid="class_csv_data_loader_1af962d6d75be2d04494e5d363cc1c62e7" kind="function"><name>LoadBinary</name></member>
+    <member refid="class_csv_data_loader_1ad1c0fe4dbcd1df1f6bf3bd29c7b21e81" kind="function"><name>StringToBytes</name></member>
+  </compound>
+  <compound refid="class_c_s_v_importer" kind="class"><name>CSVImporter</name>
+    <member refid="class_c_s_v_importer_1af12e59a5f0ff4a1254763a611b4f2afa" kind="function"><name>LoadCsvToDictionary</name></member>
+    <member refid="class_c_s_v_importer_1acea9031c1c8e498a625363601f2a2127" kind="function"><name>LoadCsvToClusterDictionary</name></member>
+  </compound>
+  <compound refid="class_csv_to_binary_converter" kind="class"><name>CsvToBinaryConverter</name>
+    <member refid="class_csv_to_binary_converter_1ad841914aa46623f31d78cfa8bed90416" kind="variable"><name>csvPath</name></member>
+    <member refid="class_csv_to_binary_converter_1a3f2643c5de3a62de0ed95a65088ef43c" kind="variable"><name>binPath</name></member>
+    <member refid="class_csv_to_binary_converter_1a4a079ed4a5328e78d98852c12e651c9e" kind="variable"><name>batchLines</name></member>
+    <member refid="class_csv_to_binary_converter_1a955c11f3b12f77425ab572978187734b" kind="function"><name>Start</name></member>
+    <member refid="class_csv_to_binary_converter_1a3f23d9024940049c6313f768d4e1372a" kind="function"><name>ConvertCsvToBinary</name></member>
+  </compound>
+  <compound refid="class_data_converter" kind="class"><name>DataConverter</name>
+    <member refid="class_data_converter_1ab5d2465e8dfe5a707a8f2c04c0e0f2cb" kind="function"><name>ConvertToNativeArray</name></member>
+  </compound>
+  <compound refid="class_dataset_filebrowser" kind="class"><name>DatasetFilebrowser</name>
+    <member refid="class_dataset_filebrowser_1a96d229d50c17112ddbc820927bbf071e" kind="variable"><name>loadedDataset</name></member>
+    <member refid="class_dataset_filebrowser_1aa0f7295d4d95cce64c517437d58d5c8c" kind="function"><name>Start</name></member>
+    <member refid="class_dataset_filebrowser_1a759b8492f614f5354123f17a1a165944" kind="function"><name>ShowLoadDialogCoroutine</name></member>
+    <member refid="class_dataset_filebrowser_1a88818aa4b68e574ba177244f84129cce" kind="function"><name>OnFilesSelected</name></member>
+  </compound>
+  <compound refid="class_dataset_manipulator" kind="class"><name>DatasetManipulator</name>
+    <member refid="class_dataset_manipulator_1a6338515dc80ca3e4ba1935dd450115f7" kind="variable"><name>targetObject</name></member>
+    <member refid="class_dataset_manipulator_1a3bca56bd1a639c2dfaa553556280d85f" kind="variable"><name>rotationSpeed</name></member>
+    <member refid="class_dataset_manipulator_1a241e0fb4aab49dedf99db1c773c74a60" kind="variable"><name>translationSpeed</name></member>
+    <member refid="class_dataset_manipulator_1aaee98228fc94b17b667004b6609808e4" kind="variable"><name>zoomSpeed</name></member>
+    <member refid="class_dataset_manipulator_1a1bed556dbfe89f2883f899579eb834bb" kind="variable"><name>mainCamera</name></member>
+    <member refid="class_dataset_manipulator_1a79a6c57c73d219a7907f699b3b239119" kind="variable"><name>targetTransform</name></member>
+    <member refid="class_dataset_manipulator_1a1a938ab40ae1114f4a501749d670df7b" kind="function"><name>Start</name></member>
+    <member refid="class_dataset_manipulator_1a6047cf3ab4e9754487e0044eb22235a2" kind="function"><name>Update</name></member>
+    <member refid="class_dataset_manipulator_1a26135b31e8d62a81d3e6741ba0881772" kind="function"><name>HandleRotation</name></member>
+    <member refid="class_dataset_manipulator_1ad8553aa7333afe7424f7cc7cc84e433e" kind="function"><name>HandleTranslation</name></member>
+    <member refid="class_dataset_manipulator_1aa8b62513dcd5da5d52d4832e51369123" kind="function"><name>HandleZoom</name></member>
+  </compound>
+  <compound refid="class_dataset_metadata" kind="class"><name>DatasetMetadata</name>
+    <member refid="class_dataset_metadata_1a11f99ff52e043a42aabef66a0b21bd02" kind="variable"><name>clusterCount</name></member>
+    <member refid="class_dataset_metadata_1a16b76479688b028a56c80e50944e013e" kind="variable"><name>normalizationFactor</name></member>
+    <member refid="class_dataset_metadata_1a865f09cb9358ee8c119854790c1279b2" kind="variable"><name>datasetName</name></member>
+    <member refid="class_dataset_metadata_1ae288e4c62f2ed08da671ec7ffe45020f" kind="variable"><name>layerResolution</name></member>
+    <member refid="class_dataset_metadata_1accc74b563cb9c992fa4c44a9533d10b1" kind="variable"><name>indices</name></member>
+    <member refid="class_dataset_metadata_1ac74ffbe4b9c203807ff413d078b6a9c7" kind="variable"><name>layerNames</name></member>
+    <member refid="class_dataset_metadata_1ae760f308a61b21342d5347cd87a9dc18" kind="variable"><name>layerTypes</name></member>
+    <member refid="class_dataset_metadata_1a74dabc97524df22c32f0d06b7b49ef5c" kind="variable"><name>Key_ClusterCount</name></member>
+    <member refid="class_dataset_metadata_1a0c7bdd2fc710ace8bbdd9bcbaf24e14f" kind="variable"><name>Key_NormalizationFactor</name></member>
+    <member refid="class_dataset_metadata_1a6b99c32f7422a812cbb30343f6dc3de7" kind="variable"><name>Key_DatasetName</name></member>
+    <member refid="class_dataset_metadata_1a4f9460fd474f3d5496e8b4d45b03607b" kind="variable"><name>Key_LayerResolution</name></member>
+    <member refid="class_dataset_metadata_1acb9123df437e5597110bf90c160089dc" kind="variable"><name>Key_Indices</name></member>
+    <member refid="class_dataset_metadata_1a74731a965d9b8bf4637adc8335fe979c" kind="variable"><name>Key_LayerNames</name></member>
+    <member refid="class_dataset_metadata_1ab1a3ce9aa0d0492f83c441087fc220fe" kind="variable"><name>Key_LayerTypes</name></member>
+  </compound>
+  <compound refid="class_dataset_metadata_container" kind="class"><name>DatasetMetadataContainer</name>
+    <member refid="class_dataset_metadata_container_1aaf9ab0b0f7a883587d2427cc053fd044" kind="variable"><name>DatasetName</name></member>
+    <member refid="class_dataset_metadata_container_1a13f5fc015d988396f659bc6739e7f1d3" kind="variable"><name>LayerResolution</name></member>
+    <member refid="class_dataset_metadata_container_1a62179dd90832860c208afb63cf1969cb" kind="variable"><name>NormalizationFactor</name></member>
+    <member refid="class_dataset_metadata_container_1adf5a58aa62bd8ad62d1a4d283a85c1b3" kind="variable"><name>ClusterCount</name></member>
+    <member refid="class_dataset_metadata_container_1a89a24f7f3404781e59f230f14c98b5d0" kind="variable"><name>Layers</name></member>
+    <member refid="class_dataset_metadata_container_1acef0f8f952ad5a63c0aa69d0078aa057" kind="function"><name>DatasetMetadataContainer</name></member>
+  </compound>
+  <compound refid="class_dataset_metadata_manager" kind="class"><name>DatasetMetadataManager</name>
+    <member refid="class_dataset_metadata_manager_1a690f20e4468c1d7dac10e8a620e223f6" kind="variable"><name>KeyValueSeparator</name></member>
+    <member refid="class_dataset_metadata_manager_1abb61f03d3daa6ce985bc7f4aa7496115" kind="variable"><name>ListSeparatorInt</name></member>
+    <member refid="class_dataset_metadata_manager_1aad3288d4ab222a8f5f8e44793f5c43b0" kind="variable"><name>ListSeparatorString</name></member>
+    <member refid="class_dataset_metadata_manager_1a78b35388814aa1e4070fe0cc1237d9ad" kind="function"><name>SaveMetadata</name></member>
+    <member refid="class_dataset_metadata_manager_1a4107ada5096fb6f957138905427b9168" kind="function"><name>LoadMetadata</name></member>
+  </compound>
+  <compound refid="class_dataset_metadata_manager___json" kind="class"><name>DatasetMetadataManager_Json</name>
+    <member refid="class_dataset_metadata_manager___json_1ad736ea4f0ec8c8ac5619e44c773a911b" kind="function"><name>SaveMetadata</name></member>
+    <member refid="class_dataset_metadata_manager___json_1a4f453dc7c3fc1eda7d47d6cef3635bbe" kind="function"><name>LoadMetadata</name></member>
+  </compound>
+  <compound refid="class_e_c_s_data_manipulator" kind="class"><name>ECSDataManipulator</name>
+    <member refid="class_e_c_s_data_manipulator_1aa9810f306559a9c56be65cc4c0f4da3c" kind="variable"><name>entityManager</name></member>
+    <member refid="class_e_c_s_data_manipulator_1a5a48035673ee297b880c377ef6788c1f" kind="variable"><name>isInitialized</name></member>
+    <member refid="class_e_c_s_data_manipulator_1ad63b11b1a88f054e345b9d2fd8fa7a12" kind="function"><name>OnEnable</name></member>
+    <member refid="class_e_c_s_data_manipulator_1ae1123f373cca826e5d9c09cfe98c7686" kind="function"><name>SendControlRequest</name></member>
+    <member refid="class_e_c_s_data_manipulator_1a60d6103ac2d8b3a4bb20491610c8ebdf" kind="function"><name>Initialize</name></member>
+    <member refid="class_e_c_s_data_manipulator_1a7d15c0ad930e2d40dd6d084963a7819f" kind="function"><name>EnableCluster</name></member>
+    <member refid="class_e_c_s_data_manipulator_1a2ebe7ec6221de179a724a051f5c25e4c" kind="function"><name>DisableCluster</name></member>
+  </compound>
+  <compound refid="class_game_manager" kind="class"><name>GameManager</name>
+    <member refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498f" kind="enum"><name>Mode</name></member>
+    <member refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498faef8a9f751393cecaf3e811c30ee3e756" kind="enumvalue"><name>VR</name></member>
+    <member refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498fa7a7f14a4e02b9313d1586dda7a6e914b" kind="enumvalue"><name>Immersive</name></member>
+    <member refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498fa745e3db6a7ffd50e1a72b39482f0882d" kind="enumvalue"><name>Flat</name></member>
+    <member refid="class_game_manager_1ad3e717f4fb0f378b969f4457de81f23e" kind="variable"><name>Instance</name></member>
+    <member refid="class_game_manager_1a587537b9a27c4ef87a2e15da4ddfcc76" kind="variable"><name>GameMode</name></member>
+    <member refid="class_game_manager_1a646280c355ad0a739759e6ac1a28534c" kind="variable"><name>VRObjects</name></member>
+    <member refid="class_game_manager_1aa35cc01a0e9f2f58303fda37c3e54d02" kind="variable"><name>FlatObjects</name></member>
+    <member refid="class_game_manager_1a480027f840642267b24916df94227799" kind="variable"><name>ImmersiveObjects</name></member>
+    <member refid="class_game_manager_1a9e6b2a49ea7c2830b30a04a0d384247a" kind="variable"><name>PodiumMeshRenderer</name></member>
+    <member refid="class_game_manager_1a08732ff21701873c4b2d1412eb31b701" kind="variable"><name>_curModeObjects</name></member>
+    <member refid="class_game_manager_1a5ccfacd027ad08eeb4ff1f25a7f59c98" kind="function"><name>Start</name></member>
+    <member refid="class_game_manager_1a44c79b205dec16bfe650e21259860c5b" kind="function"><name>Update</name></member>
+    <member refid="class_game_manager_1a96d1a538148e810b6128b6f83fca4d57" kind="function"><name>SetGameModeObjects</name></member>
+    <member refid="class_game_manager_1a19f5655299c5439b688ffea329f3afee" kind="function"><name>SetGameMode</name></member>
+  </compound>
+  <compound refid="class_grandparent_authoring" kind="class"><name>GrandparentAuthoring</name>
+  </compound>
+  <compound refid="class_grandparent_baker" kind="class"><name>GrandparentBaker</name>
+    <member refid="class_grandparent_baker_1a72f679c60fc897c5f9b9485b4324ac52" kind="function"><name>Bake</name></member>
+  </compound>
+  <compound refid="struct_grandparent_tag_component" kind="struct"><name>GrandparentTagComponent</name>
+  </compound>
+  <compound refid="class_layer" kind="class"><name>Layer</name>
+    <member refid="class_layer_1a2a85306873f9ad7d104518724c57f9d6" kind="enum"><name>DataType</name></member>
+    <member refid="class_layer_1a2a85306873f9ad7d104518724c57f9d6a249694a485fc5d3289c38986b4f8e887" kind="enumvalue"><name>Cluster</name></member>
+    <member refid="class_layer_1a2a85306873f9ad7d104518724c57f9d6abe53a0541a6d36f6ecb879fa2c584b08" kind="enumvalue"><name>Image</name></member>
+    <member refid="class_layer_1a237541099987151365176d7f8f729c84" kind="variable"><name>Index</name></member>
+    <member refid="class_layer_1a03e17434b6e3cf28e3dfa1886f3f9ccb" kind="variable"><name>Name</name></member>
+    <member refid="class_layer_1a3f38fe47fa6b99e74582dcd7652a7e11" kind="variable"><name>Color</name></member>
+    <member refid="class_layer_1a185f8b1fb3eebfb10e9f4b08f0277314" kind="variable"><name>LayerGameObject</name></member>
+    <member refid="class_layer_1acdb4e33709448d8dec9c9e698f967e93" kind="variable"><name>LayerUIGameObject</name></member>
+    <member refid="class_layer_1a7f421a1009e95a5158e4af04925096bc" kind="variable"><name>LayerUIScript</name></member>
+    <member refid="class_layer_1ac4cc04f73961cfd56a9252708a5d744c" kind="variable"><name>LayerRenderTexture</name></member>
+    <member refid="class_layer_1af23e02bfa060e70ba6290dbaba21b39c" kind="variable"><name>LayerTexture2D</name></member>
+    <member refid="class_layer_1a255a546bed30554d274ffaf1f3038b30" kind="variable"><name>LayerType</name></member>
+    <member refid="class_layer_1a1a83bb593b9a078faf509f8a69db1f6d" kind="variable"><name>AssociatedFileName</name></member>
+    <member refid="class_layer_1a25c30b429ec1f33bebaa8907cfc2b773" kind="function"><name>Layer</name></member>
+    <member refid="class_layer_1ab69f2865bac842c5d00abbb89f0bb1d8" kind="function"><name>Layer</name></member>
+    <member refid="class_layer_1a35e8a10c27f43c45eef48c49a1c40b2a" kind="function"><name>Layer</name></member>
+  </compound>
+  <compound refid="class_layer_data" kind="class"><name>LayerData</name>
+    <member refid="class_layer_data_1abe4dc1b172b5edf8998f23ef69833395" kind="variable"><name>LayerName</name></member>
+    <member refid="class_layer_data_1a52392f30c56f55aca00c7e494d4b414d" kind="variable"><name>FileName</name></member>
+    <member refid="class_layer_data_1af3baf82cf8e4f3ab55d861eb50f340b3" kind="variable"><name>Index</name></member>
+    <member refid="class_layer_data_1a4d5de28e476d1edebffaef8779bd879d" kind="variable"><name>LayerType</name></member>
+    <member refid="class_layer_data_1a0666ed7d36870bdea5b5f6da40d8e000" kind="variable"><name>Color</name></member>
+    <member refid="class_layer_data_1ae8432cdbc8ee682fa9e278d4e23ea9cf" kind="function"><name>LayerData</name></member>
+    <member refid="class_layer_data_1ac45c19e7eab3d76431ac07700cdf15c0" kind="function"><name>LayerData</name></member>
+    <member refid="class_layer_data_1a88c6c8753f90c33fa51f31c9f9985861" kind="function"><name>LayerData</name></member>
+    <member refid="class_layer_data_1a4c35e8e9c3bc43b15d1f4e8f95184c47" kind="function"><name>ToLayerObject</name></member>
+  </compound>
+  <compound refid="class_layer_events" kind="class"><name>LayerEvents</name>
+    <member refid="class_layer_events_1a7a3452113f825a38b84b18e75ebc049b" kind="variable"><name>SelectLayer</name></member>
+    <member refid="class_layer_events_1a5a40bb6ef0ea036784ecbf6e2241dc10" kind="variable"><name>ToggleAllLayers</name></member>
+    <member refid="class_layer_events_1aa784114f76df0c4eb5b979af1da157d5" kind="variable"><name>MoveLayer</name></member>
+    <member refid="class_layer_events_1a4040984cc4ede2dffd681df22563377e" kind="variable"><name>UpdateLayerPositions</name></member>
+    <member refid="class_layer_events_1a425a8cb9e952b5964e07ef398de50c8d" kind="variable"><name>ResetView</name></member>
+    <member refid="class_layer_events_1a4ba179bef58bf4be47f928d6c547cdd7" kind="variable"><name>TopView</name></member>
+    <member refid="class_layer_events_1acf58bb6866927863124afe9133cea622" kind="variable"><name>ImportImageLayerEvent</name></member>
+  </compound>
+  <compound refid="class_layer_info_panel" kind="class"><name>LayerInfoPanel</name>
+    <member refid="class_layer_info_panel_1aa05b2051d8d9532f52c154d1d5001efd" kind="variable"><name>LayerNameText</name></member>
+    <member refid="class_layer_info_panel_1acb09fde4eadc599c853669b6c0fe4a9f" kind="variable"><name>LayerTypeText</name></member>
+    <member refid="class_layer_info_panel_1aa72808bef9cc7ab1373597ee5e6e870e" kind="variable"><name>_selectedLayer</name></member>
+    <member refid="class_layer_info_panel_1ad99c5b6f40edbb2e817e2f17d8f16b37" kind="function"><name>OnEnable</name></member>
+    <member refid="class_layer_info_panel_1aae657bec6824dd3ac4a95f17be4fc4d7" kind="function"><name>OnDisable</name></member>
+    <member refid="class_layer_info_panel_1aa9db1666178ab58fed44ed7eae3aa390" kind="function"><name>MoveLayer</name></member>
+    <member refid="class_layer_info_panel_1a3764633c3178a14727651e5a4d3b15c4" kind="function"><name>PopulateLayerInfoPanel</name></member>
+  </compound>
+  <compound refid="class_layer_manager" kind="class"><name>LayerManager</name>
+    <member refid="class_layer_manager_1a7b03f9da52ffc1f25960b0faad5e31bf" kind="variable"><name>Instance</name></member>
+    <member refid="class_layer_manager_1a13705e7d09cad0440ba47d1eb58dfccd" kind="variable"><name>Layers</name></member>
+    <member refid="class_layer_manager_1a2ff48669249e167a342db65e20ad4fe4" kind="variable"><name>UILayerParent</name></member>
+    <member refid="class_layer_manager_1a603495ba072513e2fd86f1b5478182bd" kind="variable"><name>UILayerParent_World</name></member>
+    <member refid="class_layer_manager_1af21a6f3be1760c7a990a5e8b5b66f5d2" kind="variable"><name>loadedLayerIndices</name></member>
+    <member refid="class_layer_manager_1a84e49f5897ece177734a643b64875b97" kind="variable"><name>loadedLayerTypes</name></member>
+    <member refid="class_layer_manager_1af8f5c4d390a9b6f7eab3af03922ad00a" kind="variable"><name>loadedLayerNames</name></member>
+    <member refid="class_layer_manager_1ab30d02e4677fac53b10cba0d3c8c7aff" kind="variable"><name>UILayerRepresentationPrefab</name></member>
+    <member refid="class_layer_manager_1afbcafcae05294fff8393a3e9d8c274ff" kind="function"><name>Start</name></member>
+    <member refid="class_layer_manager_1aefae48891e856e72411e3fe312a38a24" kind="function"><name>OnEnable</name></member>
+    <member refid="class_layer_manager_1afbc5cd06d0d8491c18222a666e4511f1" kind="function"><name>OnDisable</name></member>
+    <member refid="class_layer_manager_1a31519710008095362b1a8929081e1890" kind="function"><name>SpawnUIRepresentation</name></member>
+    <member refid="class_layer_manager_1ab2a4c336df7ca682d5ad494845a6cb8f" kind="function"><name>SetDefaultFilenames</name></member>
+    <member refid="class_layer_manager_1aa28d460076116dc5973dd8310bc2889d" kind="function"><name>Swap&lt; T &gt;</name></member>
+    <member refid="class_layer_manager_1aa87d4408d428b2ec72923ed45fa371ec" kind="function"><name>MoveLayerPos</name></member>
+    <member refid="class_layer_manager_1a2a7278151a3037ff29993b713aa9571f" kind="function"><name>UpdateLayerIndices</name></member>
+    <member refid="class_layer_manager_1aa5d9f9e05d07a187ae705e697c600d83" kind="function"><name>BuildDatasetLayers</name></member>
+    <member refid="class_layer_manager_1a18013ef227f3ba2f43c772c93dab41f5" kind="function"><name>BuildLayer</name></member>
+    <member refid="class_layer_manager_1a193fb5e5b3575ded7e2d6ea032714f13" kind="function"><name>BuildLoadedLayer</name></member>
+    <member refid="class_layer_manager_1ad59deb2aa2c382e3e421ed69632959de" kind="function"><name>HideAllLayers</name></member>
+    <member refid="class_layer_manager_1a3fbd6e782a6c9a060aa120686b3af005" kind="function"><name>ShowAllLayers</name></member>
+  </compound>
+  <compound refid="class_options" kind="class"><name>Options</name>
+    <member refid="class_options_1ae34d2e4283cfb9819fe7dc7b399a158d" kind="enum"><name>UIColorMode</name></member>
+    <member refid="class_options_1ae34d2e4283cfb9819fe7dc7b399a158da3cd79026f235faec4421e36de174726c" kind="enumvalue"><name>LightMode</name></member>
+    <member refid="class_options_1ae34d2e4283cfb9819fe7dc7b399a158dacdc1da9550af69ba892772f9d118c6ba" kind="enumvalue"><name>DarkMode</name></member>
+    <member refid="class_options_1abd6ea4e7a816c7c7ca4037b451d7f6b8" kind="variable"><name>Instance</name></member>
+    <member refid="class_options_1a6d67d4137247992483f77a65a28c988f" kind="variable"><name>loaded</name></member>
+    <member refid="class_options_1ad6f74ea08fa90da20755f039084f30a7" kind="variable"><name>skyboxMaterials</name></member>
+    <member refid="class_options_1a2a2b362cc2b0e6a53e97996f587b0e35" kind="variable"><name>ImmersiveRotateDataSens</name></member>
+    <member refid="class_options_1af3ae54503c53638102031c1601dd3b1e" kind="variable"><name>ImmersiveTranslateDataSens</name></member>
+    <member refid="class_options_1a8ddb429f3b9fb195797d698fd8a22ccd" kind="variable"><name>VRRotateDataSens</name></member>
+    <member refid="class_options_1a7e8e9b12db726f9582f5a3a1722108ee" kind="variable"><name>VRTranslateDataSens</name></member>
+    <member refid="class_options_1a8744c2ae615e5e1a1eae2640238ffaf2" kind="variable"><name>FlatRotateDataSens</name></member>
+    <member refid="class_options_1a21862640bc97c47d1129fefa236406f7" kind="variable"><name>FlatTranslateDataSens</name></member>
+    <member refid="class_options_1ae2a06f2263ef7ff1b4c65d4c8871a40b" kind="variable"><name>buttons</name></member>
+    <member refid="class_options_1a49457dc9267b7d3422170bc0442b1e50" kind="variable"><name>texts</name></member>
+    <member refid="class_options_1a7571de5e5f22d8ad463ed9c4ca4c9551" kind="variable"><name>panels</name></member>
+    <member refid="class_options_1a2f7f822f5ce87ea6614c840f5e6d4261" kind="variable"><name>panelShade</name></member>
+    <member refid="class_options_1a40e62880f26c855e2b75f8897bfd6d08" kind="variable"><name>nestedMultiplier</name></member>
+    <member refid="class_options_1a2ab40f4308ad6d3cbe54b425488c3e4f" kind="variable"><name>curMultiplier</name></member>
+    <member refid="class_options_1a35bb87d051d8e452f9891db9c144b15b" kind="variable"><name>darkModeButtonColorBlock</name></member>
+    <member refid="class_options_1a3c570e699693cb0f072c8af485492319" kind="variable"><name>darkModeToggleColorBlock</name></member>
+    <member refid="class_options_1ace3835aeef763810c188f1f6f36ee859" kind="variable"><name>_UIColorMode</name></member>
+    <member refid="class_options_1a3866aa39d55273a344e451c1faa28b5c" kind="function"><name>Start</name></member>
+    <member refid="class_options_1add45dd462eec1a3c4ca1a90d70d3a142" kind="function"><name>GetUIElements</name></member>
+    <member refid="class_options_1ad4ae1f2e9b8628a16a3584e1a441473e" kind="function"><name>GetDarkmodeColorBlock</name></member>
+    <member refid="class_options_1a995b050af9c7ea013b249fdb73f846f2" kind="function"><name>SaveSettings</name></member>
+    <member refid="class_options_1a487275b6a874c97348cfd3854b296860" kind="function"><name>LoadSettings</name></member>
+    <member refid="class_options_1a443b400dcad44618a034e66d9b7de2bd" kind="function"><name>SetUIElementColors</name></member>
+    <member refid="class_options_1aa50ce53edbfc937dce694ee782b40b96" kind="function"><name>SetSkybox</name></member>
+    <member refid="class_options_1a8c10da38d4d57dfce10de23566ccb793" kind="function"><name>GetDataManipSensitivity</name></member>
+  </compound>
+  <compound refid="struct_csv_data_loader_1_1_record" kind="struct"><name>CsvDataLoader::Record</name>
+    <member refid="struct_csv_data_loader_1_1_record_1a47a1f5a70565a185242ae391c35ad95b" kind="variable"><name>barcodeOffset</name></member>
+    <member refid="struct_csv_data_loader_1_1_record_1a64ea26aba891e9a820ba637c2513c2a4" kind="variable"><name>barcodeLength</name></member>
+    <member refid="struct_csv_data_loader_1_1_record_1aaedf454385319616973025ab002c269e" kind="variable"><name>nucOffset</name></member>
+    <member refid="struct_csv_data_loader_1_1_record_1a111ad6a9de04c84340fa8287f30be4b7" kind="variable"><name>nucLength</name></member>
+    <member refid="struct_csv_data_loader_1_1_record_1aafc5451aa134ecca26601831ed4b7545" kind="variable"><name>protOffset</name></member>
+    <member refid="struct_csv_data_loader_1_1_record_1a1a609f277956d091bb233f1129ea7137" kind="variable"><name>protLength</name></member>
+  </compound>
+  <compound refid="class_render_texture_saver" kind="class"><name>RenderTextureSaver</name>
+    <member refid="class_render_texture_saver_1a35ca6570ee1d32e161d7b374c54ec6b5" kind="enum"><name>ImageFormat</name></member>
+    <member refid="class_render_texture_saver_1a35ca6570ee1d32e161d7b374c54ec6b5aeb63de47b8691d315fefa05620191725" kind="enumvalue"><name>EXR</name></member>
+    <member refid="class_render_texture_saver_1a35ca6570ee1d32e161d7b374c54ec6b5a55505ba281b015ec31f03ccb151b2a34" kind="enumvalue"><name>PNG</name></member>
+    <member refid="class_render_texture_saver_1a2a70232fc57f210dfb0b53e0243a79a7" kind="function"><name>SaveRenderTextureToFile</name></member>
+  </compound>
+  <compound refid="struct_csv_data_loader_1_1_search_job" kind="struct"><name>CsvDataLoader::SearchJob</name>
+    <member refid="struct_csv_data_loader_1_1_search_job_1ab1a50342fee8cf557ed1240b0b914edb" kind="variable"><name>records</name></member>
+    <member refid="struct_csv_data_loader_1_1_search_job_1a4d0b375af7520b3b2c9a8e35b065d334" kind="variable"><name>buffer</name></member>
+    <member refid="struct_csv_data_loader_1_1_search_job_1a5f899ca2dc74dfe223e224630365d67d" kind="variable"><name>target</name></member>
+    <member refid="struct_csv_data_loader_1_1_search_job_1a8d1d06b56ea9a5290a7832891dded92a" kind="variable"><name>results</name></member>
+    <member refid="struct_csv_data_loader_1_1_search_job_1a060bc51841b1f4f1061c8695b15d76c6" kind="function"><name>Execute</name></member>
+  </compound>
+  <compound refid="struct_serializable_color" kind="struct"><name>SerializableColor</name>
+    <member refid="struct_serializable_color_1a1ffa5d1faa40c07729caba2b4f7a77c1" kind="variable"><name>R</name></member>
+    <member refid="struct_serializable_color_1adfd134289d340e9330ac6f24758c341b" kind="variable"><name>G</name></member>
+    <member refid="struct_serializable_color_1a147cc24aa46eaf7296446a407a500fed" kind="variable"><name>B</name></member>
+    <member refid="struct_serializable_color_1ac1530f1b8e2abb696e34b39655be1c9c" kind="function"><name>SerializableColor</name></member>
+    <member refid="struct_serializable_color_1aa345c5b2ec80038378da5b2c4b54bff7" kind="function"><name>ToUnityColor</name></member>
+    <member refid="struct_serializable_color_1a3b77d0c451447290c9bf13e0636154e5" kind="function"><name>FromUnityColor</name></member>
+  </compound>
+  <compound refid="struct_set_cell_data_job" kind="struct"><name>SetCellDataJob</name>
+    <member refid="struct_set_cell_data_job_1a8dd5b961af27c0792351e3a1045912c9" kind="variable"><name>SourceCellData</name></member>
+    <member refid="struct_set_cell_data_job_1af1699c57f50540a8c4d027aba3bb891a" kind="variable"><name>Entities</name></member>
+    <member refid="struct_set_cell_data_job_1a0ad4b738c967c47b7f9fa002a828162f" kind="variable"><name>LocalTransformLookup</name></member>
+    <member refid="struct_set_cell_data_job_1ace3b5de422de204e15fcf953ae3d58b8" kind="variable"><name>CellComponentLookup</name></member>
+    <member refid="struct_set_cell_data_job_1a410cdbf068dc3764113eee616c786dc3" kind="function"><name>Execute</name></member>
+  </compound>
+  <compound refid="struct_set_parent_job" kind="struct"><name>SetParentJob</name>
+    <member refid="struct_set_parent_job_1a8dbdb4151687b68e3e6e059839532bd4" kind="variable"><name>CellEntities</name></member>
+    <member refid="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" kind="variable"><name>ClusterEntities</name></member>
+    <member refid="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" kind="variable"><name>CellComponentLookup</name></member>
+    <member refid="struct_set_parent_job_1ae537d3cfd2908886f3c43e49b44ce5e8" kind="variable"><name>LinkedEntityGroupLookup</name></member>
+    <member refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kind="variable"><name>ECB</name></member>
+    <member refid="struct_set_parent_job_1a236c6007e22b0ed9e7d74976f6148d97" kind="function"><name>Execute</name></member>
+  </compound>
+  <compound refid="class_spatial_dataset" kind="class"><name>SpatialDataset</name>
+    <member refid="class_spatial_dataset_1a7615202f0c0b151d9d35931a2ec9f40a" kind="variable"><name>Cells</name></member>
+    <member refid="class_spatial_dataset_1add9dd87f69cf93ccf88f9976280b1250" kind="variable"><name>Clusters</name></member>
+    <member refid="class_spatial_dataset_1ad65a699637373832a097480c78bfb1e1" kind="variable"><name>ClusterIDs</name></member>
+    <member refid="class_spatial_dataset_1a1fe816437d7c1ebcbfd0974196541009" kind="variable"><name>InverseClusterIDs</name></member>
+    <member refid="class_spatial_dataset_1a6443fc9c1fd6e03eef0859863b2b7b5d" kind="variable"><name>spawnParent</name></member>
+    <member refid="class_spatial_dataset_1a69e8e193d28ed0932aa65396f631e85f" kind="variable"><name>bakedClustersParent</name></member>
+    <member refid="class_spatial_dataset_1a96fc91d730696f1b9a69fc39c733d4ad" kind="variable"><name>cellSquare</name></member>
+    <member refid="class_spatial_dataset_1af9b6292607c05b056ea12aa62326e440" kind="variable"><name>bakeLayerPrefab</name></member>
+    <member refid="class_spatial_dataset_1ac6f81a03d2b9478e2e3e189062f26ae3" kind="variable"><name>spatialProjectionPathInputField</name></member>
+    <member refid="class_spatial_dataset_1a1bb443e0d9ef40d0813fe12fa19ec6e2" kind="variable"><name>parquetClusteringColumnInputField</name></member>
+    <member refid="class_spatial_dataset_1a83e6910a0231c659ea91c86c7c520808" kind="variable"><name>bakedDatasetPathInputField</name></member>
+    <member refid="class_spatial_dataset_1aaf12b22a1957083d695d21bb1326a0f2" kind="variable"><name>loadBakedDatasetPathInputField</name></member>
+    <member refid="class_spatial_dataset_1a8848485ce3b5657bb76de5e935ff91ae" kind="variable"><name>limitCellSpawn</name></member>
+    <member refid="class_spatial_dataset_1a5001484c170d22efdf8dfca23ea1c59a" kind="variable"><name>cellCountToSpawn</name></member>
+    <member refid="class_spatial_dataset_1ada7858cf2b4252485a05470980565649" kind="variable"><name>normalizationFactor</name></member>
+    <member refid="class_spatial_dataset_1a02206a82d6c3cbeae4ef1d97435c87e6" kind="variable"><name>offset</name></member>
+    <member refid="class_spatial_dataset_1a9a5528b8d582b908bdbc7c8ca7ae3a2b" kind="variable"><name>BakeCamera</name></member>
+    <member refid="class_spatial_dataset_1a34b8468ec99c91dd776d81d52f2863e7" kind="variable"><name>BakeCameraPrefab</name></member>
+    <member refid="class_spatial_dataset_1ac64bda6fc542c6b248e421fc1423c360" kind="variable"><name>ClusterToSpawn</name></member>
+    <member refid="class_spatial_dataset_1acba7217d916d22dd6d622c50ec6ae3fc" kind="variable"><name>filters</name></member>
+    <member refid="class_spatial_dataset_1abb94b3e7caade140fe54af4c86e5433c" kind="variable"><name>AutoBake</name></member>
+    <member refid="class_spatial_dataset_1aff6a5cf67b135571bf536d0985372f55" kind="variable"><name>cellBarcodeFilePath</name></member>
+    <member refid="class_spatial_dataset_1a7b6d3c30c741d3497ee92d6c6376554d" kind="variable"><name>cellClusterColumnNameParquet</name></member>
+    <member refid="class_spatial_dataset_1ace27f243ae64833b49f860c8bbe34724" kind="variable"><name>bakedDatasetPath</name></member>
+    <member refid="class_spatial_dataset_1a1e93f42bfbb8473ec3d11d8a1f33a20e" kind="variable"><name>resolution</name></member>
+    <member refid="class_spatial_dataset_1a18ad386a28408320bd3aa2f8e4d1ef7f" kind="variable"><name>datasetLoaded</name></member>
+    <member refid="class_spatial_dataset_1a6a858dd83bba1a594e9c13840b83923a" kind="variable"><name>DatasetPanel</name></member>
+    <member refid="class_spatial_dataset_1a3b33ce3601056a4251705078093a7976" kind="variable"><name>DatasetName</name></member>
+    <member refid="class_spatial_dataset_1aa2cb80c5237b8386778e6db3ca3d985c" kind="variable"><name>ClusterCount</name></member>
+    <member refid="class_spatial_dataset_1a3a72971ee110b0c1f12566f153b7c837" kind="variable"><name>curCluster</name></member>
+    <member refid="class_spatial_dataset_1ae8fff5f89cf0e868cc88eda979cf47c7" kind="variable"><name>bakedClusterImageFileName</name></member>
+    <member refid="class_spatial_dataset_1a0360df83dbc4053b573ad07d7c65d1cc" kind="variable"><name>metaDataFileName</name></member>
+    <member refid="class_spatial_dataset_1a0b23631bad15288447d543f4cc0b95bc" kind="variable"><name>_cellCoordsReady</name></member>
+    <member refid="class_spatial_dataset_1a0321c54e01eb9154a69a451e67cbed3c" kind="variable"><name>_cellClustersReady</name></member>
+    <member refid="class_spatial_dataset_1a1d596dea09a8362b67864bf3bf9d2785" kind="function"><name>Start</name></member>
+    <member refid="class_spatial_dataset_1af1119dba11d3d748cc37ad26d741aa7a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_spatial_dataset_1a94b43d4dd5dfe7a30aad524f224aabd8" kind="function"><name>OnDisable</name></member>
+    <member refid="class_spatial_dataset_1a40162450816df951ef1b534903b95992" kind="function"><name>SetSpatialProjPath</name></member>
+    <member refid="class_spatial_dataset_1a178211cf9ffc634596179043800c9782" kind="function"><name>SetClusterColumnName</name></member>
+    <member refid="class_spatial_dataset_1af96caa11ddd7c285872282c370491c68" kind="function"><name>SetBakePath</name></member>
+    <member refid="class_spatial_dataset_1abe3e33959d064a4d197a8bfd577b0de4" kind="function"><name>LoadAndBake</name></member>
+    <member refid="class_spatial_dataset_1a0fcde24b33f61f6c63165fd73cde50b6" kind="function"><name>TryBake</name></member>
+    <member refid="class_spatial_dataset_1a7203b9cfd2fe73b97c3ff64a18e31ea8" kind="function"><name>DebugSpawnCells</name></member>
+    <member refid="class_spatial_dataset_1ae3480871785c7d137afdd74f35463847" kind="function"><name>DebugSpawnClusters</name></member>
+    <member refid="class_spatial_dataset_1a887d089f9e20b5ee8aa49aa1d239512b" kind="function"><name>BakeCluster</name></member>
+    <member refid="class_spatial_dataset_1a1d19a27f15774654ef49206bc877a3ea" kind="function"><name>WaitAndCapture</name></member>
+    <member refid="class_spatial_dataset_1aedb335bf3785344c588c1e9b6a51de06" kind="function"><name>SaveMetadata</name></member>
+    <member refid="class_spatial_dataset_1ab02f94171484679ede66c5dbcaa00044" kind="function"><name>LoadMetadata</name></member>
+    <member refid="class_spatial_dataset_1a109605c2e38f6e6906efebf2e0c36725" kind="function"><name>ImportImageLayer</name></member>
+    <member refid="class_spatial_dataset_1a8ebc7e44c97d6137b4381cf3e6fb3c41" kind="function"><name>SaveLayerTextures</name></member>
+    <member refid="class_spatial_dataset_1a8e762585b6ffc8917269f2b4c78dea3e" kind="function"><name>WaitAndCapAgain</name></member>
+    <member refid="class_spatial_dataset_1a33a128415e204f209f240ac7f50dfd11" kind="function"><name>LoadAndBakeButton</name></member>
+    <member refid="class_spatial_dataset_1abfc7e02cb4fe1922ed688185eb9fa23b" kind="function"><name>LoadBakedDataset</name></member>
+    <member refid="class_spatial_dataset_1a328125ea7785481c1054479269299077" kind="function"><name>FindMaxAbsoluteValue</name></member>
+    <member refid="class_spatial_dataset_1af070754ffcda4cb29fb6eb36177e2d34" kind="function"><name>FindClusterCount</name></member>
+    <member refid="class_spatial_dataset_1a796ebc8e5a19c69b0e7f9200c742fcdb" kind="function"><name>GetClusterIDs</name></member>
+    <member refid="class_spatial_dataset_1ab900638345e58ec8ae04f0d3f1f3bc75" kind="function"><name>GetInverseClusterIDs</name></member>
+    <member refid="class_spatial_dataset_1a974d8c63b897a8ac95959f7c565bef53" kind="function"><name>CreateRenderTexture</name></member>
+  </compound>
+  <compound refid="struct_spawned_tag" kind="struct"><name>SpawnedTag</name>
+  </compound>
+  <compound refid="struct_spawner_tag_component" kind="struct"><name>SpawnerTagComponent</name>
+  </compound>
+  <compound refid="class_tab_group" kind="class"><name>TabGroup</name>
+    <member refid="class_tab_group_1ae9047028a211a063d2b9738269079897" kind="variable"><name>activeTabObject</name></member>
+    <member refid="class_tab_group_1a8279b652014a600da887195266c5187b" kind="variable"><name>defaultTabObject</name></member>
+    <member refid="class_tab_group_1a04f1c580bcf5b51bf1bab8e1e07905b3" kind="function"><name>SelectTab</name></member>
+  </compound>
+  <compound refid="class_texture_loader" kind="class"><name>TextureLoader</name>
+    <member refid="class_texture_loader_1acf63e3725eb9f9f1726fc8b838d46037" kind="function"><name>LoadTexture2DFromFile</name></member>
+    <member refid="class_texture_loader_1a1e94bf7cf4420c895ad94e7f33ef658e" kind="function"><name>LoadRenderTextureFromFile</name></member>
+  </compound>
+  <compound refid="class_transforms_buttons" kind="class"><name>TransformsButtons</name>
+    <member refid="class_transforms_buttons_1a07bf79775bb01d19fde8743e75cb18b5" kind="variable"><name>flatCam</name></member>
+    <member refid="class_transforms_buttons_1a67644473682bbbcdff541c2eb1e0e3a1" kind="function"><name>ResetView</name></member>
+    <member refid="class_transforms_buttons_1aa366f14316002b00804eee502b4077fd" kind="function"><name>TopView</name></member>
+    <member refid="class_transforms_buttons_1a16fbe39b2ec413395f93531ecaa61441" kind="function"><name>ToggleCamType</name></member>
+  </compound>
+  <compound refid="class_u_i_manager" kind="class"><name>UIManager</name>
+    <member refid="class_u_i_manager_1a29c20ad2424c977533cac0d43fdfe686" kind="variable"><name>ImportImagePathInputField</name></member>
+    <member refid="class_u_i_manager_1a4f8d0221bbd49f6acaa925fddecd88a4" kind="variable"><name>ImportImageNameInputField</name></member>
+    <member refid="class_u_i_manager_1a83fed7d6ef855cf0941d75283567b0a8" kind="function"><name>ImportImageLayer</name></member>
+    <member refid="class_u_i_manager_1aa5500894cdf6369dbe021b52abe31a74" kind="function"><name>ToggleObject</name></member>
+  </compound>
+  <compound refid="class_world_space_u_i_clicker" kind="class"><name>WorldSpaceUIClicker</name>
+    <member refid="class_world_space_u_i_clicker_1a2f7caead1d4e026a9a95050b56847743" kind="variable"><name>_pointerEventData</name></member>
+    <member refid="class_world_space_u_i_clicker_1acbdc5a27507a484e052285d139ab9b5a" kind="variable"><name>_eventSystem</name></member>
+    <member refid="class_world_space_u_i_clicker_1ac3d9fbb1f1f626f37d71ca239afd968e" kind="function"><name>Start</name></member>
+    <member refid="class_world_space_u_i_clicker_1a701bc8534573a29534c0316781087d53" kind="function"><name>Update</name></member>
+    <member refid="class_world_space_u_i_clicker_1af58101ea3fd24d2dd0e06c126ba1caa3" kind="function"><name>PerformRaycast</name></member>
+  </compound>
+  <compound refid="namespace_simple_file_browser" kind="namespace"><name>SimpleFileBrowser</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_burst" kind="namespace"><name>Unity::Burst</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_collections" kind="namespace"><name>Unity::Collections</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_entities" kind="namespace"><name>Unity::Entities</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_jobs" kind="namespace"><name>Unity::Jobs</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_mathematics" kind="namespace"><name>Unity::Mathematics</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_scenes" kind="namespace"><name>Unity::Scenes</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_transforms" kind="namespace"><name>Unity::Transforms</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_visual_scripting" kind="namespace"><name>Unity::VisualScripting</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_event_systems" kind="namespace"><name>UnityEngine::EventSystems</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_experimental_1_1_rendering" kind="namespace"><name>UnityEngine::Experimental::Rendering</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_input_system" kind="namespace"><name>UnityEngine::InputSystem</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_rendering_1_1_u_i" kind="namespace"><name>UnityEngine::Rendering::UI</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_serialization" kind="namespace"><name>UnityEngine::Serialization</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_dataset_manipulator_8cs" kind="file"><name>DatasetManipulator.cs</name>
+  </compound>
+  <compound refid="_dataset_metadata_8cs" kind="file"><name>DatasetMetadata.cs</name>
+  </compound>
+  <compound refid="_dataset_metadata_manager_8cs" kind="file"><name>DatasetMetadataManager.cs</name>
+  </compound>
+  <compound refid="_baked___layer___layout_8cs" kind="file"><name>Baked_Layer_Layout.cs</name>
+  </compound>
+  <compound refid="_baked_data_layer_8cs" kind="file"><name>BakedDataLayer.cs</name>
+  </compound>
+  <compound refid="_cell_spawner_8cs" kind="file"><name>CellSpawner.cs</name>
+  </compound>
+  <compound refid="_cell_spawn_manager_8cs" kind="file"><name>CellSpawnManager.cs</name>
+  </compound>
+  <compound refid="_cluster_authoring_8cs" kind="file"><name>ClusterAuthoring.cs</name>
+  </compound>
+  <compound refid="_cluster_control_system_8cs" kind="file"><name>ClusterControlSystem.cs</name>
+  </compound>
+  <compound refid="_csv_data_loader_8cs" kind="file"><name>CsvDataLoader.cs</name>
+  </compound>
+  <compound refid="_c_s_v_importer_8cs" kind="file"><name>CSVImporter.cs</name>
+  </compound>
+  <compound refid="_data_converter_8cs" kind="file"><name>DataConverter.cs</name>
+  </compound>
+  <compound refid="_dataset_filebrowser_8cs" kind="file"><name>DatasetFilebrowser.cs</name>
+  </compound>
+  <compound refid="_cell_authoring_8cs" kind="file"><name>CellAuthoring.cs</name>
+  </compound>
+  <compound refid="_cell_component_8cs" kind="file"><name>CellComponent.cs</name>
+  </compound>
+  <compound refid="_cell_data_8cs" kind="file"><name>CellData.cs</name>
+  </compound>
+  <compound refid="_cell_spawner_authoring_8cs" kind="file"><name>CellSpawnerAuthoring.cs</name>
+  </compound>
+  <compound refid="_cell_spawner_baker_8cs" kind="file"><name>CellSpawnerBaker.cs</name>
+  </compound>
+  <compound refid="_cell_spawner_system_8cs" kind="file"><name>CellSpawnerSystem.cs</name>
+  </compound>
+  <compound refid="_e_c_s_data_manipulator_8cs" kind="file"><name>ECSDataManipulator.cs</name>
+  </compound>
+  <compound refid="_grandparent_authoring_8cs" kind="file"><name>GrandparentAuthoring.cs</name>
+  </compound>
+  <compound refid="_set_cell_data_job_8cs" kind="file"><name>SetCellDataJob.cs</name>
+  </compound>
+  <compound refid="_set_parent_job_8cs" kind="file"><name>SetParentJob.cs</name>
+  </compound>
+  <compound refid="_spatial_dataset_8cs" kind="file"><name>SpatialDataset.cs</name>
+  </compound>
+  <compound refid="_test_large_data_loader_8cs" kind="file"><name>TestLargeDataLoader.cs</name>
+  </compound>
+  <compound refid="_game_manager_8cs" kind="file"><name>GameManager.cs</name>
+  </compound>
+  <compound refid="_layer_events_8cs" kind="file"><name>LayerEvents.cs</name>
+  </compound>
+  <compound refid="_layer_info_panel_8cs" kind="file"><name>LayerInfoPanel.cs</name>
+  </compound>
+  <compound refid="_layer_manager_8cs" kind="file"><name>LayerManager.cs</name>
+    <member refid="_layer_manager_8cs_1a832e8f52fca5a678819ec96269dcb532" kind="typedef"><name>Random</name></member>
+  </compound>
+  <compound refid="_dataset_metadata___new_8cs" kind="file"><name>DatasetMetadata_New.cs</name>
+  </compound>
+  <compound refid="_dataset_metadata_manager___j_s_o_n_8cs" kind="file"><name>DatasetMetadataManager_JSON.cs</name>
+  </compound>
+  <compound refid="_options_8cs" kind="file"><name>Options.cs</name>
+  </compound>
+  <compound refid="_render_texture_saver_8cs" kind="file"><name>RenderTextureSaver.cs</name>
+  </compound>
+  <compound refid="_tab_group_8cs" kind="file"><name>TabGroup.cs</name>
+  </compound>
+  <compound refid="_texture_loader_8cs" kind="file"><name>TextureLoader.cs</name>
+  </compound>
+  <compound refid="_transforms_buttons_8cs" kind="file"><name>TransformsButtons.cs</name>
+  </compound>
+  <compound refid="_u_i_manager_8cs" kind="file"><name>UIManager.cs</name>
+  </compound>
+  <compound refid="_world_space_u_i_clicker_8cs" kind="file"><name>WorldSpaceUIClicker.cs</name>
+  </compound>
+  <compound refid="dir_5d570d7d23b1ef0be014ef0786dfc688" kind="dir"><name>DatasetSystem</name>
+  </compound>
+  <compound refid="dir_264dea03f9436a16b36cee9bb5fff602" kind="dir"><name>DatasetSystem/ECS_WIP</name>
+  </compound>
+  <compound refid="dir_2a80f03d93e3d57c248d527f43bb40f6" kind="dir"><name>New DatasetMetadataManagement</name>
+  </compound>
+</doxygenindex>

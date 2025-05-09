@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cell_spawn_manager" kind="class" language="C#" prot="public">
+    <compoundname>CellSpawnManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a9b1f070819661b2848f9a4004444606b" prot="private" static="no" mutable="no">
+        <type>EntityManager</type>
+        <definition>EntityManager CellSpawnManager.entityManager</definition>
+        <argsstring></argsstring>
+        <name>entityManager</name>
+        <qualifiedname>CellSpawnManager.entityManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="14" column="27" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a6c9e1c38e1b9ca387691fdfd2c9134e5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_cell_spawning_system" kindref="compound">CellSpawningSystem</ref></type>
+        <definition>CellSpawningSystem CellSpawnManager.cellSpawningSystem</definition>
+        <argsstring></argsstring>
+        <name>cellSpawningSystem</name>
+        <qualifiedname>CellSpawnManager.cellSpawningSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="15" column="32" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a9b23d84856d3a85a1c857234d1c1c598" prot="private" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnManager.cellEntityPrefab</definition>
+        <argsstring></argsstring>
+        <name>cellEntityPrefab</name>
+        <qualifiedname>CellSpawnManager.cellEntityPrefab</qualifiedname>
+        <initializer>= Entity.Null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="16" column="20" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1aa13ef47e368584b7c89f8eeed0ce517e" prot="private" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnManager.cellClusterEntityPrefab</definition>
+        <argsstring></argsstring>
+        <name>cellClusterEntityPrefab</name>
+        <qualifiedname>CellSpawnManager.cellClusterEntityPrefab</qualifiedname>
+        <initializer>= Entity.Null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="17" column="20" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1aa758725cbc8ee2d6e10ea608e515ff81" prot="private" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnManager.grandparentEntity</definition>
+        <argsstring></argsstring>
+        <name>grandparentEntity</name>
+        <qualifiedname>CellSpawnManager.grandparentEntity</qualifiedname>
+        <initializer>= Entity.Null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="18" column="20" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a3501fd2c9507fa2d8f7e8beff7c54096" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CellSpawnManager.isInitialized</definition>
+        <argsstring></argsstring>
+        <name>isInitialized</name>
+        <qualifiedname>CellSpawnManager.isInitialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="27" column="18" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a519889180ca7cafa50d27f6432535214" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, Vector2 &gt;</type>
+        <definition>Dictionary&lt;string, Vector2&gt; CellSpawnManager.cellPositions</definition>
+        <argsstring></argsstring>
+        <name>cellPositions</name>
+        <qualifiedname>CellSpawnManager.cellPositions</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Vector2&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="23" column="23" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a6633f115d44dc9d99fa9b1a3d84d264a" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt;string, int&gt; CellSpawnManager.cellClusters</definition>
+        <argsstring></argsstring>
+        <name>cellClusters</name>
+        <qualifiedname>CellSpawnManager.cellClusters</qualifiedname>
+        <initializer>= new Dictionary&lt;string, int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="24" column="23" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1abf01aa073f8d470efaa64be1c45e75f9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CellSpawnManager.normalizationFactor</definition>
+        <argsstring></argsstring>
+        <name>normalizationFactor</name>
+        <qualifiedname>CellSpawnManager.normalizationFactor</qualifiedname>
+        <initializer>= 27762f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="25" column="18" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cell_spawn_manager_1a2f249f2ed806c670b23f20375dacd6b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CellSpawnManager.clusterCount</definition>
+        <argsstring></argsstring>
+        <name>clusterCount</name>
+        <qualifiedname>CellSpawnManager.clusterCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="26" column="16" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cell_spawn_manager_1a5d86bacb4a9c83644bcdbe61d6e9d5f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CellSpawnManager.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="29" column="10" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cell_spawn_manager_1a12f5ed0ade82c6f8e99b6b23edf4e137" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.TryGetBakedPrefabReference</definition>
+        <argsstring>()</argsstring>
+        <name>TryGetBakedPrefabReference</name>
+        <qualifiedname>CellSpawnManager.TryGetBakedPrefabReference</qualifiedname>
+        <briefdescription>
+<para>Attempts to find the singleton Spawner entity (via <ref refid="struct_spawner_tag_component" kindref="compound">SpawnerTagComponent</ref>) and retrieve the baked cell Entity prefab reference from its <ref refid="struct_cell_spawner_component" kindref="compound">CellSpawnerComponent</ref>. Stores the result in the cellEntityPrefab field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="75" column="10" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="75" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cell_spawn_manager_1a976714c70be7b03bb6b5ebd7df7fa8db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.TryGetGrandparentEntityReference</definition>
+        <argsstring>()</argsstring>
+        <name>TryGetGrandparentEntityReference</name>
+        <qualifiedname>CellSpawnManager.TryGetGrandparentEntityReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="156" column="10" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="156" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cell_spawn_manager_1a610d7cf7d768b9dceec25cfadb7f92b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>CellSpawnManager.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="38" column="17" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="38" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cell_spawn_manager_1a5708668642492d0b91e8fb122ae81566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.LoadMyData</definition>
+        <argsstring>(Dictionary&lt; string, Vector2 &gt; cellPos, Dictionary&lt; string, int &gt; cellClust)</argsstring>
+        <name>LoadMyData</name>
+        <qualifiedname>CellSpawnManager.LoadMyData</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, Vector2 &gt;</type>
+          <declname>cellPos</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, int &gt;</type>
+          <declname>cellClust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="184" column="17" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="184" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cell_spawn_manager_1afd46c0b9374575a046d43bd56ff02568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CellSpawnManager.TriggerSpawn</definition>
+        <argsstring>()</argsstring>
+        <name>TriggerSpawn</name>
+        <qualifiedname>CellSpawnManager.TriggerSpawn</qualifiedname>
+        <briefdescription>
+<para>Public method to be called by UI Button, game manager, or other logic to initiate the spawning of cells based on the loaded data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CellSpawnManager.cs" line="194" column="17" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="194" bodyend="313"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CellSpawnManager</label>
+        <link refid="class_cell_spawn_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CellSpawnManager</label>
+        <link refid="class_cell_spawn_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/CellSpawnManager.cs" line="11" column="7" bodyfile="DatasetSystem/CellSpawnManager.cs" bodystart="12" bodyend="327"/>
+    <listofallmembers>
+      <member refid="class_cell_spawn_manager_1aa13ef47e368584b7c89f8eeed0ce517e" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>cellClusterEntityPrefab</name></member>
+      <member refid="class_cell_spawn_manager_1a6633f115d44dc9d99fa9b1a3d84d264a" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>cellClusters</name></member>
+      <member refid="class_cell_spawn_manager_1a9b23d84856d3a85a1c857234d1c1c598" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>cellEntityPrefab</name></member>
+      <member refid="class_cell_spawn_manager_1a519889180ca7cafa50d27f6432535214" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>cellPositions</name></member>
+      <member refid="class_cell_spawn_manager_1a6c9e1c38e1b9ca387691fdfd2c9134e5" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>cellSpawningSystem</name></member>
+      <member refid="class_cell_spawn_manager_1a2f249f2ed806c670b23f20375dacd6b6" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>clusterCount</name></member>
+      <member refid="class_cell_spawn_manager_1a9b1f070819661b2848f9a4004444606b" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>entityManager</name></member>
+      <member refid="class_cell_spawn_manager_1aa758725cbc8ee2d6e10ea608e515ff81" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>grandparentEntity</name></member>
+      <member refid="class_cell_spawn_manager_1a610d7cf7d768b9dceec25cfadb7f92b6" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>Initialize</name></member>
+      <member refid="class_cell_spawn_manager_1a3501fd2c9507fa2d8f7e8beff7c54096" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>isInitialized</name></member>
+      <member refid="class_cell_spawn_manager_1a5708668642492d0b91e8fb122ae81566" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>LoadMyData</name></member>
+      <member refid="class_cell_spawn_manager_1abf01aa073f8d470efaa64be1c45e75f9" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>normalizationFactor</name></member>
+      <member refid="class_cell_spawn_manager_1a5d86bacb4a9c83644bcdbe61d6e9d5f8" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>Start</name></member>
+      <member refid="class_cell_spawn_manager_1afd46c0b9374575a046d43bd56ff02568" prot="public" virt="non-virtual"><scope>CellSpawnManager</scope><name>TriggerSpawn</name></member>
+      <member refid="class_cell_spawn_manager_1a12f5ed0ade82c6f8e99b6b23edf4e137" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>TryGetBakedPrefabReference</name></member>
+      <member refid="class_cell_spawn_manager_1a976714c70be7b03bb6b5ebd7df7fa8db" prot="private" virt="non-virtual"><scope>CellSpawnManager</scope><name>TryGetGrandparentEntityReference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

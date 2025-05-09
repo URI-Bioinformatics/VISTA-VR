@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_csv_to_binary_converter" kind="class" language="C#" prot="public">
+    <compoundname>CsvToBinaryConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_csv_to_binary_converter_1ad841914aa46623f31d78cfa8bed90416" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CsvToBinaryConverter.csvPath</definition>
+        <argsstring></argsstring>
+        <name>csvPath</name>
+        <qualifiedname>CsvToBinaryConverter.csvPath</qualifiedname>
+        <initializer>= &quot;C:\\Users\\epuls\\Downloads\\barcode_protein_sequences_square_002um.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/TestLargeDataLoader.cs" line="10" column="20" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_csv_to_binary_converter_1a3f2643c5de3a62de0ed95a65088ef43c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CsvToBinaryConverter.binPath</definition>
+        <argsstring></argsstring>
+        <name>binPath</name>
+        <qualifiedname>CsvToBinaryConverter.binPath</qualifiedname>
+        <initializer>= &quot;C:\\Users\\epuls\\Downloads\\barcode_protein_sequences_square_002um.bin&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/TestLargeDataLoader.cs" line="12" column="20" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_csv_to_binary_converter_1a4a079ed4a5328e78d98852c12e651c9e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CsvToBinaryConverter.batchLines</definition>
+        <argsstring></argsstring>
+        <name>batchLines</name>
+        <qualifiedname>CsvToBinaryConverter.batchLines</qualifiedname>
+        <initializer>= 10_000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/TestLargeDataLoader.cs" line="14" column="16" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_csv_to_binary_converter_1a955c11f3b12f77425ab572978187734b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CsvToBinaryConverter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CsvToBinaryConverter.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/TestLargeDataLoader.cs" line="16" column="10" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_csv_to_binary_converter_1a3f23d9024940049c6313f768d4e1372a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CsvToBinaryConverter.ConvertCsvToBinary</definition>
+        <argsstring>(Action onComplete)</argsstring>
+        <name>ConvertCsvToBinary</name>
+        <qualifiedname>CsvToBinaryConverter.ConvertCsvToBinary</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/TestLargeDataLoader.cs" line="25" column="25" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="25" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CsvToBinaryConverter</label>
+        <link refid="class_csv_to_binary_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CsvToBinaryConverter</label>
+        <link refid="class_csv_to_binary_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/TestLargeDataLoader.cs" line="7" column="7" bodyfile="DatasetSystem/TestLargeDataLoader.cs" bodystart="8" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_csv_to_binary_converter_1a4a079ed4a5328e78d98852c12e651c9e" prot="public" virt="non-virtual"><scope>CsvToBinaryConverter</scope><name>batchLines</name></member>
+      <member refid="class_csv_to_binary_converter_1a3f2643c5de3a62de0ed95a65088ef43c" prot="private" virt="non-virtual"><scope>CsvToBinaryConverter</scope><name>binPath</name></member>
+      <member refid="class_csv_to_binary_converter_1a3f23d9024940049c6313f768d4e1372a" prot="private" virt="non-virtual"><scope>CsvToBinaryConverter</scope><name>ConvertCsvToBinary</name></member>
+      <member refid="class_csv_to_binary_converter_1ad841914aa46623f31d78cfa8bed90416" prot="private" virt="non-virtual"><scope>CsvToBinaryConverter</scope><name>csvPath</name></member>
+      <member refid="class_csv_to_binary_converter_1a955c11f3b12f77425ab572978187734b" prot="private" virt="non-virtual"><scope>CsvToBinaryConverter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

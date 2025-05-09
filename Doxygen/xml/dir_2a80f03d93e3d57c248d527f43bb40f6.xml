@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_2a80f03d93e3d57c248d527f43bb40f6" kind="dir">
+    <compoundname>New DatasetMetadataManagement</compoundname>
+    <innerfile refid="_dataset_metadata___new_8cs">DatasetMetadata_New.cs</innerfile>
+    <innerfile refid="_dataset_metadata_manager___j_s_o_n_8cs">DatasetMetadataManager_JSON.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="New DatasetMetadataManagement/"/>
+  </compounddef>
+</doxygen>

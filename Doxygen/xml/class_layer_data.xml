@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_layer_data" kind="class" language="C#" prot="public">
+    <compoundname>LayerData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_layer_data_1abe4dc1b172b5edf8998f23ef69833395" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LayerData.LayerName</definition>
+        <argsstring></argsstring>
+        <name>LayerName</name>
+        <qualifiedname>LayerData.LayerName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="46" column="19" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_data_1a52392f30c56f55aca00c7e494d4b414d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LayerData.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <qualifiedname>LayerData.FileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="47" column="19" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_data_1af3baf82cf8e4f3ab55d861eb50f340b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LayerData.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <qualifiedname>LayerData.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="48" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_data_1a4d5de28e476d1edebffaef8779bd879d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LayerData.LayerType</definition>
+        <argsstring></argsstring>
+        <name>LayerType</name>
+        <qualifiedname>LayerData.LayerType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="49" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_data_1a0666ed7d36870bdea5b5f6da40d8e000" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_serializable_color" kindref="compound">SerializableColor</ref></type>
+        <definition>SerializableColor LayerData.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>LayerData.Color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="50" column="30" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_layer_data_1ae8432cdbc8ee682fa9e278d4e23ea9cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LayerData.LayerData</definition>
+        <argsstring>()</argsstring>
+        <name>LayerData</name>
+        <qualifiedname>LayerData.LayerData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="53" column="12" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_data_1ac45c19e7eab3d76431ac07700cdf15c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LayerData.LayerData</definition>
+        <argsstring>(string name, string file, int index, int type, Color unityColor)</argsstring>
+        <name>LayerData</name>
+        <qualifiedname>LayerData.LayerData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_layer_data_1a0666ed7d36870bdea5b5f6da40d8e000" kindref="member">Color</ref></type>
+          <declname>unityColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="56" column="12" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_data_1a88c6c8753f90c33fa51f31c9f9985861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LayerData.LayerData</definition>
+        <argsstring>(Layer sourceLayer)</argsstring>
+        <name>LayerData</name>
+        <qualifiedname>LayerData.LayerData</qualifiedname>
+        <param>
+          <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+          <declname>sourceLayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="66" column="12" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="66" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_data_1a4c35e8e9c3bc43b15d1f4e8f95184c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+        <definition>Layer LayerData.ToLayerObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToLayerObject</name>
+        <qualifiedname>LayerData.ToLayerObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="89" column="19" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="89" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the data for a single layer to be saved/loaded via JSON. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>LayerData</label>
+        <link refid="class_layer_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Color</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SerializableColor</label>
+        <link refid="struct_serializable_color"/>
+      </node>
+    </collaborationgraph>
+    <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="44" column="7" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="45" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_layer_data_1a0666ed7d36870bdea5b5f6da40d8e000" prot="public" virt="non-virtual"><scope>LayerData</scope><name>Color</name></member>
+      <member refid="class_layer_data_1a52392f30c56f55aca00c7e494d4b414d" prot="public" virt="non-virtual"><scope>LayerData</scope><name>FileName</name></member>
+      <member refid="class_layer_data_1af3baf82cf8e4f3ab55d861eb50f340b3" prot="public" virt="non-virtual"><scope>LayerData</scope><name>Index</name></member>
+      <member refid="class_layer_data_1ae8432cdbc8ee682fa9e278d4e23ea9cf" prot="public" virt="non-virtual"><scope>LayerData</scope><name>LayerData</name></member>
+      <member refid="class_layer_data_1ac45c19e7eab3d76431ac07700cdf15c0" prot="public" virt="non-virtual"><scope>LayerData</scope><name>LayerData</name></member>
+      <member refid="class_layer_data_1a88c6c8753f90c33fa51f31c9f9985861" prot="public" virt="non-virtual"><scope>LayerData</scope><name>LayerData</name></member>
+      <member refid="class_layer_data_1abe4dc1b172b5edf8998f23ef69833395" prot="public" virt="non-virtual"><scope>LayerData</scope><name>LayerName</name></member>
+      <member refid="class_layer_data_1a4d5de28e476d1edebffaef8779bd879d" prot="public" virt="non-virtual"><scope>LayerData</scope><name>LayerType</name></member>
+      <member refid="class_layer_data_1a4c35e8e9c3bc43b15d1f4e8f95184c47" prot="public" virt="non-virtual"><scope>LayerData</scope><name>ToLayerObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

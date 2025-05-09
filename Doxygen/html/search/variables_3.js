@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['cellbarcodefilepath_0',['cellBarcodeFilePath',['../class_spatial_dataset.html#aff6a5cf67b135571bf536d0985372f55',1,'SpatialDataset']]],
+  ['cellclustercolumnnameparquet_1',['cellClusterColumnNameParquet',['../class_spatial_dataset.html#a7b6d3c30c741d3497ee92d6c6376554d',1,'SpatialDataset']]],
+  ['cellclusters_2',['cellClusters',['../class_cell_spawner.html#af31c8fb5d0de44200c4c727ffa10f0f6',1,'CellSpawner.cellClusters'],['../class_cell_spawn_manager.html#a6633f115d44dc9d99fa9b1a3d84d264a',1,'CellSpawnManager.cellClusters']]],
+  ['cellcomponentlookup_3',['CellComponentLookup',['../struct_set_cell_data_job.html#ace3b5de422de204e15fcf953ae3d58b8',1,'SetCellDataJob.CellComponentLookup'],['../struct_set_parent_job.html#aa423b4bfacd20e78a9e1dd09fbff1919',1,'SetParentJob.CellComponentLookup']]],
+  ['cellcounttospawn_4',['cellCountToSpawn',['../class_spatial_dataset.html#a5001484c170d22efdf8dfca23ea1c59a',1,'SpatialDataset']]],
+  ['cellentities_5',['CellEntities',['../struct_set_parent_job.html#a8dbdb4151687b68e3e6e059839532bd4',1,'SetParentJob']]],
+  ['cellentityprefab_6',['CellEntityPrefab',['../struct_cell_spawner_component.html#a9bd7ffe03c42f44bf318a49fce8c956d',1,'CellSpawnerComponent']]],
+  ['cellentityprefab_7',['cellEntityPrefab',['../class_cell_spawner.html#a4cbe1508a7da546db1cbba99c34c6b91',1,'CellSpawner']]],
+  ['cellid_8',['CellId',['../struct_cell_component.html#a2736e506f7a70979cd6d731b3d4a3d98',1,'CellComponent.CellId'],['../struct_cell_data.html#a9ac4773c30bb5d4f060de3bffcf0ca59',1,'CellData.CellId']]],
+  ['cellpositions_9',['cellPositions',['../class_cell_spawner.html#a290399e3f9e5ad4693371a99eadf9b79',1,'CellSpawner.cellPositions'],['../class_cell_spawn_manager.html#a519889180ca7cafa50d27f6432535214',1,'CellSpawnManager.cellPositions']]],
+  ['cellprefab_10',['cellPrefab',['../class_cell_spawner_authoring.html#a90441ec235a04d0d245438d8e88056df',1,'CellSpawnerAuthoring']]],
+  ['cells_11',['Cells',['../class_spatial_dataset.html#a7615202f0c0b151d9d35931a2ec9f40a',1,'SpatialDataset']]],
+  ['cellsquare_12',['cellSquare',['../class_spatial_dataset.html#a96fc91d730696f1b9a69fc39c733d4ad',1,'SpatialDataset']]],
+  ['clustercount_13',['ClusterCount',['../class_dataset_metadata_container.html#adf5a58aa62bd8ad62d1a4d283a85c1b3',1,'DatasetMetadataContainer']]],
+  ['clustercount_14',['clusterCount',['../class_dataset_metadata.html#a11f99ff52e043a42aabef66a0b21bd02',1,'DatasetMetadata.clusterCount'],['../class_cell_spawn_manager.html#a2f249f2ed806c670b23f20375dacd6b6',1,'CellSpawnManager.clusterCount']]],
+  ['clusterentities_15',['ClusterEntities',['../struct_set_parent_job.html#a61e0ea12d5e1a448c77b33fe92df4140',1,'SetParentJob']]],
+  ['clusterentityprefab_16',['ClusterEntityPrefab',['../struct_cell_spawner_component.html#aac9f4a12d959a860e1ccfb3baaf3ba88',1,'CellSpawnerComponent']]],
+  ['clusterid_17',['ClusterId',['../struct_cell_component.html#a00a59968908cb10a01091df22fae662b',1,'CellComponent.ClusterId'],['../struct_cell_data.html#a4fd5685517a62d3f10bc9918cdac76f4',1,'CellData.ClusterId']]],
+  ['clusterids_18',['ClusterIDs',['../class_spatial_dataset.html#ad65a699637373832a097480c78bfb1e1',1,'SpatialDataset']]],
+  ['clusterparententityprefab_19',['ClusterParentEntityPrefab',['../struct_cell_spawner_component.html#a73d746d9c791b1c361d684417a2b1519',1,'CellSpawnerComponent']]],
+  ['clusterparentprefab_20',['clusterParentPrefab',['../class_cell_spawner_authoring.html#ac34bc09c7894efbfba67d0090528c1bf',1,'CellSpawnerAuthoring']]],
+  ['clusterprefab_21',['clusterPrefab',['../class_cell_spawner_authoring.html#a2691496943c1ce152827e6daeab5c04e',1,'CellSpawnerAuthoring']]],
+  ['clusters_22',['Clusters',['../class_spatial_dataset.html#add9dd87f69cf93ccf88f9976280b1250',1,'SpatialDataset']]],
+  ['clustertospawn_23',['ClusterToSpawn',['../class_spatial_dataset.html#ac64bda6fc542c6b248e421fc1423c360',1,'SpatialDataset']]],
+  ['color_24',['Color',['../class_layer.html#a3f38fe47fa6b99e74582dcd7652a7e11',1,'Layer.Color'],['../class_layer_data.html#a0666ed7d36870bdea5b5f6da40d8e000',1,'LayerData.Color']]]
+];

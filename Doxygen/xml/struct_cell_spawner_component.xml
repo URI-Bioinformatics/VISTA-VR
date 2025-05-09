@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_cell_spawner_component" kind="struct" language="C#" prot="public">
+    <compoundname>CellSpawnerComponent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComponentData</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_cell_spawner_component_1a9bd7ffe03c42f44bf318a49fce8c956d" prot="public" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnerComponent.CellEntityPrefab</definition>
+        <argsstring></argsstring>
+        <name>CellEntityPrefab</name>
+        <qualifiedname>CellSpawnerComponent.CellEntityPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="15" column="19" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_cell_spawner_component_1aac9f4a12d959a860e1ccfb3baaf3ba88" prot="public" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnerComponent.ClusterEntityPrefab</definition>
+        <argsstring></argsstring>
+        <name>ClusterEntityPrefab</name>
+        <qualifiedname>CellSpawnerComponent.ClusterEntityPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="16" column="19" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_cell_spawner_component_1a73d746d9c791b1c361d684417a2b1519" prot="public" static="no" mutable="no">
+        <type>Entity</type>
+        <definition>Entity CellSpawnerComponent.ClusterParentEntityPrefab</definition>
+        <argsstring></argsstring>
+        <name>ClusterParentEntityPrefab</name>
+        <qualifiedname>CellSpawnerComponent.ClusterParentEntityPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="17" column="19" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CellSpawnerComponent</label>
+        <link refid="struct_cell_spawner_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComponentData</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CellSpawnerComponent</label>
+        <link refid="struct_cell_spawner_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComponentData</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="13" column="7" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="14" bodyend="18"/>
+    <listofallmembers>
+      <member refid="struct_cell_spawner_component_1a9bd7ffe03c42f44bf318a49fce8c956d" prot="public" virt="non-virtual"><scope>CellSpawnerComponent</scope><name>CellEntityPrefab</name></member>
+      <member refid="struct_cell_spawner_component_1aac9f4a12d959a860e1ccfb3baaf3ba88" prot="public" virt="non-virtual"><scope>CellSpawnerComponent</scope><name>ClusterEntityPrefab</name></member>
+      <member refid="struct_cell_spawner_component_1a73d746d9c791b1c361d684417a2b1519" prot="public" virt="non-virtual"><scope>CellSpawnerComponent</scope><name>ClusterParentEntityPrefab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

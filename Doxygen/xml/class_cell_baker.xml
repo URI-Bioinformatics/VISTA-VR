@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cell_baker" kind="class" language="C#" prot="public">
+    <compoundname>CellBaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Baker</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cell_baker_1ac30fd792fa6bedb336922abb1cc848f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CellBaker.Bake</definition>
+        <argsstring>(CellAuthoring authoring)</argsstring>
+        <name>Bake</name>
+        <qualifiedname>CellBaker.Bake</qualifiedname>
+        <param>
+          <type><ref refid="class_cell_authoring" kindref="compound">CellAuthoring</ref></type>
+          <declname>authoring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellAuthoring.cs" line="15" column="26" bodyfile="DatasetSystem/ECS_WIP/CellAuthoring.cs" bodystart="15" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Baker&lt; CellAuthoring &gt;</label>
+      </node>
+      <node id="1">
+        <label>CellBaker</label>
+        <link refid="class_cell_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Baker&lt; CellAuthoring &gt;</label>
+      </node>
+      <node id="1">
+        <label>CellBaker</label>
+        <link refid="class_cell_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/CellAuthoring.cs" line="13" column="7" bodyfile="DatasetSystem/ECS_WIP/CellAuthoring.cs" bodystart="14" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_cell_baker_1ac30fd792fa6bedb336922abb1cc848f2" prot="public" virt="non-virtual"><scope>CellBaker</scope><name>Bake</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_csv_data_loader" kind="class" language="C#" prot="public">
+    <compoundname>CsvDataLoader</compoundname>
+    <innerclass refid="struct_csv_data_loader_1_1_record" prot="public">CsvDataLoader::Record</innerclass>
+    <innerclass refid="struct_csv_data_loader_1_1_search_job" prot="public">CsvDataLoader::SearchJob</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_csv_data_loader_1a605a6911b781294a4528199b8a6ca6a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CsvDataLoader.LoadCsv</definition>
+        <argsstring>(string csvPath, out NativeArray&lt; Record &gt; records, out NativeArray&lt; byte &gt; buffer, Allocator allocator=Allocator.Persistent)</argsstring>
+        <name>LoadCsv</name>
+        <qualifiedname>CsvDataLoader.LoadCsv</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>csvPath</declname>
+        </param>
+        <param>
+          <type>out NativeArray&lt; <ref refid="struct_csv_data_loader_1_1_record" kindref="compound">Record</ref> &gt;</type>
+          <declname>records</declname>
+        </param>
+        <param>
+          <type>out NativeArray&lt; byte &gt;</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>Allocator</type>
+          <declname>allocator</declname>
+          <defval>Allocator.Persistent</defval>
+        </param>
+        <briefdescription>
+<para>Reads a CSV where lines are: barcode, nucleotideSequence, proteinSequence (no embedded commas). All text is assumed ASCII. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="27" column="24" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="27" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_csv_data_loader_1af541723b67273cb0a1076ba52fbd79d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CsvDataLoader.SaveBinary</definition>
+        <argsstring>(string binPath, NativeArray&lt; Record &gt; records, NativeArray&lt; byte &gt; buffer)</argsstring>
+        <name>SaveBinary</name>
+        <qualifiedname>CsvDataLoader.SaveBinary</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>binPath</declname>
+        </param>
+        <param>
+          <type>NativeArray&lt; <ref refid="struct_csv_data_loader_1_1_record" kindref="compound">Record</ref> &gt;</type>
+          <declname>records</declname>
+        </param>
+        <param>
+          <type>NativeArray&lt; byte &gt;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Saves the two arrays into a compact .bin file: [int recordCount][int bufferLength] then that many Records, then that many bytes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="85" column="24" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="85" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_csv_data_loader_1af962d6d75be2d04494e5d363cc1c62e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CsvDataLoader.LoadBinary</definition>
+        <argsstring>(string binPath, out NativeArray&lt; Record &gt; records, out NativeArray&lt; byte &gt; buffer, Allocator allocator=Allocator.Persistent)</argsstring>
+        <name>LoadBinary</name>
+        <qualifiedname>CsvDataLoader.LoadBinary</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>binPath</declname>
+        </param>
+        <param>
+          <type>out NativeArray&lt; <ref refid="struct_csv_data_loader_1_1_record" kindref="compound">Record</ref> &gt;</type>
+          <declname>records</declname>
+        </param>
+        <param>
+          <type>out NativeArray&lt; byte &gt;</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>Allocator</type>
+          <declname>allocator</declname>
+          <defval>Allocator.Persistent</defval>
+        </param>
+        <briefdescription>
+<para>Loads back the .bin into new NativeArrays. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="113" column="24" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="113" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_csv_data_loader_1ad1c0fe4dbcd1df1f6bf3bd29c7b21e81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NativeArray&lt; byte &gt;</type>
+        <definition>static NativeArray&lt; byte &gt; CsvDataLoader.StringToBytes</definition>
+        <argsstring>(string s, Allocator alloc)</argsstring>
+        <name>StringToBytes</name>
+        <qualifiedname>CsvDataLoader.StringToBytes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Allocator</type>
+          <declname>alloc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="188" column="31" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="188" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetSystem/CsvDataLoader.cs" line="10" column="15" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="11" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_csv_data_loader_1af962d6d75be2d04494e5d363cc1c62e7" prot="public" virt="non-virtual"><scope>CsvDataLoader</scope><name>LoadBinary</name></member>
+      <member refid="class_csv_data_loader_1a605a6911b781294a4528199b8a6ca6a0" prot="public" virt="non-virtual"><scope>CsvDataLoader</scope><name>LoadCsv</name></member>
+      <member refid="class_csv_data_loader_1af541723b67273cb0a1076ba52fbd79d3" prot="public" virt="non-virtual"><scope>CsvDataLoader</scope><name>SaveBinary</name></member>
+      <member refid="class_csv_data_loader_1ad1c0fe4dbcd1df1f6bf3bd29c7b21e81" prot="public" virt="non-virtual"><scope>CsvDataLoader</scope><name>StringToBytes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_set_parent_job_8cs" kind="file" language="C#">
+    <compoundname>SetParentJob.cs</compoundname>
+    <innerclass refid="struct_set_parent_job" prot="public">SetParentJob</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Scripts/ECS/Jobs/SetParentJob.cs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Unity.Burst;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Unity.Collections;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Unity.Entities;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Unity.Jobs;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Unity.Transforms;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;<sp/></highlight><highlight class="comment">//<sp/>Required<sp/>for<sp/>Parent<sp/>component</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>using<sp/>UnityEngine;<sp/>//<sp/>No<sp/>longer<sp/>needed<sp/>for<sp/>Debug</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[BurstCompile]</highlight></codeline>
+<codeline lineno="11" refid="struct_set_parent_job" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_set_parent_job" kindref="compound">SetParentJob</ref><sp/>:<sp/>IJobParallelFor</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Input<sp/>data<sp/>(read-only)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>[ReadOnly]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>NativeArray&lt;Entity&gt;<sp/><ref refid="struct_set_parent_job_1a8dbdb4151687b68e3e6e059839532bd4" kindref="member">CellEntities</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>[ReadOnly]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>NativeArray&lt;Entity&gt;<sp/><ref refid="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" kindref="member">ClusterEntities</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[ReadOnly]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ComponentLookup&lt;CellComponent&gt;<sp/><ref refid="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" kindref="member">CellComponentLookup</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>[ReadOnly]<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>BufferLookup&lt;LinkedEntityGroup&gt;<sp/><ref refid="struct_set_parent_job_1ae537d3cfd2908886f3c43e49b44ce5e8" kindref="member">LinkedEntityGroupLookup</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Command<sp/>buffer<sp/>for<sp/>structural<sp/>changes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>EntityCommandBuffer.ParallelWriter<sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Removed<sp/>Manual<sp/>LEG<sp/>Management<sp/>---</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>public<sp/>BufferLookup&lt;LinkedEntityGroup&gt;<sp/>LinkedEntityGroupLookup;<sp/>//<sp/>REMOVED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>End<sp/>Removed<sp/>---</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_set_parent_job_1a236c6007e22b0ed9e7d74976f6148d97" kindref="member">Execute</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity<sp/>cellEntity<sp/>=<sp/><ref refid="struct_set_parent_job_1a8dbdb4151687b68e3e6e059839532bd4" kindref="member">CellEntities</ref>[index];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>ClusterId<sp/>from<sp/>the<sp/>cell&apos;s<sp/>component</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" kindref="member">CellComponentLookup</ref>.HasComponent(cellEntity))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Consider<sp/>logging<sp/>this<sp/>error<sp/>via<sp/>a<sp/>separate<sp/>mechanism<sp/>if<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Skip<sp/>if<sp/>cell<sp/>component<sp/>is<sp/>missing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_cell_component" kindref="compound">CellComponent</ref><sp/>cellData<sp/>=<sp/><ref refid="struct_set_parent_job_1aa423b4bfacd20e78a9e1dd09fbff1919" kindref="member">CellComponentLookup</ref>[cellEntity];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId<sp/>=<sp/>cellData.<ref refid="struct_cell_component_1a00a59968908cb10a01091df22fae662b" kindref="member">ClusterId</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Validate<sp/>the<sp/>cluster<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(clusterId<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>clusterId<sp/>&lt;<sp/><ref refid="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" kindref="member">ClusterEntities</ref>.Length)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entity<sp/>parentClusterEntity<sp/>=<sp/><ref refid="struct_set_parent_job_1a61e0ea12d5e1a448c77b33fe92df4140" kindref="member">ClusterEntities</ref>[clusterId];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>Parent<sp/>component<sp/>to<sp/>the<sp/>cell<sp/>entity<sp/>via<sp/>ECB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>only<sp/>structural<sp/>change<sp/>this<sp/>job<sp/>should<sp/>make.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AddComponent(index,<sp/>cellEntity,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Parent<sp/>{<sp/>Value<sp/>=<sp/>parentClusterEntity<sp/>});</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AppendToBuffer(index,<sp/>cellEntity,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LinkedEntityGroup<sp/>{Value<sp/>=<sp/>parentClusterEntity});</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ECB.AppendToBuffer(index,<sp/>parentClusterEntity,<sp/>new<sp/>LinkedEntityGroup<sp/>{Value<sp/>=<sp/>cellEntity});</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_set_parent_job_1ae537d3cfd2908886f3c43e49b44ce5e8" kindref="member">LinkedEntityGroupLookup</ref>.HasBuffer(parentClusterEntity))</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debug.Log(&quot;Adding<sp/>buffer&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AppendToBuffer(index,<sp/>parentClusterEntity,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LinkedEntityGroup<sp/>{Value<sp/>=<sp/>cellEntity});</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debug.Log(&quot;Creating<sp/>and<sp/>Adding<sp/>buffer&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AddBuffer&lt;LinkedEntityGroup&gt;(index,<sp/>parentClusterEntity);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AppendToBuffer(index,<sp/>parentClusterEntity,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LinkedEntityGroup<sp/>{Value<sp/>=<sp/>parentClusterEntity});</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_set_parent_job_1ac28d4892ea161d47aa4297a32badf464" kindref="member">ECB</ref>.AppendToBuffer(index,<sp/>parentClusterEntity,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LinkedEntityGroup<sp/>{Value<sp/>=<sp/>cellEntity});</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>else:<sp/>Handle<sp/>invalid<sp/>cluster<sp/>IDs<sp/>if<sp/>necessary<sp/>(e.g.,<sp/>log<sp/>via<sp/>separate<sp/>mechanism)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DatasetSystem/ECS_WIP/SetParentJob.cs"/>
+  </compounddef>
+</doxygen>

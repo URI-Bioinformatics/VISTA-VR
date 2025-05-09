@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_filebrowser" kind="class" language="C#" prot="public">
+    <compoundname>DatasetFilebrowser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dataset_filebrowser_1a96d229d50c17112ddbc820927bbf071e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spatial_dataset" kindref="compound">SpatialDataset</ref></type>
+        <definition>SpatialDataset DatasetFilebrowser.loadedDataset</definition>
+        <argsstring></argsstring>
+        <name>loadedDataset</name>
+        <qualifiedname>DatasetFilebrowser.loadedDataset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/DatasetFilebrowser.cs" line="12" column="24" bodyfile="DatasetSystem/DatasetFilebrowser.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dataset_filebrowser_1aa0f7295d4d95cce64c517437d58d5c8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetFilebrowser.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>DatasetFilebrowser.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/DatasetFilebrowser.cs" line="15" column="6" bodyfile="DatasetSystem/DatasetFilebrowser.cs" bodystart="15" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_filebrowser_1a759b8492f614f5354123f17a1a165944" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator DatasetFilebrowser.ShowLoadDialogCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>ShowLoadDialogCoroutine</name>
+        <qualifiedname>DatasetFilebrowser.ShowLoadDialogCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/DatasetFilebrowser.cs" line="65" column="13" bodyfile="DatasetSystem/DatasetFilebrowser.cs" bodystart="65" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_filebrowser_1a88818aa4b68e574ba177244f84129cce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetFilebrowser.OnFilesSelected</definition>
+        <argsstring>(string[] filePaths)</argsstring>
+        <name>OnFilesSelected</name>
+        <qualifiedname>DatasetFilebrowser.OnFilesSelected</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>filePaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/DatasetFilebrowser.cs" line="81" column="6" bodyfile="DatasetSystem/DatasetFilebrowser.cs" bodystart="81" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DatasetFilebrowser</label>
+        <link refid="class_dataset_filebrowser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DatasetFilebrowser</label>
+        <link refid="class_dataset_filebrowser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/DatasetFilebrowser.cs" line="7" column="7" bodyfile="DatasetSystem/DatasetFilebrowser.cs" bodystart="8" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_dataset_filebrowser_1a96d229d50c17112ddbc820927bbf071e" prot="private" virt="non-virtual"><scope>DatasetFilebrowser</scope><name>loadedDataset</name></member>
+      <member refid="class_dataset_filebrowser_1a88818aa4b68e574ba177244f84129cce" prot="private" virt="non-virtual"><scope>DatasetFilebrowser</scope><name>OnFilesSelected</name></member>
+      <member refid="class_dataset_filebrowser_1a759b8492f614f5354123f17a1a165944" prot="private" virt="non-virtual"><scope>DatasetFilebrowser</scope><name>ShowLoadDialogCoroutine</name></member>
+      <member refid="class_dataset_filebrowser_1aa0f7295d4d95cce64c517437d58d5c8c" prot="private" virt="non-virtual"><scope>DatasetFilebrowser</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

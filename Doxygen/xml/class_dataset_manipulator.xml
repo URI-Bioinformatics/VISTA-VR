@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_manipulator" kind="class" language="C#" prot="public">
+    <compoundname>DatasetManipulator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dataset_manipulator_1a6338515dc80ca3e4ba1935dd450115f7" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject DatasetManipulator.targetObject</definition>
+        <argsstring></argsstring>
+        <name>targetObject</name>
+        <qualifiedname>DatasetManipulator.targetObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="7" column="23" bodyfile="DatasetManipulator.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_manipulator_1a3bca56bd1a639c2dfaa553556280d85f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DatasetManipulator.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <qualifiedname>DatasetManipulator.rotationSpeed</qualifiedname>
+        <initializer>= 150f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="15" column="18" bodyfile="DatasetManipulator.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_manipulator_1a241e0fb4aab49dedf99db1c773c74a60" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DatasetManipulator.translationSpeed</definition>
+        <argsstring></argsstring>
+        <name>translationSpeed</name>
+        <qualifiedname>DatasetManipulator.translationSpeed</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="17" column="18" bodyfile="DatasetManipulator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_manipulator_1aaee98228fc94b17b667004b6609808e4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DatasetManipulator.zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <qualifiedname>DatasetManipulator.zoomSpeed</qualifiedname>
+        <initializer>= 500f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="19" column="18" bodyfile="DatasetManipulator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dataset_manipulator_1a1bed556dbfe89f2883f899579eb834bb" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera DatasetManipulator.mainCamera</definition>
+        <argsstring></argsstring>
+        <name>mainCamera</name>
+        <qualifiedname>DatasetManipulator.mainCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="11" column="21" bodyfile="DatasetManipulator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_manipulator_1a79a6c57c73d219a7907f699b3b239119" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform DatasetManipulator.targetTransform</definition>
+        <argsstring></argsstring>
+        <name>targetTransform</name>
+        <qualifiedname>DatasetManipulator.targetTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="22" column="23" bodyfile="DatasetManipulator.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dataset_manipulator_1a1a938ab40ae1114f4a501749d670df7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetManipulator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>DatasetManipulator.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="24" column="10" bodyfile="DatasetManipulator.cs" bodystart="24" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_manipulator_1a6047cf3ab4e9754487e0044eb22235a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetManipulator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>DatasetManipulator.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="58" column="10" bodyfile="DatasetManipulator.cs" bodystart="58" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_manipulator_1a26135b31e8d62a81d3e6741ba0881772" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetManipulator.HandleRotation</definition>
+        <argsstring>()</argsstring>
+        <name>HandleRotation</name>
+        <qualifiedname>DatasetManipulator.HandleRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="79" column="10" bodyfile="DatasetManipulator.cs" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_manipulator_1ad8553aa7333afe7424f7cc7cc84e433e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetManipulator.HandleTranslation</definition>
+        <argsstring>()</argsstring>
+        <name>HandleTranslation</name>
+        <qualifiedname>DatasetManipulator.HandleTranslation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="88" column="10" bodyfile="DatasetManipulator.cs" bodystart="88" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_manipulator_1aa8b62513dcd5da5d52d4832e51369123" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DatasetManipulator.HandleZoom</definition>
+        <argsstring>()</argsstring>
+        <name>HandleZoom</name>
+        <qualifiedname>DatasetManipulator.HandleZoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetManipulator.cs" line="101" column="10" bodyfile="DatasetManipulator.cs" bodystart="101" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DatasetManipulator</label>
+        <link refid="class_dataset_manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DatasetManipulator</label>
+        <link refid="class_dataset_manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetManipulator.cs" line="3" column="7" bodyfile="DatasetManipulator.cs" bodystart="4" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_dataset_manipulator_1a26135b31e8d62a81d3e6741ba0881772" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>HandleRotation</name></member>
+      <member refid="class_dataset_manipulator_1ad8553aa7333afe7424f7cc7cc84e433e" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>HandleTranslation</name></member>
+      <member refid="class_dataset_manipulator_1aa8b62513dcd5da5d52d4832e51369123" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>HandleZoom</name></member>
+      <member refid="class_dataset_manipulator_1a1bed556dbfe89f2883f899579eb834bb" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>mainCamera</name></member>
+      <member refid="class_dataset_manipulator_1a3bca56bd1a639c2dfaa553556280d85f" prot="public" virt="non-virtual"><scope>DatasetManipulator</scope><name>rotationSpeed</name></member>
+      <member refid="class_dataset_manipulator_1a1a938ab40ae1114f4a501749d670df7b" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>Start</name></member>
+      <member refid="class_dataset_manipulator_1a6338515dc80ca3e4ba1935dd450115f7" prot="public" virt="non-virtual"><scope>DatasetManipulator</scope><name>targetObject</name></member>
+      <member refid="class_dataset_manipulator_1a79a6c57c73d219a7907f699b3b239119" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>targetTransform</name></member>
+      <member refid="class_dataset_manipulator_1a241e0fb4aab49dedf99db1c773c74a60" prot="public" virt="non-virtual"><scope>DatasetManipulator</scope><name>translationSpeed</name></member>
+      <member refid="class_dataset_manipulator_1a6047cf3ab4e9754487e0044eb22235a2" prot="private" virt="non-virtual"><scope>DatasetManipulator</scope><name>Update</name></member>
+      <member refid="class_dataset_manipulator_1aaee98228fc94b17b667004b6609808e4" prot="public" virt="non-virtual"><scope>DatasetManipulator</scope><name>zoomSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

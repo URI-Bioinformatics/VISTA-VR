@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_metadata_container" kind="class" language="C#" prot="public">
+    <compoundname>DatasetMetadataContainer</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dataset_metadata_container_1aaf9ab0b0f7a883587d2427cc053fd044" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DatasetMetadataContainer.DatasetName</definition>
+        <argsstring></argsstring>
+        <name>DatasetName</name>
+        <qualifiedname>DatasetMetadataContainer.DatasetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="111" column="19" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_container_1a13f5fc015d988396f659bc6739e7f1d3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatasetMetadataContainer.LayerResolution</definition>
+        <argsstring></argsstring>
+        <name>LayerResolution</name>
+        <qualifiedname>DatasetMetadataContainer.LayerResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="112" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_container_1a62179dd90832860c208afb63cf1969cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DatasetMetadataContainer.NormalizationFactor</definition>
+        <argsstring></argsstring>
+        <name>NormalizationFactor</name>
+        <qualifiedname>DatasetMetadataContainer.NormalizationFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="113" column="18" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_container_1adf5a58aa62bd8ad62d1a4d283a85c1b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatasetMetadataContainer.ClusterCount</definition>
+        <argsstring></argsstring>
+        <name>ClusterCount</name>
+        <qualifiedname>DatasetMetadataContainer.ClusterCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="114" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_container_1a89a24f7f3404781e59f230f14c98b5d0" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_layer_data" kindref="compound">LayerData</ref> &gt;</type>
+        <definition>List&lt;LayerData&gt; DatasetMetadataContainer.Layers</definition>
+        <argsstring></argsstring>
+        <name>Layers</name>
+        <qualifiedname>DatasetMetadataContainer.Layers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="118" column="17" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dataset_metadata_container_1acef0f8f952ad5a63c0aa69d0078aa057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DatasetMetadataContainer.DatasetMetadataContainer</definition>
+        <argsstring>()</argsstring>
+        <name>DatasetMetadataContainer</name>
+        <qualifiedname>DatasetMetadataContainer.DatasetMetadataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="121" column="12" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="121" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The main container class that holds all metadata, designed for JSON serialization. This is the object that will be directly converted to/from JSON. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="108" column="7" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="109" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_dataset_metadata_container_1adf5a58aa62bd8ad62d1a4d283a85c1b3" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>ClusterCount</name></member>
+      <member refid="class_dataset_metadata_container_1acef0f8f952ad5a63c0aa69d0078aa057" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>DatasetMetadataContainer</name></member>
+      <member refid="class_dataset_metadata_container_1aaf9ab0b0f7a883587d2427cc053fd044" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>DatasetName</name></member>
+      <member refid="class_dataset_metadata_container_1a13f5fc015d988396f659bc6739e7f1d3" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>LayerResolution</name></member>
+      <member refid="class_dataset_metadata_container_1a89a24f7f3404781e59f230f14c98b5d0" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>Layers</name></member>
+      <member refid="class_dataset_metadata_container_1a62179dd90832860c208afb63cf1969cb" prot="public" virt="non-virtual"><scope>DatasetMetadataContainer</scope><name>NormalizationFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

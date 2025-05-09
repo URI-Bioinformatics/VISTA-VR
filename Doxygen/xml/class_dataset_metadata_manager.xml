@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_metadata_manager" kind="class" language="C#" prot="public">
+    <compoundname>DatasetMetadataManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dataset_metadata_manager_1a690f20e4468c1d7dac10e8a620e223f6" prot="private" static="yes" mutable="no">
+        <type>const char</type>
+        <definition>const char DatasetMetadataManager.KeyValueSeparator</definition>
+        <argsstring></argsstring>
+        <name>KeyValueSeparator</name>
+        <qualifiedname>DatasetMetadataManager.KeyValueSeparator</qualifiedname>
+        <initializer>= &apos;:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadataManager.cs" line="9" column="24" bodyfile="DatasetMetadataManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_manager_1abb61f03d3daa6ce985bc7f4aa7496115" prot="private" static="yes" mutable="no">
+        <type>const char</type>
+        <definition>const char DatasetMetadataManager.ListSeparatorInt</definition>
+        <argsstring></argsstring>
+        <name>ListSeparatorInt</name>
+        <qualifiedname>DatasetMetadataManager.ListSeparatorInt</qualifiedname>
+        <initializer>= &apos;,&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadataManager.cs" line="10" column="24" bodyfile="DatasetMetadataManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_manager_1aad3288d4ab222a8f5f8e44793f5c43b0" prot="private" static="yes" mutable="no">
+        <type>const char</type>
+        <definition>const char DatasetMetadataManager.ListSeparatorString</definition>
+        <argsstring></argsstring>
+        <name>ListSeparatorString</name>
+        <qualifiedname>DatasetMetadataManager.ListSeparatorString</qualifiedname>
+        <initializer>= &apos;|&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadataManager.cs" line="11" column="24" bodyfile="DatasetMetadataManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dataset_metadata_manager_1a78b35388814aa1e4070fe0cc1237d9ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DatasetMetadataManager.SaveMetadata</definition>
+        <argsstring>(DatasetMetadata metadata, string filePath)</argsstring>
+        <name>SaveMetadata</name>
+        <qualifiedname>DatasetMetadataManager.SaveMetadata</qualifiedname>
+        <param>
+          <type><ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref></type>
+          <declname>metadata</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>Saves the provided <ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref> object to a text file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>metadata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref> object containing the values to save.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the file where metadata will be saved.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if saving was successful, false otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadataManager.cs" line="19" column="24" bodyfile="DatasetMetadataManager.cs" bodystart="19" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_metadata_manager_1a4107ada5096fb6f957138905427b9168" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref></type>
+        <definition>static DatasetMetadata DatasetMetadataManager.LoadMetadata</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>LoadMetadata</name>
+        <qualifiedname>DatasetMetadataManager.LoadMetadata</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>Loads metadata from a text file into a new <ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the metadata file.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A populated <ref refid="class_dataset_metadata" kindref="compound">DatasetMetadata</ref> object, or a new one with default values if the file doesn&apos;t exist or an error occurs.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadataManager.cs" line="95" column="35" bodyfile="DatasetMetadataManager.cs" bodystart="95" bodyend="238"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetMetadataManager.cs" line="7" column="15" bodyfile="DatasetMetadataManager.cs" bodystart="8" bodyend="239"/>
+    <listofallmembers>
+      <member refid="class_dataset_metadata_manager_1a690f20e4468c1d7dac10e8a620e223f6" prot="private" virt="non-virtual"><scope>DatasetMetadataManager</scope><name>KeyValueSeparator</name></member>
+      <member refid="class_dataset_metadata_manager_1abb61f03d3daa6ce985bc7f4aa7496115" prot="private" virt="non-virtual"><scope>DatasetMetadataManager</scope><name>ListSeparatorInt</name></member>
+      <member refid="class_dataset_metadata_manager_1aad3288d4ab222a8f5f8e44793f5c43b0" prot="private" virt="non-virtual"><scope>DatasetMetadataManager</scope><name>ListSeparatorString</name></member>
+      <member refid="class_dataset_metadata_manager_1a4107ada5096fb6f957138905427b9168" prot="public" virt="non-virtual"><scope>DatasetMetadataManager</scope><name>LoadMetadata</name></member>
+      <member refid="class_dataset_metadata_manager_1a78b35388814aa1e4070fe0cc1237d9ad" prot="public" virt="non-virtual"><scope>DatasetMetadataManager</scope><name>SaveMetadata</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

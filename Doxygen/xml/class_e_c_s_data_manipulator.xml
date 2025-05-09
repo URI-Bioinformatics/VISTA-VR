@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_e_c_s_data_manipulator" kind="class" language="C#" prot="public">
+    <compoundname>ECSDataManipulator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_e_c_s_data_manipulator_1aa9810f306559a9c56be65cc4c0f4da3c" prot="private" static="no" mutable="no">
+        <type>EntityManager</type>
+        <definition>EntityManager ECSDataManipulator.entityManager</definition>
+        <argsstring></argsstring>
+        <name>entityManager</name>
+        <qualifiedname>ECSDataManipulator.entityManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="12" column="27" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_c_s_data_manipulator_1a5a48035673ee297b880c377ef6788c1f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ECSDataManipulator.isInitialized</definition>
+        <argsstring></argsstring>
+        <name>isInitialized</name>
+        <qualifiedname>ECSDataManipulator.isInitialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="13" column="18" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_e_c_s_data_manipulator_1ad63b11b1a88f054e345b9d2fd8fa7a12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECSDataManipulator.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ECSDataManipulator.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="15" column="18" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="15" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_data_manipulator_1ae1123f373cca826e5d9c09cfe98c7686" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECSDataManipulator.SendControlRequest</definition>
+        <argsstring>(int targetIndex, bool enable)</argsstring>
+        <name>SendControlRequest</name>
+        <qualifiedname>ECSDataManipulator.SendControlRequest</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>targetIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Creates the temporary request entity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="66" column="18" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="66" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_e_c_s_data_manipulator_1a60d6103ac2d8b3a4bb20491610c8ebdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECSDataManipulator.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>ECSDataManipulator.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="29" column="17" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="29" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_data_manipulator_1a7d15c0ad930e2d40dd6d084963a7819f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECSDataManipulator.EnableCluster</definition>
+        <argsstring>(int clusterIndex)</argsstring>
+        <name>EnableCluster</name>
+        <qualifiedname>ECSDataManipulator.EnableCluster</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>clusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Sends a request to enable a specific cluster by its index. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 0-based index of the cluster to enable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="49" column="17" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_e_c_s_data_manipulator_1a2ebe7ec6221de179a724a051f5c25e4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ECSDataManipulator.DisableCluster</definition>
+        <argsstring>(int clusterIndex)</argsstring>
+        <name>DisableCluster</name>
+        <qualifiedname>ECSDataManipulator.DisableCluster</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>clusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Sends a request to disable a specific cluster by its index. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The 0-based index of the cluster to disable.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="58" column="17" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ECSDataManipulator</label>
+        <link refid="class_e_c_s_data_manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ECSDataManipulator</label>
+        <link refid="class_e_c_s_data_manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" line="10" column="7" bodyfile="DatasetSystem/ECS_WIP/ECSDataManipulator.cs" bodystart="11" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_e_c_s_data_manipulator_1a2ebe7ec6221de179a724a051f5c25e4c" prot="public" virt="non-virtual"><scope>ECSDataManipulator</scope><name>DisableCluster</name></member>
+      <member refid="class_e_c_s_data_manipulator_1a7d15c0ad930e2d40dd6d084963a7819f" prot="public" virt="non-virtual"><scope>ECSDataManipulator</scope><name>EnableCluster</name></member>
+      <member refid="class_e_c_s_data_manipulator_1aa9810f306559a9c56be65cc4c0f4da3c" prot="private" virt="non-virtual"><scope>ECSDataManipulator</scope><name>entityManager</name></member>
+      <member refid="class_e_c_s_data_manipulator_1a60d6103ac2d8b3a4bb20491610c8ebdf" prot="public" virt="non-virtual"><scope>ECSDataManipulator</scope><name>Initialize</name></member>
+      <member refid="class_e_c_s_data_manipulator_1a5a48035673ee297b880c377ef6788c1f" prot="private" virt="non-virtual"><scope>ECSDataManipulator</scope><name>isInitialized</name></member>
+      <member refid="class_e_c_s_data_manipulator_1ad63b11b1a88f054e345b9d2fd8fa7a12" prot="private" virt="non-virtual"><scope>ECSDataManipulator</scope><name>OnEnable</name></member>
+      <member refid="class_e_c_s_data_manipulator_1ae1123f373cca826e5d9c09cfe98c7686" prot="private" virt="non-virtual"><scope>ECSDataManipulator</scope><name>SendControlRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

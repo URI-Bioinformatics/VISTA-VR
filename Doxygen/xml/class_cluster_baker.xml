@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cluster_baker" kind="class" language="C#" prot="public">
+    <compoundname>ClusterBaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Baker</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cluster_baker_1a4f9e3d9763deb321f8f2309e090bbef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ClusterBaker.Bake</definition>
+        <argsstring>(ClusterAuthoring authoring)</argsstring>
+        <name>Bake</name>
+        <qualifiedname>ClusterBaker.Bake</qualifiedname>
+        <param>
+          <type><ref refid="class_cluster_authoring" kindref="compound">ClusterAuthoring</ref></type>
+          <declname>authoring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterAuthoring.cs" line="29" column="26" bodyfile="DatasetSystem/ClusterAuthoring.cs" bodystart="29" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>ClusterBaker</label>
+        <link refid="class_cluster_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>ClusterBaker</label>
+        <link refid="class_cluster_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ClusterAuthoring.cs" line="27" column="7" bodyfile="DatasetSystem/ClusterAuthoring.cs" bodystart="28" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_cluster_baker_1a4f9e3d9763deb321f8f2309e090bbef7" prot="public" virt="non-virtual"><scope>ClusterBaker</scope><name>Bake</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

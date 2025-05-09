@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_layer_info_panel" kind="class" language="C#" prot="public">
+    <compoundname>LayerInfoPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_layer_info_panel_1aa05b2051d8d9532f52c154d1d5001efd" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI LayerInfoPanel.LayerNameText</definition>
+        <argsstring></argsstring>
+        <name>LayerNameText</name>
+        <qualifiedname>LayerInfoPanel.LayerNameText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="9" column="30" bodyfile="LayerInfoPanel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_info_panel_1acb09fde4eadc599c853669b6c0fe4a9f" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI LayerInfoPanel.LayerTypeText</definition>
+        <argsstring></argsstring>
+        <name>LayerTypeText</name>
+        <qualifiedname>LayerInfoPanel.LayerTypeText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="10" column="30" bodyfile="LayerInfoPanel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_info_panel_1aa72808bef9cc7ab1373597ee5e6e870e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+        <definition>Layer LayerInfoPanel._selectedLayer</definition>
+        <argsstring></argsstring>
+        <name>_selectedLayer</name>
+        <qualifiedname>LayerInfoPanel._selectedLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="13" column="19" bodyfile="LayerInfoPanel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_layer_info_panel_1ad99c5b6f40edbb2e817e2f17d8f16b37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerInfoPanel.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>LayerInfoPanel.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="15" column="18" bodyfile="LayerInfoPanel.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_info_panel_1aae657bec6824dd3ac4a95f17be4fc4d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerInfoPanel.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>LayerInfoPanel.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="20" column="18" bodyfile="LayerInfoPanel.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_layer_info_panel_1aa9db1666178ab58fed44ed7eae3aa390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerInfoPanel.MoveLayer</definition>
+        <argsstring>(bool up)</argsstring>
+        <name>MoveLayer</name>
+        <qualifiedname>LayerInfoPanel.MoveLayer</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="26" column="17" bodyfile="LayerInfoPanel.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_info_panel_1a3764633c3178a14727651e5a4d3b15c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerInfoPanel.PopulateLayerInfoPanel</definition>
+        <argsstring>(Layer selectedLayer)</argsstring>
+        <name>PopulateLayerInfoPanel</name>
+        <qualifiedname>LayerInfoPanel.PopulateLayerInfoPanel</qualifiedname>
+        <param>
+          <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+          <declname>selectedLayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerInfoPanel.cs" line="34" column="17" bodyfile="LayerInfoPanel.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LayerInfoPanel</label>
+        <link refid="class_layer_info_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LayerInfoPanel</label>
+        <link refid="class_layer_info_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="LayerInfoPanel.cs" line="6" column="7" bodyfile="LayerInfoPanel.cs" bodystart="7" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_layer_info_panel_1aa72808bef9cc7ab1373597ee5e6e870e" prot="private" virt="non-virtual"><scope>LayerInfoPanel</scope><name>_selectedLayer</name></member>
+      <member refid="class_layer_info_panel_1aa05b2051d8d9532f52c154d1d5001efd" prot="private" virt="non-virtual"><scope>LayerInfoPanel</scope><name>LayerNameText</name></member>
+      <member refid="class_layer_info_panel_1acb09fde4eadc599c853669b6c0fe4a9f" prot="private" virt="non-virtual"><scope>LayerInfoPanel</scope><name>LayerTypeText</name></member>
+      <member refid="class_layer_info_panel_1aa9db1666178ab58fed44ed7eae3aa390" prot="public" virt="non-virtual"><scope>LayerInfoPanel</scope><name>MoveLayer</name></member>
+      <member refid="class_layer_info_panel_1aae657bec6824dd3ac4a95f17be4fc4d7" prot="private" virt="non-virtual"><scope>LayerInfoPanel</scope><name>OnDisable</name></member>
+      <member refid="class_layer_info_panel_1ad99c5b6f40edbb2e817e2f17d8f16b37" prot="private" virt="non-virtual"><scope>LayerInfoPanel</scope><name>OnEnable</name></member>
+      <member refid="class_layer_info_panel_1a3764633c3178a14727651e5a4d3b15c4" prot="public" virt="non-virtual"><scope>LayerInfoPanel</scope><name>PopulateLayerInfoPanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_baked_data_layer" kind="class" language="C#" prot="public">
+    <compoundname>BakedDataLayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_baked_data_layer_1a681c130fd9e7e31f6f1a6a72d03946e6" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color BakedDataLayer.Tint</definition>
+        <argsstring></argsstring>
+        <name>Tint</name>
+        <qualifiedname>BakedDataLayer.Tint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/BakedDataLayer.cs" line="5" column="18" bodyfile="DatasetSystem/BakedDataLayer.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baked_data_layer_1ab1e476573347f5052c37c837e2fbe765" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BakedDataLayer.Mat</definition>
+        <argsstring></argsstring>
+        <name>Mat</name>
+        <qualifiedname>BakedDataLayer.Mat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/BakedDataLayer.cs" line="6" column="21" bodyfile="DatasetSystem/BakedDataLayer.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baked_data_layer_1add7936ee8da23290884eef32e80d76a4" prot="public" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture BakedDataLayer.LayerRT</definition>
+        <argsstring></argsstring>
+        <name>LayerRT</name>
+        <qualifiedname>BakedDataLayer.LayerRT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/BakedDataLayer.cs" line="7" column="26" bodyfile="DatasetSystem/BakedDataLayer.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_baked_data_layer_1a9a1ed27427cbdf0e90fd7ebbed242b65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BakedDataLayer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BakedDataLayer.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/BakedDataLayer.cs" line="9" column="10" bodyfile="DatasetSystem/BakedDataLayer.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BakedDataLayer</label>
+        <link refid="class_baked_data_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BakedDataLayer</label>
+        <link refid="class_baked_data_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/BakedDataLayer.cs" line="3" column="7" bodyfile="DatasetSystem/BakedDataLayer.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_baked_data_layer_1add7936ee8da23290884eef32e80d76a4" prot="public" virt="non-virtual"><scope>BakedDataLayer</scope><name>LayerRT</name></member>
+      <member refid="class_baked_data_layer_1ab1e476573347f5052c37c837e2fbe765" prot="public" virt="non-virtual"><scope>BakedDataLayer</scope><name>Mat</name></member>
+      <member refid="class_baked_data_layer_1a9a1ed27427cbdf0e90fd7ebbed242b65" prot="private" virt="non-virtual"><scope>BakedDataLayer</scope><name>Start</name></member>
+      <member refid="class_baked_data_layer_1a681c130fd9e7e31f6f1a6a72d03946e6" prot="public" virt="non-virtual"><scope>BakedDataLayer</scope><name>Tint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

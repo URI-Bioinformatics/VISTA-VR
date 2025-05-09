@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_c_s_v_importer" kind="class" language="C#" prot="public">
+    <compoundname>CSVImporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_c_s_v_importer_1af12e59a5f0ff4a1254763a611b4f2afa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, Vector2 &gt;</type>
+        <definition>static Dictionary&lt; string, Vector2 &gt; CSVImporter.LoadCsvToDictionary</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>LoadCsvToDictionary</name>
+        <qualifiedname>CSVImporter.LoadCsvToDictionary</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a CSV file and converts its data into a dictionary. The CSV file should have a header row and columns in this order: Cell Barcode, X Coordinate, Y Coordinate.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the CSV file.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A dictionary with the cell barcode as the key and a Vector2 containing the X and Y coordinates as the value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CSVImporter.cs" line="16" column="34" bodyfile="DatasetSystem/CSVImporter.cs" bodystart="16" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s_v_importer_1acea9031c1c8e498a625363601f2a2127" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>static Dictionary&lt; string, int &gt; CSVImporter.LoadCsvToClusterDictionary</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>LoadCsvToClusterDictionary</name>
+        <qualifiedname>CSVImporter.LoadCsvToClusterDictionary</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CSVImporter.cs" line="82" column="30" bodyfile="DatasetSystem/CSVImporter.cs" bodystart="82" bodyend="151"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CSVImporter</label>
+        <link refid="class_c_s_v_importer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CSVImporter</label>
+        <link refid="class_c_s_v_importer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/CSVImporter.cs" line="5" column="7" bodyfile="DatasetSystem/CSVImporter.cs" bodystart="6" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_c_s_v_importer_1acea9031c1c8e498a625363601f2a2127" prot="public" virt="non-virtual"><scope>CSVImporter</scope><name>LoadCsvToClusterDictionary</name></member>
+      <member refid="class_c_s_v_importer_1af12e59a5f0ff4a1254763a611b4f2afa" prot="public" virt="non-virtual"><scope>CSVImporter</scope><name>LoadCsvToDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

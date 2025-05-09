@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_transforms_buttons" kind="class" language="C#" prot="public">
+    <compoundname>TransformsButtons</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transforms_buttons_1a07bf79775bb01d19fde8743e75cb18b5" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera TransformsButtons.flatCam</definition>
+        <argsstring></argsstring>
+        <name>flatCam</name>
+        <qualifiedname>TransformsButtons.flatCam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TransformsButtons.cs" line="6" column="19" bodyfile="TransformsButtons.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_transforms_buttons_1a67644473682bbbcdff541c2eb1e0e3a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransformsButtons.ResetView</definition>
+        <argsstring>()</argsstring>
+        <name>ResetView</name>
+        <qualifiedname>TransformsButtons.ResetView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TransformsButtons.cs" line="9" column="17" bodyfile="TransformsButtons.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transforms_buttons_1aa366f14316002b00804eee502b4077fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransformsButtons.TopView</definition>
+        <argsstring>()</argsstring>
+        <name>TopView</name>
+        <qualifiedname>TransformsButtons.TopView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TransformsButtons.cs" line="14" column="17" bodyfile="TransformsButtons.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transforms_buttons_1a16fbe39b2ec413395f93531ecaa61441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransformsButtons.ToggleCamType</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleCamType</name>
+        <qualifiedname>TransformsButtons.ToggleCamType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TransformsButtons.cs" line="19" column="17" bodyfile="TransformsButtons.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformsButtons</label>
+        <link refid="class_transforms_buttons"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransformsButtons</label>
+        <link refid="class_transforms_buttons"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TransformsButtons.cs" line="3" column="7" bodyfile="TransformsButtons.cs" bodystart="4" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_transforms_buttons_1a07bf79775bb01d19fde8743e75cb18b5" prot="public" virt="non-virtual"><scope>TransformsButtons</scope><name>flatCam</name></member>
+      <member refid="class_transforms_buttons_1a67644473682bbbcdff541c2eb1e0e3a1" prot="public" virt="non-virtual"><scope>TransformsButtons</scope><name>ResetView</name></member>
+      <member refid="class_transforms_buttons_1a16fbe39b2ec413395f93531ecaa61441" prot="public" virt="non-virtual"><scope>TransformsButtons</scope><name>ToggleCamType</name></member>
+      <member refid="class_transforms_buttons_1aa366f14316002b00804eee502b4077fd" prot="public" virt="non-virtual"><scope>TransformsButtons</scope><name>TopView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

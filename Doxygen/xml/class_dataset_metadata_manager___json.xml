@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_metadata_manager___json" kind="class" language="C#" prot="public">
+    <compoundname>DatasetMetadataManager_Json</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dataset_metadata_manager___json_1ad736ea4f0ec8c8ac5619e44c773a911b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DatasetMetadataManager_Json.SaveMetadata</definition>
+        <argsstring>(DatasetMetadataContainer metadataContainer, string filePath, bool prettyPrint=true)</argsstring>
+        <name>SaveMetadata</name>
+        <qualifiedname>DatasetMetadataManager_Json.SaveMetadata</qualifiedname>
+        <param>
+          <type><ref refid="class_dataset_metadata_container" kindref="compound">DatasetMetadataContainer</ref></type>
+          <declname>metadataContainer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prettyPrint</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Saves the provided <ref refid="class_dataset_metadata_container" kindref="compound">DatasetMetadataContainer</ref> object to a JSON file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>metadataContainer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The container object with all data to save.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the file where metadata will be saved (e.g., &quot;Assets/Data/MyDataset.json&quot;).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prettyPrint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to format the JSON for human readability.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if saving was successful, false otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" line="15" column="24" bodyfile="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" bodystart="15" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dataset_metadata_manager___json_1a4f453dc7c3fc1eda7d47d6cef3635bbe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_dataset_metadata_container" kindref="compound">DatasetMetadataContainer</ref></type>
+        <definition>static DatasetMetadataContainer DatasetMetadataManager_Json.LoadMetadata</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>LoadMetadata</name>
+        <qualifiedname>DatasetMetadataManager_Json.LoadMetadata</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>Loads metadata from a JSON file into a new <ref refid="class_dataset_metadata_container" kindref="compound">DatasetMetadataContainer</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the JSON metadata file.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A populated <ref refid="class_dataset_metadata_container" kindref="compound">DatasetMetadataContainer</ref> object, or null if the file doesn&apos;t exist or an error occurs during loading/parsing.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" line="81" column="44" bodyfile="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" bodystart="81" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" line="6" column="15" bodyfile="New DatasetMetadataManagement/DatasetMetadataManager_JSON.cs" bodystart="7" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_dataset_metadata_manager___json_1a4f453dc7c3fc1eda7d47d6cef3635bbe" prot="public" virt="non-virtual"><scope>DatasetMetadataManager_Json</scope><name>LoadMetadata</name></member>
+      <member refid="class_dataset_metadata_manager___json_1ad736ea4f0ec8c8ac5619e44c773a911b" prot="public" virt="non-virtual"><scope>DatasetMetadataManager_Json</scope><name>SaveMetadata</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

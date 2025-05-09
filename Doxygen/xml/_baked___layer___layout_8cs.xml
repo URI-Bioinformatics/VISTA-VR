@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_baked___layer___layout_8cs" kind="file" language="C#">
+    <compoundname>Baked_Layer_Layout.cs</compoundname>
+    <innerclass refid="class_baked___layer___layout" prot="public">Baked_Layer_Layout</innerclass>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_unity_engine_1_1_u_i">UnityEngine::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine.UI;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_baked___layer___layout" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_baked___layer___layout" kindref="compound">Baked_Layer_Layout</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref><sp/>=<sp/>Vector3.zero;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0,<sp/>0.5f,<sp/>0);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_baked___layer___layout_1ac626bfa81c538454f2f0340acbece614" kindref="member">OffsetYSlider</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_baked___layer___layout_1a9b7ab7d60d063f91f452eff7edbd130f" kindref="member">OffsetYSlider_ImmersiveVR</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_baked___layer___layout_1a83443a540a34fa961a10ece992903759" kindref="member">ScaleSlider</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_baked___layer___layout_1a355cf7822014f6a4a5c8139593520a3e" kindref="member">ScaleSlider_ImmersiveVR</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/>defaultPos;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/>defaultRot;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1abd1fbc615af03c072af2c92b4f900537" kindref="member">UpdateChildPositions</ref>(<ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref>,<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1ab5a1bedf65e5c795781c5a0eeda8c770" kindref="member">UpdateScale</ref>(<ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaultPos<sp/>=<sp/>transform.localPosition;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaultRot<sp/>=<sp/>transform.localRotation.eulerAngles;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a4040984cc4ede2dffd681df22563377e" kindref="member">UpdateLayerPositions</ref>.AddListener(<ref refid="class_baked___layer___layout_1a6b6a77b5ddc166111211e82cde137683" kindref="member">UpdateChildPositionsE</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a425a8cb9e952b5964e07ef398de50c8d" kindref="member">ResetView</ref>.AddListener(<ref refid="class_baked___layer___layout_1acf915401aafa7b9f24101787a91e11ec" kindref="member">ResetToDefaultPos</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a4ba179bef58bf4be47f928d6c547cdd7" kindref="member">TopView</ref>.AddListener(<ref refid="class_baked___layer___layout_1adfeda4b7b0f4e809bcd469fcc107dc83" kindref="member">SetTopView</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDisable()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a4040984cc4ede2dffd681df22563377e" kindref="member">UpdateLayerPositions</ref>.RemoveListener(<ref refid="class_baked___layer___layout_1a6b6a77b5ddc166111211e82cde137683" kindref="member">UpdateChildPositionsE</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a425a8cb9e952b5964e07ef398de50c8d" kindref="member">ResetView</ref>.RemoveListener(<ref refid="class_baked___layer___layout_1acf915401aafa7b9f24101787a91e11ec" kindref="member">ResetToDefaultPos</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_layer_events" kindref="compound">LayerEvents</ref>.<ref refid="class_layer_events_1a4ba179bef58bf4be47f928d6c547cdd7" kindref="member">TopView</ref>.RemoveListener(<ref refid="class_baked___layer___layout_1adfeda4b7b0f4e809bcd469fcc107dc83" kindref="member">SetTopView</ref>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1abd1fbc615af03c072af2c92b4f900537" kindref="member">UpdateChildPositions</ref>(Vector3<sp/><ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref>,<sp/>Vector3<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>childCount<sp/>=<sp/>transform.childCount;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>childCount;<sp/>i++)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>curChild<sp/>=<sp/>transform.GetChild(i).transform;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curChild.localPosition<sp/>=<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref><sp/>+<sp/>(<ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref><sp/>*<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curChild.localRotation<sp/>=<sp/>Quaternion.Euler(Vector3.zero);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1a6b6a77b5ddc166111211e82cde137683" kindref="member">UpdateChildPositionsE</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>childCount<sp/>=<sp/>transform.childCount;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>childCount;<sp/>i++)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>curChild<sp/>=<sp/>transform.GetChild(i).transform;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curChild.localPosition<sp/>=<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref><sp/>+<sp/>(<ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref><sp/>*<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1ab5a1bedf65e5c795781c5a0eeda8c770" kindref="member">UpdateScale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localScale<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(<ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref>,<sp/><ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref>,<sp/><ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1acf915401aafa7b9f24101787a91e11ec" kindref="member">ResetToDefaultPos</ref>()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localPosition<sp/>=<sp/>defaultPos;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localRotation<sp/>=<sp/>Quaternion.Euler(defaultRot);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1adfeda4b7b0f4e809bcd469fcc107dc83" kindref="member">SetTopView</ref>()</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localPosition<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0,<sp/>1.5f,<sp/>0);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localRotation<sp/>=<sp/>Quaternion.Euler(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(-90,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1a29ea2eba439389f6b98234209dd3f64d" kindref="member">SetOffsetY</ref>()</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_game_manager_1ad3e717f4fb0f378b969f4457de81f23e" kindref="member">Instance</ref>.<ref refid="class_game_manager_1a587537b9a27c4ef87a2e15da4ddfcc76" kindref="member">GameMode</ref><sp/>!=<sp/><ref refid="class_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498f" kindref="member">Mode</ref>.Flat)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>offset.y<sp/>=<sp/><ref refid="class_baked___layer___layout_1a9b7ab7d60d063f91f452eff7edbd130f" kindref="member">OffsetYSlider_ImmersiveVR</ref>.value;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//dataScale<sp/>=<sp/>ScaleSlider_ImmersiveVR.value;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>offset.y<sp/>=<sp/><ref refid="class_baked___layer___layout_1ac626bfa81c538454f2f0340acbece614" kindref="member">OffsetYSlider</ref>.value;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1abd1fbc615af03c072af2c92b4f900537" kindref="member">UpdateChildPositions</ref>(<ref refid="class_baked___layer___layout_1aa6af3a5e3462e5962154f0293356d111" kindref="member">offset</ref>,<sp/><ref refid="class_baked___layer___layout_1a854ea89e4a69fc8b1194f604de1de18a" kindref="member">startPoint</ref>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UpdateScale(dataScale);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_baked___layer___layout_1ac22fa3c6920a36773cbdc801a3229a9d" kindref="member">SetScale</ref>()</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_game_manager_1ad3e717f4fb0f378b969f4457de81f23e" kindref="member">Instance</ref>.<ref refid="class_game_manager_1a587537b9a27c4ef87a2e15da4ddfcc76" kindref="member">GameMode</ref><sp/>!=<sp/><ref refid="class_game_manager" kindref="compound">GameManager</ref>.<ref refid="class_game_manager_1a39966b770e4f2d17b08e17372cf9498f" kindref="member">Mode</ref>.Flat)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//offset.y<sp/>=<sp/>OffsetYSlider_ImmersiveVR.value;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref><sp/>=<sp/><ref refid="class_baked___layer___layout_1a355cf7822014f6a4a5c8139593520a3e" kindref="member">ScaleSlider_ImmersiveVR</ref>.value;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref><sp/>=<sp/><ref refid="class_baked___layer___layout_1a83443a540a34fa961a10ece992903759" kindref="member">ScaleSlider</ref>.value;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UpdateChildPositions(offset,<sp/>startPoint);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_baked___layer___layout_1ab5a1bedf65e5c795781c5a0eeda8c770" kindref="member">UpdateScale</ref>(<ref refid="class_baked___layer___layout_1a8414237f01b4789af51b3f0912904dbc" kindref="member">dataScale</ref>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DatasetSystem/Baked_Layer_Layout.cs"/>
+  </compounddef>
+</doxygen>

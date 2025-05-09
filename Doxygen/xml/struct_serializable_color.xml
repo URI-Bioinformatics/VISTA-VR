@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_serializable_color" kind="struct" language="C#" prot="public">
+    <compoundname>SerializableColor</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_serializable_color_1a1ffa5d1faa40c07729caba2b4f7a77c1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SerializableColor.R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <qualifiedname>SerializableColor.R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="11" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_serializable_color_1adfd134289d340e9330ac6f24758c341b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SerializableColor.G</definition>
+        <argsstring></argsstring>
+        <name>G</name>
+        <qualifiedname>SerializableColor.G</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="12" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_serializable_color_1a147cc24aa46eaf7296446a407a500fed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SerializableColor.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <qualifiedname>SerializableColor.B</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="13" column="16" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_serializable_color_1ac1530f1b8e2abb696e34b39655be1c9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SerializableColor.SerializableColor</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>SerializableColor</name>
+        <qualifiedname>SerializableColor.SerializableColor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="16" column="12" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_serializable_color_1aa345c5b2ec80038378da5b2c4b54bff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color SerializableColor.ToUnityColor</definition>
+        <argsstring>()</argsstring>
+        <name>ToUnityColor</name>
+        <qualifiedname>SerializableColor.ToUnityColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="24" column="18" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_serializable_color_1a3b77d0c451447290c9bf13e0636154e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_serializable_color" kindref="compound">SerializableColor</ref></type>
+        <definition>static SerializableColor SerializableColor.FromUnityColor</definition>
+        <argsstring>(Color unityColor)</argsstring>
+        <name>FromUnityColor</name>
+        <qualifiedname>SerializableColor.FromUnityColor</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>unityColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="30" column="37" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A simple struct to hold RGB color values (0-255) for JSON serialization, as JsonUtility doesn&apos;t handle UnityEngine.Color exactly as needed here. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="New DatasetMetadataManagement/DatasetMetadata_New.cs" line="9" column="7" bodyfile="New DatasetMetadataManagement/DatasetMetadata_New.cs" bodystart="10" bodyend="38"/>
+    <listofallmembers>
+      <member refid="struct_serializable_color_1a147cc24aa46eaf7296446a407a500fed" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>B</name></member>
+      <member refid="struct_serializable_color_1a3b77d0c451447290c9bf13e0636154e5" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>FromUnityColor</name></member>
+      <member refid="struct_serializable_color_1adfd134289d340e9330ac6f24758c341b" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>G</name></member>
+      <member refid="struct_serializable_color_1a1ffa5d1faa40c07729caba2b4f7a77c1" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>R</name></member>
+      <member refid="struct_serializable_color_1ac1530f1b8e2abb696e34b39655be1c9c" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>SerializableColor</name></member>
+      <member refid="struct_serializable_color_1aa345c5b2ec80038378da5b2c4b54bff7" prot="public" virt="non-virtual"><scope>SerializableColor</scope><name>ToUnityColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

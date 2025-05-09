@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_264dea03f9436a16b36cee9bb5fff602" kind="dir">
+    <compoundname>DatasetSystem/ECS_WIP</compoundname>
+    <innerfile refid="_cell_authoring_8cs">CellAuthoring.cs</innerfile>
+    <innerfile refid="_cell_component_8cs">CellComponent.cs</innerfile>
+    <innerfile refid="_cell_data_8cs">CellData.cs</innerfile>
+    <innerfile refid="_cell_spawner_authoring_8cs">CellSpawnerAuthoring.cs</innerfile>
+    <innerfile refid="_cell_spawner_baker_8cs">CellSpawnerBaker.cs</innerfile>
+    <innerfile refid="_cell_spawner_system_8cs">CellSpawnerSystem.cs</innerfile>
+    <innerfile refid="_e_c_s_data_manipulator_8cs">ECSDataManipulator.cs</innerfile>
+    <innerfile refid="_grandparent_authoring_8cs">GrandparentAuthoring.cs</innerfile>
+    <innerfile refid="_set_cell_data_job_8cs">SetCellDataJob.cs</innerfile>
+    <innerfile refid="_set_parent_job_8cs">SetParentJob.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetSystem/ECS_WIP/"/>
+  </compounddef>
+</doxygen>

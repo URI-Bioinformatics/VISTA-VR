@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_texture_loader" kind="class" language="C#" prot="public">
+    <compoundname>TextureLoader</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_texture_loader_1acf63e3725eb9f9f1726fc8b838d46037" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D TextureLoader.LoadTexture2DFromFile</definition>
+        <argsstring>(string filePath, bool mipChain=true, bool linear=true)</argsstring>
+        <name>LoadTexture2DFromFile</name>
+        <qualifiedname>TextureLoader.LoadTexture2DFromFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mipChain</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>linear</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Loads an image file (PNG, JPG, EXR) from the specified path into a Texture2D. Note: This is a synchronous operation and can cause a frame hitch for large files. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the image file.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mipChain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should Unity generate mipmaps for the texture? (Default: true)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>linear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should the texture data be treated as linear color space? (Relevant for color accuracy, default: true - often desired for data/EXR)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new Texture2D containing the loaded image data, or null if loading failed.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TextureLoader.cs" line="15" column="29" bodyfile="TextureLoader.cs" bodystart="15" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_texture_loader_1a1e94bf7cf4420c895ad94e7f33ef658e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTexture</type>
+        <definition>static RenderTexture TextureLoader.LoadRenderTextureFromFile</definition>
+        <argsstring>(string filePath, RenderTextureFormat renderTextureFormat=RenderTextureFormat.Default, bool useMipMap=false, bool linear=true)</argsstring>
+        <name>LoadRenderTextureFromFile</name>
+        <qualifiedname>TextureLoader.LoadRenderTextureFromFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>RenderTextureFormat</type>
+          <declname>renderTextureFormat</declname>
+          <defval>RenderTextureFormat.Default</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useMipMap</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>linear</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Loads an image file (PNG, JPG, EXR) from the specified path into a new RenderTexture. This involves loading into a temporary Texture2D first, then blitting to the RenderTexture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the image file.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>renderTextureFormat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional: Specify the desired format for the RenderTexture. If Default, it attempts to match the loaded Texture2D&apos;s format.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useMipMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should the RenderTexture have mipmaps enabled? (Default: false)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>linear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hint for loading Texture2D data (passed to LoadTexture2DFromFile). (Default: true)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new RenderTexture containing the loaded image data, or null if loading failed.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TextureLoader.cs" line="87" column="33" bodyfile="TextureLoader.cs" bodystart="87" bodyend="176"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TextureLoader.cs" line="5" column="15" bodyfile="TextureLoader.cs" bodystart="6" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_texture_loader_1a1e94bf7cf4420c895ad94e7f33ef658e" prot="public" virt="non-virtual"><scope>TextureLoader</scope><name>LoadRenderTextureFromFile</name></member>
+      <member refid="class_texture_loader_1acf63e3725eb9f9f1726fc8b838d46037" prot="public" virt="non-virtual"><scope>TextureLoader</scope><name>LoadTexture2DFromFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

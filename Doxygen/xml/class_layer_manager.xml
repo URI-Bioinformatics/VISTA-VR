@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_layer_manager" kind="class" language="C#" prot="public">
+    <compoundname>LayerManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_layer_manager_1a7b03f9da52ffc1f25960b0faad5e31bf" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_layer_manager" kindref="compound">LayerManager</ref></type>
+        <definition>LayerManager LayerManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>LayerManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="12" column="32" bodyfile="LayerManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_layer_manager_1a13705e7d09cad0440ba47d1eb58dfccd" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_layer" kindref="compound">Layer</ref> &gt;</type>
+        <definition>List&lt;Layer&gt; LayerManager.Layers</definition>
+        <argsstring></argsstring>
+        <name>Layers</name>
+        <qualifiedname>LayerManager.Layers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="13" column="17" bodyfile="LayerManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_manager_1a2ff48669249e167a342db65e20ad4fe4" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform LayerManager.UILayerParent</definition>
+        <argsstring></argsstring>
+        <name>UILayerParent</name>
+        <qualifiedname>LayerManager.UILayerParent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="16" column="22" bodyfile="LayerManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_manager_1a603495ba072513e2fd86f1b5478182bd" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform LayerManager.UILayerParent_World</definition>
+        <argsstring></argsstring>
+        <name>UILayerParent_World</name>
+        <qualifiedname>LayerManager.UILayerParent_World</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="17" column="22" bodyfile="LayerManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_manager_1af21a6f3be1760c7a990a5e8b5b66f5d2" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; LayerManager.loadedLayerIndices</definition>
+        <argsstring></argsstring>
+        <name>loadedLayerIndices</name>
+        <qualifiedname>LayerManager.loadedLayerIndices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="22" column="17" bodyfile="LayerManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_manager_1a84e49f5897ece177734a643b64875b97" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; LayerManager.loadedLayerTypes</definition>
+        <argsstring></argsstring>
+        <name>loadedLayerTypes</name>
+        <qualifiedname>LayerManager.loadedLayerTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="23" column="17" bodyfile="LayerManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_manager_1af8f5c4d390a9b6f7eab3af03922ad00a" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; LayerManager.loadedLayerNames</definition>
+        <argsstring></argsstring>
+        <name>loadedLayerNames</name>
+        <qualifiedname>LayerManager.loadedLayerNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="24" column="17" bodyfile="LayerManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_layer_manager_1ab30d02e4677fac53b10cba0d3c8c7aff" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject LayerManager.UILayerRepresentationPrefab</definition>
+        <argsstring></argsstring>
+        <name>UILayerRepresentationPrefab</name>
+        <qualifiedname>LayerManager.UILayerRepresentationPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="20" column="25" bodyfile="LayerManager.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_layer_manager_1afbcafcae05294fff8393a3e9d8c274ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>LayerManager.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="28" column="10" bodyfile="LayerManager.cs" bodystart="28" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1aefae48891e856e72411e3fe312a38a24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>LayerManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="47" column="18" bodyfile="LayerManager.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1afbc5cd06d0d8491c18222a666e4511f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>LayerManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="52" column="18" bodyfile="LayerManager.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1a31519710008095362b1a8929081e1890" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject LayerManager.SpawnUIRepresentation</definition>
+        <argsstring>(GameObject uiObj, Transform uiParent)</argsstring>
+        <name>SpawnUIRepresentation</name>
+        <qualifiedname>LayerManager.SpawnUIRepresentation</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>uiObj</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>uiParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="223" column="24" bodyfile="LayerManager.cs" bodystart="223" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_layer_manager_1ab2a4c336df7ca682d5ad494845a6cb8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.SetDefaultFilenames</definition>
+        <argsstring>(string postfix)</argsstring>
+        <name>SetDefaultFilenames</name>
+        <qualifiedname>LayerManager.SetDefaultFilenames</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>postfix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="57" column="17" bodyfile="LayerManager.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1aa28d460076116dc5973dd8310bc2889d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.Swap&lt; T &gt;</definition>
+        <argsstring>(IList&lt; T &gt; list, int indexA, int indexB)</argsstring>
+        <name>Swap&lt; T &gt;</name>
+        <qualifiedname>LayerManager.Swap&lt; T &gt;</qualifiedname>
+        <param>
+          <type>IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="78" column="12" bodyfile="LayerManager.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1aa87d4408d428b2ec72923ed45fa371ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.MoveLayerPos</definition>
+        <argsstring>(Layer layerToMove, bool up)</argsstring>
+        <name>MoveLayerPos</name>
+        <qualifiedname>LayerManager.MoveLayerPos</qualifiedname>
+        <param>
+          <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+          <declname>layerToMove</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="83" column="17" bodyfile="LayerManager.cs" bodystart="83" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1a2a7278151a3037ff29993b713aa9571f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.UpdateLayerIndices</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLayerIndices</name>
+        <qualifiedname>LayerManager.UpdateLayerIndices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="102" column="17" bodyfile="LayerManager.cs" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1aa5d9f9e05d07a187ae705e697c600d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.BuildDatasetLayers</definition>
+        <argsstring>(GameObject spawnParent, string layerName, bool randomCol=false)</argsstring>
+        <name>BuildDatasetLayers</name>
+        <qualifiedname>LayerManager.BuildDatasetLayers</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawnParent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>layerName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>randomCol</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="112" column="17" bodyfile="LayerManager.cs" bodystart="112" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1a18013ef227f3ba2f43c772c93dab41f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.BuildLayer</definition>
+        <argsstring>(GameObject layerOb, string layerName, RenderTexture layerRT, bool loading, bool randomCol=false, int typeOverride=0)</argsstring>
+        <name>BuildLayer</name>
+        <qualifiedname>LayerManager.BuildLayer</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>layerOb</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>layerName</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>layerRT</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loading</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>randomCol</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>typeOverride</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="140" column="17" bodyfile="LayerManager.cs" bodystart="140" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1a193fb5e5b3575ded7e2d6ea032714f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.BuildLoadedLayer</definition>
+        <argsstring>(GameObject layerOb, Layer layer, Texture2D texture2D, RenderTexture renderTexture)</argsstring>
+        <name>BuildLoadedLayer</name>
+        <qualifiedname>LayerManager.BuildLoadedLayer</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>layerOb</declname>
+        </param>
+        <param>
+          <type><ref refid="class_layer" kindref="compound">Layer</ref></type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture2D</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>renderTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="201" column="17" bodyfile="LayerManager.cs" bodystart="201" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1ad59deb2aa2c382e3e421ed69632959de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.HideAllLayers</definition>
+        <argsstring>()</argsstring>
+        <name>HideAllLayers</name>
+        <qualifiedname>LayerManager.HideAllLayers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="232" column="17" bodyfile="LayerManager.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_manager_1a3fbd6e782a6c9a060aa120686b3af005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayerManager.ShowAllLayers</definition>
+        <argsstring>()</argsstring>
+        <name>ShowAllLayers</name>
+        <qualifiedname>LayerManager.ShowAllLayers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="237" column="17" bodyfile="LayerManager.cs" bodystart="237" bodyend="240"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LayerManager</label>
+        <link refid="class_layer_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LayerManager</label>
+        <link refid="class_layer_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="LayerManager.cs" line="10" column="7" bodyfile="LayerManager.cs" bodystart="11" bodyend="242"/>
+    <listofallmembers>
+      <member refid="class_layer_manager_1aa5d9f9e05d07a187ae705e697c600d83" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>BuildDatasetLayers</name></member>
+      <member refid="class_layer_manager_1a18013ef227f3ba2f43c772c93dab41f5" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>BuildLayer</name></member>
+      <member refid="class_layer_manager_1a193fb5e5b3575ded7e2d6ea032714f13" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>BuildLoadedLayer</name></member>
+      <member refid="class_layer_manager_1ad59deb2aa2c382e3e421ed69632959de" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>HideAllLayers</name></member>
+      <member refid="class_layer_manager_1a7b03f9da52ffc1f25960b0faad5e31bf" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>Instance</name></member>
+      <member refid="class_layer_manager_1a13705e7d09cad0440ba47d1eb58dfccd" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>Layers</name></member>
+      <member refid="class_layer_manager_1af21a6f3be1760c7a990a5e8b5b66f5d2" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>loadedLayerIndices</name></member>
+      <member refid="class_layer_manager_1af8f5c4d390a9b6f7eab3af03922ad00a" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>loadedLayerNames</name></member>
+      <member refid="class_layer_manager_1a84e49f5897ece177734a643b64875b97" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>loadedLayerTypes</name></member>
+      <member refid="class_layer_manager_1aa87d4408d428b2ec72923ed45fa371ec" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>MoveLayerPos</name></member>
+      <member refid="class_layer_manager_1afbc5cd06d0d8491c18222a666e4511f1" prot="private" virt="non-virtual"><scope>LayerManager</scope><name>OnDisable</name></member>
+      <member refid="class_layer_manager_1aefae48891e856e72411e3fe312a38a24" prot="private" virt="non-virtual"><scope>LayerManager</scope><name>OnEnable</name></member>
+      <member refid="class_layer_manager_1ab2a4c336df7ca682d5ad494845a6cb8f" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>SetDefaultFilenames</name></member>
+      <member refid="class_layer_manager_1a3fbd6e782a6c9a060aa120686b3af005" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>ShowAllLayers</name></member>
+      <member refid="class_layer_manager_1a31519710008095362b1a8929081e1890" prot="private" virt="non-virtual"><scope>LayerManager</scope><name>SpawnUIRepresentation</name></member>
+      <member refid="class_layer_manager_1afbcafcae05294fff8393a3e9d8c274ff" prot="private" virt="non-virtual"><scope>LayerManager</scope><name>Start</name></member>
+      <member refid="class_layer_manager_1aa28d460076116dc5973dd8310bc2889d" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>Swap&lt; T &gt;</name></member>
+      <member refid="class_layer_manager_1a2ff48669249e167a342db65e20ad4fe4" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>UILayerParent</name></member>
+      <member refid="class_layer_manager_1a603495ba072513e2fd86f1b5478182bd" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>UILayerParent_World</name></member>
+      <member refid="class_layer_manager_1ab30d02e4677fac53b10cba0d3c8c7aff" prot="private" virt="non-virtual"><scope>LayerManager</scope><name>UILayerRepresentationPrefab</name></member>
+      <member refid="class_layer_manager_1a2a7278151a3037ff29993b713aa9571f" prot="public" virt="non-virtual"><scope>LayerManager</scope><name>UpdateLayerIndices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

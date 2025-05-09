@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_dataset_metadata" kind="class" language="C#" prot="public">
+    <compoundname>DatasetMetadata</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dataset_metadata_1a11f99ff52e043a42aabef66a0b21bd02" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatasetMetadata.clusterCount</definition>
+        <argsstring></argsstring>
+        <name>clusterCount</name>
+        <qualifiedname>DatasetMetadata.clusterCount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="12" column="16" bodyfile="DatasetMetadata.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a16b76479688b028a56c80e50944e013e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DatasetMetadata.normalizationFactor</definition>
+        <argsstring></argsstring>
+        <name>normalizationFactor</name>
+        <qualifiedname>DatasetMetadata.normalizationFactor</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="13" column="18" bodyfile="DatasetMetadata.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a865f09cb9358ee8c119854790c1279b2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DatasetMetadata.datasetName</definition>
+        <argsstring></argsstring>
+        <name>datasetName</name>
+        <qualifiedname>DatasetMetadata.datasetName</qualifiedname>
+        <initializer>= &quot;Unnamed Dataset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="14" column="19" bodyfile="DatasetMetadata.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1ae288e4c62f2ed08da671ec7ffe45020f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DatasetMetadata.layerResolution</definition>
+        <argsstring></argsstring>
+        <name>layerResolution</name>
+        <qualifiedname>DatasetMetadata.layerResolution</qualifiedname>
+        <initializer>= 2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="15" column="16" bodyfile="DatasetMetadata.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1accc74b563cb9c992fa4c44a9533d10b1" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; DatasetMetadata.indices</definition>
+        <argsstring></argsstring>
+        <name>indices</name>
+        <qualifiedname>DatasetMetadata.indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="16" column="17" bodyfile="DatasetMetadata.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1ac74ffbe4b9c203807ff413d078b6a9c7" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; DatasetMetadata.layerNames</definition>
+        <argsstring></argsstring>
+        <name>layerNames</name>
+        <qualifiedname>DatasetMetadata.layerNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="17" column="17" bodyfile="DatasetMetadata.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1ae760f308a61b21342d5347cd87a9dc18" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; DatasetMetadata.layerTypes</definition>
+        <argsstring></argsstring>
+        <name>layerTypes</name>
+        <qualifiedname>DatasetMetadata.layerTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="18" column="17" bodyfile="DatasetMetadata.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_dataset_metadata_1a74dabc97524df22c32f0d06b7b49ef5c" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_ClusterCount</definition>
+        <argsstring></argsstring>
+        <name>Key_ClusterCount</name>
+        <qualifiedname>DatasetMetadata.Key_ClusterCount</qualifiedname>
+        <initializer>= &quot;clusterCount&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="22" column="25" bodyfile="DatasetMetadata.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a0c7bdd2fc710ace8bbdd9bcbaf24e14f" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_NormalizationFactor</definition>
+        <argsstring></argsstring>
+        <name>Key_NormalizationFactor</name>
+        <qualifiedname>DatasetMetadata.Key_NormalizationFactor</qualifiedname>
+        <initializer>= &quot;normalizationFactor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="23" column="25" bodyfile="DatasetMetadata.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a6b99c32f7422a812cbb30343f6dc3de7" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_DatasetName</definition>
+        <argsstring></argsstring>
+        <name>Key_DatasetName</name>
+        <qualifiedname>DatasetMetadata.Key_DatasetName</qualifiedname>
+        <initializer>= &quot;datasetName&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="24" column="25" bodyfile="DatasetMetadata.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a4f9460fd474f3d5496e8b4d45b03607b" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_LayerResolution</definition>
+        <argsstring></argsstring>
+        <name>Key_LayerResolution</name>
+        <qualifiedname>DatasetMetadata.Key_LayerResolution</qualifiedname>
+        <initializer>= &quot;layerResolution&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="25" column="25" bodyfile="DatasetMetadata.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1acb9123df437e5597110bf90c160089dc" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_Indices</definition>
+        <argsstring></argsstring>
+        <name>Key_Indices</name>
+        <qualifiedname>DatasetMetadata.Key_Indices</qualifiedname>
+        <initializer>= &quot;layerIndices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="26" column="25" bodyfile="DatasetMetadata.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1a74731a965d9b8bf4637adc8335fe979c" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_LayerNames</definition>
+        <argsstring></argsstring>
+        <name>Key_LayerNames</name>
+        <qualifiedname>DatasetMetadata.Key_LayerNames</qualifiedname>
+        <initializer>= &quot;layerNames&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="27" column="25" bodyfile="DatasetMetadata.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dataset_metadata_1ab1a3ce9aa0d0492f83c441087fc220fe" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string DatasetMetadata.Key_LayerTypes</definition>
+        <argsstring></argsstring>
+        <name>Key_LayerTypes</name>
+        <qualifiedname>DatasetMetadata.Key_LayerTypes</qualifiedname>
+        <initializer>= &quot;layerTypes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetMetadata.cs" line="28" column="25" bodyfile="DatasetMetadata.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Holds metadata associated with a dataset. Add new fields here as needed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetMetadata.cs" line="9" column="7" bodyfile="DatasetMetadata.cs" bodystart="10" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_dataset_metadata_1a11f99ff52e043a42aabef66a0b21bd02" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>clusterCount</name></member>
+      <member refid="class_dataset_metadata_1a865f09cb9358ee8c119854790c1279b2" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>datasetName</name></member>
+      <member refid="class_dataset_metadata_1accc74b563cb9c992fa4c44a9533d10b1" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>indices</name></member>
+      <member refid="class_dataset_metadata_1a74dabc97524df22c32f0d06b7b49ef5c" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_ClusterCount</name></member>
+      <member refid="class_dataset_metadata_1a6b99c32f7422a812cbb30343f6dc3de7" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_DatasetName</name></member>
+      <member refid="class_dataset_metadata_1acb9123df437e5597110bf90c160089dc" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_Indices</name></member>
+      <member refid="class_dataset_metadata_1a74731a965d9b8bf4637adc8335fe979c" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_LayerNames</name></member>
+      <member refid="class_dataset_metadata_1a4f9460fd474f3d5496e8b4d45b03607b" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_LayerResolution</name></member>
+      <member refid="class_dataset_metadata_1ab1a3ce9aa0d0492f83c441087fc220fe" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_LayerTypes</name></member>
+      <member refid="class_dataset_metadata_1a0c7bdd2fc710ace8bbdd9bcbaf24e14f" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>Key_NormalizationFactor</name></member>
+      <member refid="class_dataset_metadata_1ac74ffbe4b9c203807ff413d078b6a9c7" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>layerNames</name></member>
+      <member refid="class_dataset_metadata_1ae288e4c62f2ed08da671ec7ffe45020f" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>layerResolution</name></member>
+      <member refid="class_dataset_metadata_1ae760f308a61b21342d5347cd87a9dc18" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>layerTypes</name></member>
+      <member refid="class_dataset_metadata_1a16b76479688b028a56c80e50944e013e" prot="public" virt="non-virtual"><scope>DatasetMetadata</scope><name>normalizationFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

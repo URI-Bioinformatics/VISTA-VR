@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_layer" kind="class" language="C#" prot="public">
+    <compoundname>Layer</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_layer_1a2a85306873f9ad7d104518724c57f9d6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DataType</name>
+        <qualifiedname>Layer.DataType</qualifiedname>
+        <enumvalue id="class_layer_1a2a85306873f9ad7d104518724c57f9d6a249694a485fc5d3289c38986b4f8e887" prot="public">
+          <name>Cluster</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_layer_1a2a85306873f9ad7d104518724c57f9d6abe53a0541a6d36f6ecb879fa2c584b08" prot="public">
+          <name>Image</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="274" column="11" bodyfile="LayerManager.cs" bodystart="275" bodyend="278"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_layer_1a237541099987151365176d7f8f729c84" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Layer.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <qualifiedname>Layer.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="281" column="16" bodyfile="LayerManager.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a03e17434b6e3cf28e3dfa1886f3f9ccb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Layer.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>Layer.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="282" column="19" bodyfile="LayerManager.cs" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a3f38fe47fa6b99e74582dcd7652a7e11" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Layer.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>Layer.Color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="283" column="18" bodyfile="LayerManager.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a185f8b1fb3eebfb10e9f4b08f0277314" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Layer.LayerGameObject</definition>
+        <argsstring></argsstring>
+        <name>LayerGameObject</name>
+        <qualifiedname>Layer.LayerGameObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="284" column="23" bodyfile="LayerManager.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1acdb4e33709448d8dec9c9e698f967e93" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Layer.LayerUIGameObject</definition>
+        <argsstring></argsstring>
+        <name>LayerUIGameObject</name>
+        <qualifiedname>Layer.LayerUIGameObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="285" column="23" bodyfile="LayerManager.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a7f421a1009e95a5158e4af04925096bc" prot="public" static="no" mutable="no">
+        <type>LayerUI</type>
+        <definition>LayerUI Layer.LayerUIScript</definition>
+        <argsstring></argsstring>
+        <name>LayerUIScript</name>
+        <qualifiedname>Layer.LayerUIScript</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="286" column="20" bodyfile="LayerManager.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1ac4cc04f73961cfd56a9252708a5d744c" prot="public" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture Layer.LayerRenderTexture</definition>
+        <argsstring></argsstring>
+        <name>LayerRenderTexture</name>
+        <qualifiedname>Layer.LayerRenderTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="287" column="26" bodyfile="LayerManager.cs" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1af23e02bfa060e70ba6290dbaba21b39c" prot="public" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D Layer.LayerTexture2D</definition>
+        <argsstring></argsstring>
+        <name>LayerTexture2D</name>
+        <qualifiedname>Layer.LayerTexture2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="288" column="22" bodyfile="LayerManager.cs" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a255a546bed30554d274ffaf1f3038b30" prot="public" static="no" mutable="no">
+        <type><ref refid="class_layer_1a2a85306873f9ad7d104518724c57f9d6" kindref="member">DataType</ref></type>
+        <definition>DataType Layer.LayerType</definition>
+        <argsstring></argsstring>
+        <name>LayerType</name>
+        <qualifiedname>Layer.LayerType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="289" column="21" bodyfile="LayerManager.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_layer_1a1a83bb593b9a078faf509f8a69db1f6d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Layer.AssociatedFileName</definition>
+        <argsstring></argsstring>
+        <name>AssociatedFileName</name>
+        <qualifiedname>Layer.AssociatedFileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="290" column="19" bodyfile="LayerManager.cs" bodystart="290" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_layer_1a25c30b429ec1f33bebaa8907cfc2b773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Layer.Layer</definition>
+        <argsstring>(int index, GameObject layerGameObject, string name=&quot;New Layer&quot;, GameObject layerUIGameObject=null)</argsstring>
+        <name>Layer</name>
+        <qualifiedname>Layer.Layer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>layerGameObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+          <defval>&quot;New Layer&quot;</defval>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>layerUIGameObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="247" column="12" bodyfile="LayerManager.cs" bodystart="247" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_1ab69f2865bac842c5d00abbb89f0bb1d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Layer.Layer</definition>
+        <argsstring>(int index, GameObject layerGameObject, Color color, string name=&quot;New Layer&quot;, GameObject layerUIGameObject=null)</argsstring>
+        <name>Layer</name>
+        <qualifiedname>Layer.Layer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>layerGameObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_layer_1a3f38fe47fa6b99e74582dcd7652a7e11" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+          <defval>&quot;New Layer&quot;</defval>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>layerUIGameObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="258" column="12" bodyfile="LayerManager.cs" bodystart="258" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_layer_1a35e8a10c27f43c45eef48c49a1c40b2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Layer.Layer</definition>
+        <argsstring>()</argsstring>
+        <name>Layer</name>
+        <qualifiedname>Layer.Layer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LayerManager.cs" line="269" column="12" bodyfile="LayerManager.cs" bodystart="269" bodyend="272"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LayerManager.cs" line="245" column="7" bodyfile="LayerManager.cs" bodystart="246" bodyend="291"/>
+    <listofallmembers>
+      <member refid="class_layer_1a1a83bb593b9a078faf509f8a69db1f6d" prot="public" virt="non-virtual"><scope>Layer</scope><name>AssociatedFileName</name></member>
+      <member refid="class_layer_1a3f38fe47fa6b99e74582dcd7652a7e11" prot="public" virt="non-virtual"><scope>Layer</scope><name>Color</name></member>
+      <member refid="class_layer_1a2a85306873f9ad7d104518724c57f9d6" prot="public" virt="non-virtual"><scope>Layer</scope><name>DataType</name></member>
+      <member refid="class_layer_1a237541099987151365176d7f8f729c84" prot="public" virt="non-virtual"><scope>Layer</scope><name>Index</name></member>
+      <member refid="class_layer_1a25c30b429ec1f33bebaa8907cfc2b773" prot="public" virt="non-virtual"><scope>Layer</scope><name>Layer</name></member>
+      <member refid="class_layer_1ab69f2865bac842c5d00abbb89f0bb1d8" prot="public" virt="non-virtual"><scope>Layer</scope><name>Layer</name></member>
+      <member refid="class_layer_1a35e8a10c27f43c45eef48c49a1c40b2a" prot="public" virt="non-virtual"><scope>Layer</scope><name>Layer</name></member>
+      <member refid="class_layer_1a185f8b1fb3eebfb10e9f4b08f0277314" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerGameObject</name></member>
+      <member refid="class_layer_1ac4cc04f73961cfd56a9252708a5d744c" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerRenderTexture</name></member>
+      <member refid="class_layer_1af23e02bfa060e70ba6290dbaba21b39c" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerTexture2D</name></member>
+      <member refid="class_layer_1a255a546bed30554d274ffaf1f3038b30" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerType</name></member>
+      <member refid="class_layer_1acdb4e33709448d8dec9c9e698f967e93" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerUIGameObject</name></member>
+      <member refid="class_layer_1a7f421a1009e95a5158e4af04925096bc" prot="public" virt="non-virtual"><scope>Layer</scope><name>LayerUIScript</name></member>
+      <member refid="class_layer_1a03e17434b6e3cf28e3dfa1886f3f9ccb" prot="public" virt="non-virtual"><scope>Layer</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

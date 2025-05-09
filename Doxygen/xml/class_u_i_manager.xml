@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_u_i_manager" kind="class" language="C#" prot="public">
+    <compoundname>UIManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_manager_1a29c20ad2424c977533cac0d43fdfe686" prot="private" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField UIManager.ImportImagePathInputField</definition>
+        <argsstring></argsstring>
+        <name>ImportImagePathInputField</name>
+        <qualifiedname>UIManager.ImportImagePathInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UIManager.cs" line="6" column="29" bodyfile="UIManager.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_manager_1a4f8d0221bbd49f6acaa925fddecd88a4" prot="private" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField UIManager.ImportImageNameInputField</definition>
+        <argsstring></argsstring>
+        <name>ImportImageNameInputField</name>
+        <qualifiedname>UIManager.ImportImageNameInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UIManager.cs" line="7" column="29" bodyfile="UIManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_manager_1a83fed7d6ef855cf0941d75283567b0a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIManager.ImportImageLayer</definition>
+        <argsstring>()</argsstring>
+        <name>ImportImageLayer</name>
+        <qualifiedname>UIManager.ImportImageLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UIManager.cs" line="9" column="17" bodyfile="UIManager.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_manager_1aa5500894cdf6369dbe021b52abe31a74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIManager.ToggleObject</definition>
+        <argsstring>(GameObject toggleObject)</argsstring>
+        <name>ToggleObject</name>
+        <qualifiedname>UIManager.ToggleObject</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>toggleObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UIManager.cs" line="14" column="17" bodyfile="UIManager.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIManager</label>
+        <link refid="class_u_i_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UIManager</label>
+        <link refid="class_u_i_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="UIManager.cs" line="4" column="7" bodyfile="UIManager.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_u_i_manager_1a83fed7d6ef855cf0941d75283567b0a8" prot="public" virt="non-virtual"><scope>UIManager</scope><name>ImportImageLayer</name></member>
+      <member refid="class_u_i_manager_1a4f8d0221bbd49f6acaa925fddecd88a4" prot="private" virt="non-virtual"><scope>UIManager</scope><name>ImportImageNameInputField</name></member>
+      <member refid="class_u_i_manager_1a29c20ad2424c977533cac0d43fdfe686" prot="private" virt="non-virtual"><scope>UIManager</scope><name>ImportImagePathInputField</name></member>
+      <member refid="class_u_i_manager_1aa5500894cdf6369dbe021b52abe31a74" prot="public" virt="non-virtual"><scope>UIManager</scope><name>ToggleObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

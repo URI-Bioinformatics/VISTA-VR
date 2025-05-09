@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_data_converter" kind="class" language="C#" prot="public">
+    <compoundname>DataConverter</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_data_converter_1ab5d2465e8dfe5a707a8f2c04c0e0f2cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NativeArray&lt; <ref refid="struct_cell_data" kindref="compound">CellData</ref> &gt;</type>
+        <definition>static NativeArray&lt; CellData &gt; DataConverter.ConvertToNativeArray</definition>
+        <argsstring>(Dictionary&lt; string, Vector2 &gt; cellPositions, Dictionary&lt; string, int &gt; cellClusters, Allocator allocator)</argsstring>
+        <name>ConvertToNativeArray</name>
+        <qualifiedname>DataConverter.ConvertToNativeArray</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, Vector2 &gt;</type>
+          <declname>cellPositions</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, int &gt;</type>
+          <declname>cellClusters</declname>
+        </param>
+        <param>
+          <type>Allocator</type>
+          <declname>allocator</declname>
+        </param>
+        <briefdescription>
+<para>Converts cell position and cluster dictionaries into a NativeArray of <ref refid="struct_cell_data" kindref="compound">CellData</ref>. Remember to Dispose the returned NativeArray when done. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cellPositions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary mapping Cell ID to World Position (Vector2).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cellClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary mapping Cell ID to Cluster ID.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allocator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The allocator to use for the NativeArray (e.g., Allocator.Persistent, Allocator.TempJob).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A NativeArray containing the merged cell data, or an uninitialized array on error.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/DataConverter.cs" line="18" column="31" bodyfile="DatasetSystem/DataConverter.cs" bodystart="18" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DatasetSystem/DataConverter.cs" line="8" column="15" bodyfile="DatasetSystem/DataConverter.cs" bodystart="9" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_data_converter_1ab5d2465e8dfe5a707a8f2c04c0e0f2cb" prot="public" virt="non-virtual"><scope>DataConverter</scope><name>ConvertToNativeArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_csv_data_loader_1_1_search_job" kind="struct" language="C#" prot="public">
+    <compoundname>CsvDataLoader::SearchJob</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJobParallelFor</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_csv_data_loader_1_1_search_job_1ab1a50342fee8cf557ed1240b0b914edb" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; <ref refid="struct_csv_data_loader_1_1_record" kindref="compound">Record</ref> &gt;</type>
+        <definition>NativeArray&lt;Record&gt; CsvDataLoader.SearchJob.records</definition>
+        <argsstring></argsstring>
+        <name>records</name>
+        <qualifiedname>CsvDataLoader.SearchJob.records</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="153" column="29" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_csv_data_loader_1_1_search_job_1a4d0b375af7520b3b2c9a8e35b065d334" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; byte &gt;</type>
+        <definition>NativeArray&lt;byte&gt; CsvDataLoader.SearchJob.buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <qualifiedname>CsvDataLoader.SearchJob.buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="154" column="31" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_csv_data_loader_1_1_search_job_1a5f899ca2dc74dfe223e224630365d67d" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; byte &gt;</type>
+        <definition>NativeArray&lt;byte&gt; CsvDataLoader.SearchJob.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>CsvDataLoader.SearchJob.target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="155" column="31" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_csv_data_loader_1_1_search_job_1a8d1d06b56ea9a5290a7832891dded92a" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; int &gt;</type>
+        <definition>NativeArray&lt;int&gt; CsvDataLoader.SearchJob.results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <qualifiedname>CsvDataLoader.SearchJob.results</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="157" column="31" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_csv_data_loader_1_1_search_job_1a060bc51841b1f4f1061c8695b15d76c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CsvDataLoader.SearchJob.Execute</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>CsvDataLoader.SearchJob.Execute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/CsvDataLoader.cs" line="159" column="21" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="159" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Example job that searches for a target substring in the nucleotide sequences. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CsvDataLoader.SearchJob</label>
+        <link refid="struct_csv_data_loader_1_1_search_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CsvDataLoader.SearchJob</label>
+        <link refid="struct_csv_data_loader_1_1_search_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/CsvDataLoader.cs" line="151" column="11" bodyfile="DatasetSystem/CsvDataLoader.cs" bodystart="152" bodyend="185"/>
+    <listofallmembers>
+      <member refid="struct_csv_data_loader_1_1_search_job_1a4d0b375af7520b3b2c9a8e35b065d334" prot="public" virt="non-virtual"><scope>CsvDataLoader::SearchJob</scope><name>buffer</name></member>
+      <member refid="struct_csv_data_loader_1_1_search_job_1a060bc51841b1f4f1061c8695b15d76c6" prot="public" virt="non-virtual"><scope>CsvDataLoader::SearchJob</scope><name>Execute</name></member>
+      <member refid="struct_csv_data_loader_1_1_search_job_1ab1a50342fee8cf557ed1240b0b914edb" prot="public" virt="non-virtual"><scope>CsvDataLoader::SearchJob</scope><name>records</name></member>
+      <member refid="struct_csv_data_loader_1_1_search_job_1a8d1d06b56ea9a5290a7832891dded92a" prot="public" virt="non-virtual"><scope>CsvDataLoader::SearchJob</scope><name>results</name></member>
+      <member refid="struct_csv_data_loader_1_1_search_job_1a5f899ca2dc74dfe223e224630365d67d" prot="public" virt="non-virtual"><scope>CsvDataLoader::SearchJob</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

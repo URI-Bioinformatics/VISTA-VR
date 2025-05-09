@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_tab_group" kind="class" language="C#" prot="public">
+    <compoundname>TabGroup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tab_group_1ae9047028a211a063d2b9738269079897" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TabGroup.activeTabObject</definition>
+        <argsstring></argsstring>
+        <name>activeTabObject</name>
+        <qualifiedname>TabGroup.activeTabObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TabGroup.cs" line="5" column="25" bodyfile="TabGroup.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tab_group_1a8279b652014a600da887195266c5187b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TabGroup.defaultTabObject</definition>
+        <argsstring></argsstring>
+        <name>defaultTabObject</name>
+        <qualifiedname>TabGroup.defaultTabObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TabGroup.cs" line="6" column="25" bodyfile="TabGroup.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tab_group_1a04f1c580bcf5b51bf1bab8e1e07905b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TabGroup.SelectTab</definition>
+        <argsstring>(GameObject selectedTab)</argsstring>
+        <name>SelectTab</name>
+        <qualifiedname>TabGroup.SelectTab</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>selectedTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TabGroup.cs" line="8" column="17" bodyfile="TabGroup.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TabGroup</label>
+        <link refid="class_tab_group"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TabGroup</label>
+        <link refid="class_tab_group"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TabGroup.cs" line="3" column="7" bodyfile="TabGroup.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_tab_group_1ae9047028a211a063d2b9738269079897" prot="private" virt="non-virtual"><scope>TabGroup</scope><name>activeTabObject</name></member>
+      <member refid="class_tab_group_1a8279b652014a600da887195266c5187b" prot="private" virt="non-virtual"><scope>TabGroup</scope><name>defaultTabObject</name></member>
+      <member refid="class_tab_group_1a04f1c580bcf5b51bf1bab8e1e07905b3" prot="public" virt="non-virtual"><scope>TabGroup</scope><name>SelectTab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

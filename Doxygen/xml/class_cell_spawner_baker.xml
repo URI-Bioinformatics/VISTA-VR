@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cell_spawner_baker" kind="class" language="C#" prot="public">
+    <compoundname>CellSpawnerBaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Baker</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cell_spawner_baker_1acdb30c8be892a517c2ded7251a1cb2c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CellSpawnerBaker.Bake</definition>
+        <argsstring>(CellSpawnerAuthoring authoring)</argsstring>
+        <name>Bake</name>
+        <qualifiedname>CellSpawnerBaker.Bake</qualifiedname>
+        <param>
+          <type><ref refid="class_cell_spawner_authoring" kindref="compound">CellSpawnerAuthoring</ref></type>
+          <declname>authoring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="27" column="26" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="27" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>CellSpawnerBaker</label>
+        <link refid="class_cell_spawner_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Baker</label>
+      </node>
+      <node id="1">
+        <label>CellSpawnerBaker</label>
+        <link refid="class_cell_spawner_baker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" line="25" column="7" bodyfile="DatasetSystem/ECS_WIP/CellSpawnerBaker.cs" bodystart="26" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_cell_spawner_baker_1acdb30c8be892a517c2ded7251a1cb2c1" prot="public" virt="non-virtual"><scope>CellSpawnerBaker</scope><name>Bake</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_set_cell_data_job" kind="struct" language="C#" prot="public">
+    <compoundname>SetCellDataJob</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJobParallelFor</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_set_cell_data_job_1a8dd5b961af27c0792351e3a1045912c9" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; <ref refid="struct_cell_data" kindref="compound">CellData</ref> &gt;</type>
+        <definition>NativeArray&lt;CellData&gt; SetCellDataJob.SourceCellData</definition>
+        <argsstring></argsstring>
+        <name>SourceCellData</name>
+        <qualifiedname>SetCellDataJob.SourceCellData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="13" column="24" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_cell_data_job_1af1699c57f50540a8c4d027aba3bb891a" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; Entity &gt;</type>
+        <definition>NativeArray&lt;Entity&gt; SetCellDataJob.Entities</definition>
+        <argsstring></argsstring>
+        <name>Entities</name>
+        <qualifiedname>SetCellDataJob.Entities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="14" column="24" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_cell_data_job_1a0ad4b738c967c47b7f9fa002a828162f" prot="public" static="no" mutable="no">
+        <type>ComponentLookup&lt; LocalTransform &gt;</type>
+        <definition>ComponentLookup&lt;LocalTransform&gt; SetCellDataJob.LocalTransformLookup</definition>
+        <argsstring></argsstring>
+        <name>LocalTransformLookup</name>
+        <qualifiedname>SetCellDataJob.LocalTransformLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="19" column="28" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_set_cell_data_job_1ace3b5de422de204e15fcf953ae3d58b8" prot="public" static="no" mutable="no">
+        <type>ComponentLookup&lt; <ref refid="struct_cell_component" kindref="compound">CellComponent</ref> &gt;</type>
+        <definition>ComponentLookup&lt;CellComponent&gt; SetCellDataJob.CellComponentLookup</definition>
+        <argsstring></argsstring>
+        <name>CellComponentLookup</name>
+        <qualifiedname>SetCellDataJob.CellComponentLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="22" column="28" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_set_cell_data_job_1a410cdbf068dc3764113eee616c786dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCellDataJob.Execute</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>SetCellDataJob.Execute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="24" column="17" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="24" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+      <node id="1">
+        <label>SetCellDataJob</label>
+        <link refid="struct_set_cell_data_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+      <node id="1">
+        <label>SetCellDataJob</label>
+        <link refid="struct_set_cell_data_job"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ECS_WIP/SetCellDataJob.cs" line="11" column="7" bodyfile="DatasetSystem/ECS_WIP/SetCellDataJob.cs" bodystart="12" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_set_cell_data_job_1ace3b5de422de204e15fcf953ae3d58b8" prot="public" virt="non-virtual"><scope>SetCellDataJob</scope><name>CellComponentLookup</name></member>
+      <member refid="struct_set_cell_data_job_1af1699c57f50540a8c4d027aba3bb891a" prot="public" virt="non-virtual"><scope>SetCellDataJob</scope><name>Entities</name></member>
+      <member refid="struct_set_cell_data_job_1a410cdbf068dc3764113eee616c786dc3" prot="public" virt="non-virtual"><scope>SetCellDataJob</scope><name>Execute</name></member>
+      <member refid="struct_set_cell_data_job_1a0ad4b738c967c47b7f9fa002a828162f" prot="public" virt="non-virtual"><scope>SetCellDataJob</scope><name>LocalTransformLookup</name></member>
+      <member refid="struct_set_cell_data_job_1a8dd5b961af27c0792351e3a1045912c9" prot="public" virt="non-virtual"><scope>SetCellDataJob</scope><name>SourceCellData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

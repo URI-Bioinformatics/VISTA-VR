@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_cluster_control_system" kind="class" language="C#" prot="public">
+    <compoundname>ClusterControlSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SystemBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cluster_control_system_1a676313aedd8ec9d76201ce0112bc1460" prot="private" static="no" mutable="no">
+        <type>EntityQuery</type>
+        <definition>EntityQuery ClusterControlSystem._clusterQuery</definition>
+        <argsstring></argsstring>
+        <name>_clusterQuery</name>
+        <qualifiedname>ClusterControlSystem._clusterQuery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterControlSystem.cs" line="13" column="25" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cluster_control_system_1acdcc7870e4bee72fbb118293d4cefedd" prot="private" static="no" mutable="no">
+        <type>EntityQuery</type>
+        <definition>EntityQuery ClusterControlSystem._requestQuery</definition>
+        <argsstring></argsstring>
+        <name>_requestQuery</name>
+        <qualifiedname>ClusterControlSystem._requestQuery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterControlSystem.cs" line="14" column="25" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cluster_control_system_1a4391b7f5d4e55ea93e3c7d3ff74cd80c" prot="private" static="no" mutable="no">
+        <type>EndSimulationEntityCommandBufferSystem</type>
+        <definition>EndSimulationEntityCommandBufferSystem ClusterControlSystem._endSimECBSystem</definition>
+        <argsstring></argsstring>
+        <name>_endSimECBSystem</name>
+        <qualifiedname>ClusterControlSystem._endSimECBSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterControlSystem.cs" line="15" column="52" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_cluster_control_system_1aacd653ef57583aacd86f0ffc3b58ee5e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ClusterControlSystem.OnCreate</definition>
+        <argsstring>()</argsstring>
+        <name>OnCreate</name>
+        <qualifiedname>ClusterControlSystem.OnCreate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterControlSystem.cs" line="17" column="29" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cluster_control_system_1ad7eabdccc7036beec963b017ab35166b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ClusterControlSystem.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <qualifiedname>ClusterControlSystem.OnUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatasetSystem/ClusterControlSystem.cs" line="27" column="29" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="27" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClusterControlSystem</label>
+        <link refid="class_cluster_control_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SystemBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ClusterControlSystem</label>
+        <link refid="class_cluster_control_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SystemBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="DatasetSystem/ClusterControlSystem.cs" line="11" column="15" bodyfile="DatasetSystem/ClusterControlSystem.cs" bodystart="12" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_cluster_control_system_1a676313aedd8ec9d76201ce0112bc1460" prot="private" virt="non-virtual"><scope>ClusterControlSystem</scope><name>_clusterQuery</name></member>
+      <member refid="class_cluster_control_system_1a4391b7f5d4e55ea93e3c7d3ff74cd80c" prot="private" virt="non-virtual"><scope>ClusterControlSystem</scope><name>_endSimECBSystem</name></member>
+      <member refid="class_cluster_control_system_1acdcc7870e4bee72fbb118293d4cefedd" prot="private" virt="non-virtual"><scope>ClusterControlSystem</scope><name>_requestQuery</name></member>
+      <member refid="class_cluster_control_system_1aacd653ef57583aacd86f0ffc3b58ee5e" prot="protected" virt="non-virtual"><scope>ClusterControlSystem</scope><name>OnCreate</name></member>
+      <member refid="class_cluster_control_system_1ad7eabdccc7036beec963b017ab35166b" prot="protected" virt="non-virtual"><scope>ClusterControlSystem</scope><name>OnUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
