@@ -5,14 +5,14 @@
     "ClusterCount": 10,
     "Layers": [
         {
-            "LayerName": "NO_DATA",
-            "FileName": "NO_DATA.png",
+            "LayerName": "Tissue Slice",
+            "FileName": "Tissue_Slice.png",
             "Index": 0,
-            "LayerType": 0,
+            "LayerType": 1,
             "Color": {
-                "R": 0,
+                "R": 255,
                 "G": 255,
-                "B": 0
+                "B": 255
             }
         },
         {
