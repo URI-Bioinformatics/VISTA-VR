@@ -1,0 +1,129 @@
+﻿{
+    "DatasetName": "Human Colon Cancer",
+    "LayerResolution": 2048,
+    "NormalizationFactor": 310.6744384765625,
+    "ClusterCount": 10,
+    "Layers": [
+        {
+            "LayerName": "NO_DATA",
+            "FileName": "NO_DATA.png",
+            "Index": 0,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Tumor",
+            "FileName": "Tumor.png",
+            "Index": 1,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Unknown",
+            "FileName": "Unknown.png",
+            "Index": 2,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Endothelial",
+            "FileName": "Endothelial.png",
+            "Index": 3,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Fibroblast",
+            "FileName": "Fibroblast.png",
+            "Index": 4,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "B cells",
+            "FileName": "B cells.png",
+            "Index": 5,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Myeloid",
+            "FileName": "Myeloid.png",
+            "Index": 6,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "T cells",
+            "FileName": "T cells.png",
+            "Index": 7,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Intestinal Epithelial",
+            "FileName": "Intestinal Epithelial.png",
+            "Index": 8,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Smooth Muscle",
+            "FileName": "Smooth Muscle.png",
+            "Index": 9,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+            "LayerName": "Neuronal",
+            "FileName": "Neuronal.png",
+            "Index": 10,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        }
+    ]
+}

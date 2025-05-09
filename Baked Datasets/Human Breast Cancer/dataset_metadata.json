@@ -1,0 +1,140 @@
+﻿{
+    "DatasetName": "Human Breast Cancer Flash Frozen",
+    "LayerResolution": 1024,
+    "NormalizationFactor": 22253.9,
+    "ClusterCount": 11,
+    "Layers": [
+        {
+            "LayerName": "Cluster 0",
+            "FileName": "cluster_0.png",
+            "Index": 0,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+          "LayerName": "Cluster 1",
+          "FileName": "cluster_1.png",
+          "Index": 1,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 2",
+          "FileName": "cluster_2.png",
+          "Index": 2,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 3",
+          "FileName": "cluster_3.png",
+          "Index": 3,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 4",
+          "FileName": "cluster_4.png",
+          "Index": 4,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 5",
+          "FileName": "cluster_5.png",
+          "Index": 5,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 6",
+          "FileName": "cluster_6.png",
+          "Index": 6,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 7",
+          "FileName": "cluster_7.png",
+          "Index": 7,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 8",
+          "FileName": "cluster_8.png",
+          "Index": 8,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+            "LayerName": "Cluster 9",
+            "FileName": "cluster_9.png",
+            "Index": 9,
+            "LayerType": 0,
+            "Color": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+            }
+        },
+        {
+          "LayerName": "Cluster 10",
+          "FileName": "cluster_10.png",
+          "Index": 10,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        },
+        {
+          "LayerName": "Cluster 11",
+          "FileName": "cluster_11.png",
+          "Index": 10,
+          "LayerType": 0,
+          "Color": {
+            "R": 0,
+            "G": 255,
+            "B": 0
+          }
+        }
+    ]
+}
